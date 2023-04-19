@@ -26,7 +26,7 @@ class TestRegression(unittest.TestCase):
 class GenerateGoldens(unittest.TestCase):
     def setUp(self):
         self.scrapper=ism()
-    def test_goldens(self):
+    def test_webGolden(self):
         os.makedirs(os.path.dirname(GOLDEN_WEB_NAME), exist_ok=True)
         web = self.scrapper.read_web('https://www.ismworld.org/supply-management-news-and-reports/reports/ism-report-on-business/services/march', True)
         self.assertIsNotNone(web, "Error downloading ism page")

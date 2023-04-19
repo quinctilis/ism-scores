@@ -59,3 +59,15 @@ if an increase in backlog of orders is positive (+1.5 multiplier for example) or
 consideration the weight on this `multiplier` column.
 
 * **manufacturingtags.csv:** Same as `servicestags.csv` but for the pmi report.
+
+## Regression tests
+In order to check that the code works as expected (especially after modifying it), we 
+can run regression tests. The command is:
+```shell
+python -m unittest ism_test.TestRegression
+```
+In case we made a breaking change in the code or the ism webpage structure has changes, 
+we should update the golden the test suite check against. To do so, just run:
+```shell
+python -m unittest ism_test.GenerateGoldens
+```
