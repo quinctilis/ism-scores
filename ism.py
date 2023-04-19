@@ -28,7 +28,7 @@ def print_help():
    print("-y, --accept-disclaimer: Accept the disclaimer notice prompt")
    print("    --pmi M:             Month (Jan-Dec) to apply the default pmi on")
    print("    --smi M:             Month (Jan-Dec) to apply the default smi on")
-   print("-e, --help:              Shows help and exit")
+   print("-h, --help:              Shows help and exit")
    
 class ism():
     def __init__(self):
@@ -65,14 +65,26 @@ class ism():
           print(str(e))
           return None
    
-    def find_match(self, text, tags, after, indexes = None):
+    def find_match(self, text, tags, offset, indexes = None):
+       """Given a set of tags and offsets, this function finds
+       relevant text enclosed within those tags. 
+
+       Args:
+           text (string): Text to find matches in.
+           tags ([string]): Tags delimiting each relevant field.
+           offset ([int]): Offset to apply to tags to delimit relevant fields.
+           indexes ([int], optional): _description_. Defaults to None.
+
+       Returns:
+           [string]: List of relevant fields containing information of given parameters.
+       """
        d = {}
        if indexes is not None and len(indexes)!=len(tags):
          print('indexes provided differ from tags length')
          return None
 
-       t = [(tags[i],indexes[i],after[i]) if indexes[i] != None else 
-            (tags[i],tags[i],after[i]) for i in range(len(tags))]
+       t = [(tags[i],indexes[i],offset[i]) if indexes[i] != None else 
+            (tags[i],tags[i],offset[i]) for i in range(len(tags))]
        for tag in t:
          where = text.find(tag[0])
          if where == -1:
@@ -129,7 +141,7 @@ class ism():
 
 def main(argv):
     try:
-      opts,args = getopt.getopt(argv, "u:i:t:o:svhy",
+      opts, _ = getopt.getopt(argv, "u:i:t:o:svhy",
                               ["url=",  "industries=", "tags=", 
                                "output=", "sum", "version", "help", 
                                "accept-disclaimer","smi=", "pmi="])
@@ -198,7 +210,7 @@ def main(argv):
        sys.exit(2)
     
     d = Myism.find_match(web, tags_df[tags_df.columns.values[0]].values, 
-                        after=tags_df[tags_df.columns.values[1]].values, 
+                        offset=tags_df[tags_df.columns.values[1]].values, 
                         indexes = tags_df.index.values)
     if d is None:
        sys.exit(2)

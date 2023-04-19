@@ -35,6 +35,10 @@ reports are released next month, so march report will be available in mid april.
 usually stores the two most recent reports, so in the example above, if the march report 
 is available, then the february report will be available too, but the january one will not.
 
+The output `<month>_<report>.csv` will contain a summary of the report broken down by industry.
+Each industry will have a score based on the report analyzed. The more positive (negative) the 
+score, the more bullish (bearish) the industry.
+
 ### How scores are generated
 There are some `.csv` files in the `scoring-tables` folder accompanying the main script. 
 * **servicesindustries.csv:** The list of industries that the ism uses to generate the 
