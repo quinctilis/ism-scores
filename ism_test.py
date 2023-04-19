@@ -2,7 +2,7 @@ import unittest
 from ism import ism
 import os
 
-GOLDEN_WEB_NAME = "goldens/web.html"
+GOLDEN_WEB_NAME = "goldens/web.html.gld"
 
 class TestRegression(unittest.TestCase):
     def tearDown(self):

@@ -12,7 +12,7 @@ This code is intended for educational purposed only and the creator is not held 
 consequences resulting from its use
 
 ## Dependencies
-There should be no dependencies (external programs) to be installed. Just having python3.8+ 
+There should be no dependencies (external programs) to be installed. Just having python3.7+ 
 and internet connection should be enough to install the program and run it.
 
 ## Installing
