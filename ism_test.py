@@ -15,7 +15,7 @@ class TestRegression(unittest.TestCase):
         tags_df.set_index(tags_df.columns.values[0], inplace=True)
         industries_df = self.scrapper.read_csv("scoring-tables/servicesindustries.csv", separator=';')
         self.assertIsNotNone(industries_df, "error reading industries csv")
-        with open(GOLDEN_WEB_NAME, "r") as f:
+        with open(GOLDEN_WEB_NAME, "r", encoding='utf8') as f:
             web = f.read()
             self.assertGreater(len(web),0, "Web page is blank")
         d = self.scrapper.find_match(web, tags_df[tags_df.columns.values[0]].values, 
@@ -30,7 +30,7 @@ class GenerateGoldens(unittest.TestCase):
         os.makedirs(os.path.dirname(GOLDEN_WEB_NAME), exist_ok=True)
         web = self.scrapper.read_web('https://www.ismworld.org/supply-management-news-and-reports/reports/ism-report-on-business/services/march', True)
         self.assertIsNotNone(web, "Error downloading ism page")
-        with open(GOLDEN_WEB_NAME, "w") as f:
+        with open(GOLDEN_WEB_NAME, "w", encoding='utf8') as f:
             n = f.write(web)
             self.assertGreater(n,0, "Web page is blank")
 if __name__ == '__main__':
