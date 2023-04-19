@@ -36,7 +36,7 @@ usually stores the two most recent reports, so in the example above, if the marc
 is available, then the february report will be available too, but the january one will not.
 
 ### How scores are generated
-There are some `.csv` files accompanying the main script. 
+There are some `.csv` files in the `scoring-tables` folder accompanying the main script. 
 * **servicesindustries.csv:** The list of industries that the ism uses to generate the 
 smi report. A change on this list will result in failing to match what the report says about 
 an specific industry and the rate assigned to it.

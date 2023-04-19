@@ -26,8 +26,8 @@ def print_help():
    print("-s, --sum:               sum partial results and rank totals")
    print("-v, --version:           Shows version and exit")
    print("-y, --accept-disclaimer: Accept the disclaimer notice prompt")
-   print("--pmi M:                 Month to apply the default pmi on")
-   print("--smi M:                 Month to apply the default smi on")
+   print("    --pmi M:             Month (Jan-Dec) to apply the default pmi on")
+   print("    --smi M:             Month (Jan-Dec) to apply the default smi on")
    print("-e, --help:              Shows help and exit")
    
 class ism():
@@ -140,8 +140,8 @@ def main(argv):
     sum_ = False    
     accept = False
     url = 'https://www.ismworld.org/supply-management-news-and-reports/reports/ism-report-on-business/pmi/april'
-    tags = 'manufacturingtags.csv'
-    industries = 'manufacturingindustries.csv'
+    tags = 'scoring-tables/manufacturingtags.csv'
+    industries = 'scoring-tables/manufacturingindustries.csv'
     output = ''
     for opt, arg in opts:
       if opt in ("-h","--help"):
@@ -164,14 +164,14 @@ def main(argv):
          accept = True
       elif opt in ("--pmi"):
          url = 'https://www.ismworld.org/supply-management-news-and-reports/reports/ism-report-on-business/pmi/'+str(arg).lower()
-         tags = 'manufacturingtags.csv'
-         industries = 'manufacturingindustries.csv'
+         tags = 'scoring-tables/manufacturingtags.csv'
+         industries = 'scoring-tables/manufacturingindustries.csv'
          output = str(arg)+"_pmi.txt"
          sum_ = True
       elif opt in ("--smi"):
          url = 'https://www.ismworld.org/supply-management-news-and-reports/reports/ism-report-on-business/services/'+str(arg).lower()
-         tags = 'servicestags.csv'
-         industries = 'servicesindustries.csv'
+         tags = 'scoring-tables/servicestags.csv'
+         industries = 'scoring-tables/servicesindustries.csv'
          output = str(arg)+"_smi.txt"
          sum_ = True
       else:
