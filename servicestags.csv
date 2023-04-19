@@ -1,0 +1,11 @@
+name,tag,after,mult
+Growth,<!-- Respondent List Items,-5,1
+Business Activity,<!-- Business Activity,6,1.5
+New Orders,<!-- New Orders,6,1.5
+Employment,<!-- Employment,6,0.5
+Supplier Deliveries,<!-- Supplier Deliveries,6,0.5
+Inventories,<!-- Inventories,6,1
+Raw Material Prices,<!-- Prices,6,-1
+Backlog of Orders,<!-- Backlog of Orders,6,0.5
+Exports,<!-- New Export Orders,5,0.5
+Sentiment,<!-- Inventory Sentiment,5,1
