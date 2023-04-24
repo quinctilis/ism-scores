@@ -34,14 +34,25 @@ class ism():
     def __init__(self):
         pass
 
-    def read_csv(self, file='fields.csv', separator=','):
+    def read_csv(self, file: str='fields.csv', separator: str =',') -> pd.DataFrame:
        if not path.isfile(file):
           return None
 
        return pd.read_csv(file, sep=separator)
 
       
-    def read_web(self, url, selenium = False):
+    def read_web(self, url: str, selenium: bool = False) -> (str | None):
+       """Extracts text from a webpage. 
+
+       Args:
+           url (str): The webpage we want to extract text from.
+           selenium (bool, optional): If tru, using selenium to 
+           move the cursor and agree the TOS. If false, then use
+           fast web scrapping to extract text from web. Defaults to False.
+
+       Returns:
+           str: The string containing all the text in the web.
+       """
        try:
           if not selenium:
             r = requests.get(url)
@@ -65,7 +76,7 @@ class ism():
           print(str(e))
           return None
    
-    def find_match(self, text, tags, offset, indexes = None):
+    def find_match(self, text, tags, offset, categories) -> (dict | None):
        """Given a set of tags and offsets, this function finds
        relevant text enclosed within those tags. 
 
@@ -73,17 +84,17 @@ class ism():
            text (string): Text to find matches in.
            tags ([string]): Tags delimiting each relevant field.
            offset ([int]): Offset to apply to tags to delimit relevant fields.
-           indexes ([int], optional): _description_. Defaults to None.
+           categories ([string]): List of categories of the report.
 
        Returns:
-           [string]: List of relevant fields containing information of given parameters.
+           {string:string}: For each category, the relevant text containing ism sentiment.
        """
        d = {}
-       if indexes is not None and len(indexes)!=len(tags):
+       if categories is not None and len(categories)!=len(tags):
          print('indexes provided differ from tags length')
          return None
 
-       t = [(tags[i],indexes[i],offset[i]) if indexes[i] != None else 
+       t = [(tags[i],categories[i],offset[i]) if categories[i] != None else 
             (tags[i],tags[i],offset[i]) for i in range(len(tags))]
        for tag in t:
          where = text.find(tag[0])
@@ -102,7 +113,7 @@ class ism():
             d[tag[1]] = soup.get_text()
        return d
          
-    def score(self, text, industries, multiplicator, from_mark=':', to_mark='.'):
+    def score(self, text:str, industries: list, multiplicator: list, from_mark=':', to_mark='.'):
        d = {inds:{} for inds in industries}
        for k,v in text.items():
           mult = multiplicator[k]
@@ -192,32 +203,32 @@ def main(argv):
          sys.exit(2)
     if output == '':
        output = 'ism.csv'
-    Myism = ism()
-    tags_df = Myism.read_csv(tags)
+    MyIsm = ism()
+    tags_df = MyIsm.read_csv(tags)
     if tags_df is None:
        print("Could not get tags from "+tags)
        sys.exit(2)
     tags_df.set_index(tags_df.columns.values[0], inplace=True)
 
-    industries_df = Myism.read_csv(industries, separator=';')
+    industries_df = MyIsm.read_csv(industries, separator=';')
     if industries_df is None:
        print("Could not get industries from "+industries)
        sys.exit(2)
 
-    web = Myism.read_web(url, accept)
+    web = MyIsm.read_web(url, accept)
     if web is None:
        print("Could not read url "+url)
        sys.exit(2)
     
-    d = Myism.find_match(web, tags_df[tags_df.columns.values[0]].values, 
+    d = MyIsm.find_match(web, tags_df[tags_df.columns.values[0]].values, 
                         offset=tags_df[tags_df.columns.values[1]].values, 
-                        indexes = tags_df.index.values)
+                        categories = tags_df.index.values)
     if d is None:
        sys.exit(2)
 
     mult={tags_df.index.values[i]:tags_df.iloc[i][tags_df.columns.values[2]]
                for i in range(len(tags_df))}
-    scores = Myism.score(d, industries_df[industries_df.columns.values[0]].values, 
+    scores = MyIsm.score(d, industries_df[industries_df.columns.values[0]].values, 
                               mult)
     df = pd.DataFrame.from_dict(scores, orient='index')
     if sum_:
