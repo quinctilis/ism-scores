@@ -36,12 +36,12 @@ class ism():
 
     def read_csv(self, file: str='fields.csv', separator: str =',') -> pd.DataFrame:
        if not path.isfile(file):
-          return None
+          return pd.DataFrame()
 
        return pd.read_csv(file, sep=separator)
 
       
-    def read_web(self, url: str, selenium: bool = False) -> (str | None):
+    def read_web(self, url: str, selenium: bool = False) -> str:
        """Extracts text from a webpage. 
 
        Args:
@@ -58,7 +58,7 @@ class ism():
             r = requests.get(url)
             if r.status_code != 200:
               print('response error: '+str(r.status_code))
-              return None
+              return ""
             else:
                return r.text
           else:
@@ -74,9 +74,9 @@ class ism():
             return html
        except Exception as e:
           print(str(e))
-          return None
+          return ""
    
-    def find_match(self, text, tags, offset, categories) -> (dict | None):
+    def find_match(self, text, tags, offset, categories) -> dict:
        """Given a set of tags and offsets, this function finds
        relevant text enclosed within those tags. 
 
@@ -92,7 +92,7 @@ class ism():
        d = {}
        if categories is not None and len(categories)!=len(tags):
          print('indexes provided differ from tags length')
-         return None
+         return {}
 
        t = [(tags[i],categories[i],offset[i]) if categories[i] != None else 
             (tags[i],tags[i],offset[i]) for i in range(len(tags))]
@@ -113,9 +113,22 @@ class ism():
             d[tag[1]] = soup.get_text()
        return d
          
-    def score(self, text:str, industries: list, multiplicator: list, from_mark=':', to_mark='.'):
+    def score(self, categorized_text:dict, industries: list, multiplicator: dict, from_mark: str=':', to_mark: str='.') -> dict:
+       """Given a categorized text, this function gives a sentiment 
+       score per industry and per category. 
+
+       Args:
+           categorized_text (dict): For each category (key), the value is a string with an industry breakdown. 
+           industries (list): List of industries to be found in the breakdown of categorized_text.
+           multiplicator (dict): For each category (key), the value is a weight to apply. Can be negative.
+           from_mark (str, optional): Character from where industry breakdown starts within a categorized text. Defaults to ':'.
+           to_mark (str, optional): Character where industry breakdown ends within a categorized text. Defaults to '.'.
+
+       Returns:
+           dict: For each industry (key), another dictionary as a value where keys are categories and values the score.
+       """
        d = {inds:{} for inds in industries}
-       for k,v in text.items():
+       for k,v in categorized_text.items():
           mult = multiplicator[k]
           for industry in industries:
              from_ = v.find(from_mark)
@@ -205,25 +218,26 @@ def main(argv):
        output = 'ism.csv'
     MyIsm = ism()
     tags_df = MyIsm.read_csv(tags)
-    if tags_df is None:
+    if len(tags_df) == 0:
        print("Could not get tags from "+tags)
        sys.exit(2)
     tags_df.set_index(tags_df.columns.values[0], inplace=True)
 
     industries_df = MyIsm.read_csv(industries, separator=';')
-    if industries_df is None:
+    if len(industries_df) == 0:
        print("Could not get industries from "+industries)
        sys.exit(2)
 
     web = MyIsm.read_web(url, accept)
-    if web is None:
+    if web == "":
        print("Could not read url "+url)
        sys.exit(2)
     
     d = MyIsm.find_match(web, tags_df[tags_df.columns.values[0]].values, 
                         offset=tags_df[tags_df.columns.values[1]].values, 
                         categories = tags_df.index.values)
-    if d is None:
+    if len(d) == 0:
+       print("Did not find any match")
        sys.exit(2)
 
     mult={tags_df.index.values[i]:tags_df.iloc[i][tags_df.columns.values[2]]

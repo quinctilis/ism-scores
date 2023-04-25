@@ -1,0 +1,11 @@
+,Other Services,"Arts, Entertainment & Recreation","Real Estate, Rental & Leasing",Educational Services,Information,"Agriculture, Forestry, Fishing & Hunting",Mining,Public Administration,Construction,"Professional, Scientific & Technical Services",Transportation & Warehousing,Wholesale Trade,Accommodation & Food Services,Management of Companies & Support Services,Retail trade,Utilities,Health Care & Social Assistance,Finance & Insurance
+Growth,1.0,1.0,-1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,-1.0,-1.0,1.0,1.0,0,1.0,1.0,-1.0
+Business Activity,1.5,1.5,0.0,1.5,1.5,1.5,1.5,1.5,1.5,1.5,1.5,-1.5,0.0,1.5,0,1.5,1.5,-1.5
+New Orders,1.5,1.5,-1.5,1.5,1.5,1.5,1.5,1.5,1.5,1.5,0.0,-1.5,1.5,1.5,0,0.0,1.5,-1.5
+Employment,0.0,0.5,0.0,0.5,-0.5,0.5,0.5,0.5,0.5,0.5,-0.5,-0.5,0.0,0.5,0,0.5,0.5,-0.5
+Supplier Deliveries,0.5,0.0,0.0,0.0,-0.5,-0.5,-0.5,0.0,-0.5,-0.5,-0.5,-0.5,0.5,0.0,0,0.5,-0.5,-0.5
+Inventories,-1.0,1.0,1.0,0.0,-1.0,1.0,1.0,0.0,-1.0,1.0,0.0,-1.0,1.0,1.0,0,1.0,-1.0,0.0
+Raw Material Prices,-1.0,0.0,-1.0,-1.0,-1.0,1.0,0.0,-1.0,-1.0,-1.0,1.0,-1.0,1.0,-1.0,0,-1.0,-1.0,-1.0
+Backlog of Orders,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0.5,0.5,0.0
+Exports,0.0,0.0,0.0,0.0,0.5,0.5,0.5,0.0,0.5,0.0,0.0,0.0,0.0,0.0,0,0.0,0.0,0.0
+Sentiment,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0.0,0.0,0.0
