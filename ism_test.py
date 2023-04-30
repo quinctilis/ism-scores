@@ -2,6 +2,9 @@ import unittest
 from ism import ism
 import pandas as pd
 import os
+from datetime import datetime
+import requests
+import concurrent.futures
 
 SERVICES_TAGS_NAME = "scoring-tables/servicestags.csv"
 MANUFACTURING_TAGS_NAME = "scoring-tables/manufacturingtags.csv"
@@ -14,6 +17,11 @@ GOLDEN_SMIMATCH_NAME = "goldens/smi_match.gld"
 GOLDEN_PMIMATCH_NAME = "goldens/pmi_match.gld"
 GOLDEN_SMISCORE_NAME = "goldens/smi_scores.gld"
 GOLDEN_PMISCORE_NAME = "goldens/pmi_scores.gld"
+
+FIRST_REPORT_AVAILABLE = "2021-01-01"
+WAYBACK_URL = "https://archive.org/wayback/available?url="
+ISM_URL = "https://www.ismworld.org/supply-management-news-and-reports/reports/ism-report-on-business/"
+GOLDEN_HISTORICAL_NAME = "goldens/historical_dates.csv.gld"
 
 class TestRegression(unittest.TestCase):
     def tearDown(self):
@@ -83,7 +91,42 @@ class TestRegression(unittest.TestCase):
         df = pd.read_csv(GOLDEN_PMISCORE_NAME, index_col=0).fillna("")
         golden = df.to_dict()
         self.assertDictEqual(golden, scores, "scores don't match")
+
+class GetHistory(unittest.TestCase):
+    def setUp(self):
+        self.scrapper=ism()
+    def _getArchivedWeb(self, args):
+        ts = args[0]
+        report = args[1]
+        date = ts.strftime("%Y%m%d")
+        month =ts.strftime("%B")
+        url = WAYBACK_URL+ISM_URL+report+"/"+month.lower()+"/&timestamp="+date
+        resp = requests.get(url)
+        if resp.status_code != 200:
+            return
+        data = resp.json()
+        if len(data) == 0:
+            return
+        if "archived_snapshots" not in data or "closest" not in data["archived_snapshots"] or not data["archived_snapshots"]["closest"]["available"]:
+            return
         
+        historical_url =data["archived_snapshots"]["closest"]["url"]
+        relase_dates = datetime.strptime(str(data["archived_snapshots"]["closest"]["timestamp"]), '%Y%m%d%H%M%S')
+        return (relase_dates, historical_url)
+    
+    def test_getOldISMReportDates(self):
+        timestaps=pd.date_range(start=FIRST_REPORT_AVAILABLE, end=datetime.now(), freq='M')
+        series = []
+        for report in ["services","pmi"]:
+            args=[(ts,report)  for ts in timestaps]
+            with concurrent.futures.ThreadPoolExecutor(max_workers=10) \
+            as executor:
+                res = executor.map(self._getArchivedWeb, args)
+            res_l = list(res)
+            series += [pd.Series(index=[res[0] for res in res_l if res is not None], data=[res[1] for res in res_l if res is not None], name=report)]
+        df = pd.concat(series, axis=1)
+        df.to_csv(GOLDEN_HISTORICAL_NAME)
+
 class GenerateGoldens(unittest.TestCase):
     def setUp(self):
         self.scrapper=ism()
