@@ -1,18 +1,21 @@
 import unittest
 from ism import ism
+from ism import HTML_EXTENSION, TS_FORMAT
 import pandas as pd
 import os
 from datetime import datetime
 import requests
 import concurrent.futures
+import pathlib
+import time
 
 SERVICES_TAGS_NAME = "scoring-tables/servicestags.csv"
 MANUFACTURING_TAGS_NAME = "scoring-tables/manufacturingtags.csv"
 SERVICES_INDUSTRIES_NAME = "scoring-tables/servicesindustries.csv"
 MANUFACTURING_INDUSTRIES_NAME = "scoring-tables/manufacturingindustries.csv"
 
-GOLDEN_SMIWEB_NAME = "goldens/smi.html.gld"
-GOLDEN_PMIWEB_NAME = "goldens/pmi.html.gld"
+GOLDEN_SMIWEB_NAME = "goldens/smi"+HTML_EXTENSION
+GOLDEN_PMIWEB_NAME = "goldens/pmi"+HTML_EXTENSION
 GOLDEN_SMIMATCH_NAME = "goldens/smi_match.gld"
 GOLDEN_PMIMATCH_NAME = "goldens/pmi_match.gld"
 GOLDEN_SMISCORE_NAME = "goldens/smi_scores.gld"
@@ -23,6 +26,10 @@ WAYBACK_URL = "https://archive.org/wayback/available?url="
 ISM_URL = "https://www.ismworld.org/supply-management-news-and-reports/reports/ism-report-on-business/"
 GOLDEN_HISTORICAL_NAME = "goldens/historical_dates.csv.gld"
 
+HTML_EXTENSION=".html.gld"
+HISTORICAL_DIR="historical/"
+HISTORICAL_DELIMITER="_"
+BRAKING=5
 class TestRegression(unittest.TestCase):
     def tearDown(self):
         pass
@@ -92,40 +99,62 @@ class TestRegression(unittest.TestCase):
         golden = df.to_dict()
         self.assertDictEqual(golden, scores, "scores don't match")
 
+    def test_readFile(self):
+        historical = pathlib.Path(HISTORICAL_DIR)
+        for item in historical.rglob("*"+HTML_EXTENSION):
+            if item.is_file():
+                web = self.scrapper.read_file(str(item))
+                self.assertGreater(len(web), 0, "error reading html from file")
+
 class GetHistory(unittest.TestCase):
     def setUp(self):
         self.scrapper=ism()
-    def _getArchivedWeb(self, args):
+    def _getArchivedWebDatesAndUrls(self, args):
         ts = args[0]
         report = args[1]
+        time.sleep(args[2])
         date = ts.strftime("%Y%m%d")
         month =ts.strftime("%B")
         url = WAYBACK_URL+ISM_URL+report+"/"+month.lower()+"/&timestamp="+date
         resp = requests.get(url)
-        if resp.status_code != 200:
-            return
+        self.assertEqual(resp.status_code, 200, "web ["+url+"] status code is "+str(resp.status_code))
         data = resp.json()
-        if len(data) == 0:
-            return
-        if "archived_snapshots" not in data or "closest" not in data["archived_snapshots"] or not data["archived_snapshots"]["closest"]["available"]:
-            return
-        
+        self.assertGreater(len(data),0, "empty data")
+        self.assertIn("archived_snapshots",data, "archived_snapshots not present in data")
+        self.assertIn("closest",data["archived_snapshots"], "closest not present in data['archived_snapshots']")
+        self.assertIn("available",data["archived_snapshots"]["closest"], "closest not present in data['archived_snapshots']['closest']")        
         historical_url =data["archived_snapshots"]["closest"]["url"]
-        relase_dates = datetime.strptime(str(data["archived_snapshots"]["closest"]["timestamp"]), '%Y%m%d%H%M%S')
+        relase_dates = datetime.strptime(str(data["archived_snapshots"]["closest"]["timestamp"]), TS_FORMAT)
         return (relase_dates, historical_url)
     
+    def _URL2HTML(self, args):
+        url = args[0]
+        output=args[1]
+        text = self.scrapper.read_web(url, False)
+        if text == "":
+            self.scrapper.read_web(url, True)
+        if text != "":
+            with open(output, "w", encoding='utf8') as f:
+                f.write(text)
+
     def test_getOldISMReportDates(self):
         timestaps=pd.date_range(start=FIRST_REPORT_AVAILABLE, end=datetime.now(), freq='M')
         series = []
         for report in ["services","pmi"]:
-            args=[(ts,report)  for ts in timestaps]
-            with concurrent.futures.ThreadPoolExecutor(max_workers=10) \
-            as executor:
-                res = executor.map(self._getArchivedWeb, args)
+            args=[(ts,report, 0 if BRAKING <= 0 else BRAKING)  for ts in timestaps]
+            with concurrent.futures.ThreadPoolExecutor(max_workers=10 if BRAKING <= 0 else 1) as executor:
+                res = executor.map(self._getArchivedWebDatesAndUrls, args)
             res_l = list(res)
-            series += [pd.Series(index=[res[0] for res in res_l if res is not None], data=[res[1] for res in res_l if res is not None], name=report)]
+            urls = [res[1] for res in res_l if res is not None]
+            release_dates = [res[0] for res in res_l if res is not None]
+            series += [pd.Series(index=release_dates, data=urls, name=report)]
+            os.makedirs(HISTORICAL_DIR, exist_ok = True)
+            args=[(urls[i],HISTORICAL_DIR+report+HISTORICAL_DELIMITER+release_dates[i].strftime(TS_FORMAT)+HTML_EXTENSION)  for i in range(len(urls))]
+            with concurrent.futures.ThreadPoolExecutor(max_workers=10) as executor:
+                executor.map(self._URL2HTML, args)
         df = pd.concat(series, axis=1)
         df.to_csv(GOLDEN_HISTORICAL_NAME)
+
 
 class GenerateGoldens(unittest.TestCase):
     def setUp(self):

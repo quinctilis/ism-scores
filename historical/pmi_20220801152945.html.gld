@@ -1,0 +1,2522 @@
+
+<!DOCTYPE html>
+<html>
+<head><script type="text/javascript" src="/_static/js/bundle-playback.js?v=1WaXNDFE" charset="utf-8"></script>
+<script type="text/javascript" src="/_static/js/wombat.js?v=txqj7nKC" charset="utf-8"></script>
+<script type="text/javascript">
+  __wm.init("http://web.archive.org/web");
+  __wm.wombat("https://www.ismworld.org/supply-management-news-and-reports/reports/ism-report-on-business/pmi/july/","20220801152945","http://web.archive.org/","web","/_static/",
+	      "1659367785");
+</script>
+<link rel="stylesheet" type="text/css" href="/_static/css/banner-styles.css?v=S1zqJCYt" />
+<link rel="stylesheet" type="text/css" href="/_static/css/iconochive.css?v=qtvMKcIJ" />
+<!-- End Wayback Rewrite JS Include -->
+
+    <meta charset="utf-8"/>
+    <link href="//web.archive.org/web/20220801152945/https://cdnjs.cloudflare.com/" rel="dns-prefetch">
+    <link href="//web.archive.org/web/20220801152945/https://fonts.googleapis.com/" rel="dns-prefetch">
+    <meta name="viewport" content="width=device-width"/>
+    <title>July</title>
+    <meta name="title" content="July"/>
+    <meta property="og:title" content="July"/>
+
+    <link href="/web/20220801152945/https://www.ismworld.org/Static/css/abovethefold.css?v=1_0_8172_18990" rel="preload" as="style">
+    <link href="/web/20220801152945/https://www.ismworld.org/Static/css/cake.css?v=1_0_8172_18990" rel="preload" as="style">
+    <link href="/web/20220801152945/https://www.ismworld.org/Static/css/belowthefold.css?v=1_0_8172_18990" rel="preload" as="style">
+
+
+    
+
+
+        <meta property="og:image" content="/web/20220801152945im_/https://www.ismworld.org/globalassets/pub/navigation-images/ism-logo-lg.png"/>
+
+    <meta property="og:url" content="http://web.archive.org/web/20220801152945/https://www.ismworld.org/supply-management-news-and-reports/reports/ism-report-on-business/pmi/july/"/>
+
+
+    <link rel="icon" href="/web/20220801152945im_/https://www.ismworld.org/Static/img/apple-touch-icon.png"/>
+    <script defer src="http://web.archive.org/web/20220801152945js_/https://cdnjs.cloudflare.com/ajax/libs/lazysizes/4.1.5/lazysizes.min.js"></script>
+    <script defer src="http://web.archive.org/web/20220801152945js_/https://cdnjs.cloudflare.com/ajax/libs/lazysizes/4.1.5/plugins/unveilhooks/ls.unveilhooks.min.js"></script>
+    <script defer src="http://web.archive.org/web/20220801152945js_/https://cdnjs.cloudflare.com/ajax/libs/lazysizes/4.1.5/plugins/bgset/ls.bgset.min.js"></script>
+    <script src="http://web.archive.org/web/20220801152945js_/https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    
+    <script async src="http://web.archive.org/web/20220801152945js_/https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <script async src="http://web.archive.org/web/20220801152945js_/https://kit.fontawesome.com/d948dee5ed.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/web/20220801152945cs_/https://www.ismworld.org/Static/css/abovethefold.css?v=1_0_8172_18990"/>
+
+        <script type="text/javascript">
+            $(function () {
+                $('.trackButton').click(function (e) {
+                    $.ajax({
+                        type: 'POST',
+                        contentType: "application/json; charset=utf-8",
+                        dataType: 'json',
+                        url: "/BlockTracking/TrackBlockClick",
+                        data: "{ 'pageLink' : '" + $(location).attr('href') + "', 'blockName' : '" + $(this).attr('data-block-name') + "', 'buttonLink' : '" + $(this).attr('href') + "', 'buttonText' : '" + $(this).text() + "', 'pageName' : '" + $('title').text() + "'}",
+                        success: function (data) { },
+                        error: function (a, jqXHR, exception) { }
+                    });
+                });
+
+            });
+
+        </script>
+
+    <script>
+        WebFontConfig = {
+            google: {
+                families: ["Noto Sans", "Barlow Condensed:600"]
+            }
+        };
+        (function (d) {
+            var wf = d.createElement("script"),
+                s = d.scripts[0];
+            wf.src =
+                "http://web.archive.org/web/20220801152945/https://cdnjs.cloudflare.com/ajax/libs/webfont/1.6.28/webfontloader.js";
+            wf.async = true;
+            s.parentNode.insertBefore(wf, s);
+        })(document);
+    </script>
+    <script id="bfGDPR__cookieVarsFromBackend">
+    var bfGDPR__configObject = {"enableGDPRDialog":true,"gdprMode":"optOut","cookieDialogTitle":"Cookies on the ISM website","cookieDialogBackgroundColor":"#EBEAE5","cookieDialogTabText":"Privacy and Cookies","cookieDialogText":"We use cookies to give you the best digital experience while visiting our website. By accepting the use of cookies and using our website you consent to all cookies in accordance with our Privacy Policy.  ","cookieTextColor":"#1E2629","learnMoreLinkColor_0":"#F04E23","learnMoreLinkColor_1":"#F04E23","learnMoreLinkText_0":"Privacy Policy","learnMoreLinkText_1":"Contact Us","learnMoreLinkLocation_0":"/footer/privacy-policy/","learnMoreLinkLocation_1":"/ContactUs","acceptButtonText":"Accept Cookies","declineButtonText":"Decline Cookies","acceptButtonColor":"#8FC73E","declineButtonColor":"#F04E23","nonprivacyCookieNames":"","cookieDialogCloseMode":"tabRemainsVisible","dialogTheme":null};
+    </script>
+    
+    <link href="/web/20220801152945/https://www.ismworld.org/supply-management-news-and-reports/reports/ism-report-on-business/pmi/july/" rel="canonical"/>
+
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="http://web.archive.org/web/20220801152945js_/https://www.googletagmanager.com/gtag/js?id=UA-3579799-24"></script>
+<!--<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-3579799-24');
+
+</script>-->
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//web.archive.org/web/20220801152945/https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-3579799-24', 'auto', {'allowLinker': true});
+  ga('require', 'linker');
+  ga('linker:autoLink', ['ecommerce.ismworld.org']);
+  ga('set', 'userId', );     
+  ga('set', 'dimension1', );
+  ga('send', 'pageview');
+</script>
+
+<script>
+Array.from( document.querySelectorAll('li.search__article') )
+  .filter( node => /\b(ISM21_|ISM-|ISM Dues|CORELS12|INTELS12|LEADLS12|CPSDLS12|ISM-22AA)\b/i.test(node.textContent) )
+  .forEach( node => node.style.display = 'none' );
+</script>
+
+<!--Education Calendar Hide Conference Sub System-->
+<script>
+Array.from( document.querySelectorAll('tr.cartBody__td__row') )
+  .filter( node => /\b(ISM-22AA)\b/i.test(node.textContent) )
+  .forEach( node => node.style.display = 'none' );
+
+</script>
+
+<!--Education Calendar Hide Chapter Products-->
+<script>
+Array.from( document.querySelectorAll('li.featuredEvents__event') )
+  .filter( node => /\b(ISM-Arizona|ISM-Twin|ISM-Rochester)\b/i.test(node.textContent) )
+  .forEach( node => node.style.display = 'none' );
+
+</script>
+
+
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'http://web.archive.org/web/20220801152945/https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NBCMSHF');</script>
+<!-- End Google Tag Manager -->
+
+
+<meta name="facebook-domain-verification" content="ywbzi5s7yqf6healy4p3xsdop8njp8"/>
+
+
+<!-- Start of HubSpot Embed Code -->
+<script type="text/javascript" id="hs-script-loader" async defer src="//web.archive.org/web/20220801152945js_/https://js.hs-scripts.com/620652.js"></script>
+<!-- End of HubSpot Embed Code -->
+
+
+
+
+    
+
+    
+    <style>
+.MagazineArticlePage .articleSidebar {
+background-color:white;
+padding-left:0px !important;
+}
+
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+@media (min-width: 1024px){
+.MagazineArticlePage .richText iframe {
+    margin-left: 0rem !important;
+}
+}
+</style>
+
+<!-- Kalpan Marketing Tracking Scripts -->
+<script type="text/javascript">
+    var _ss = _ss || [];
+    _ss.push(['_setDomain', 'http://web.archive.org/web/20220801152945/https://koi-3qno2p3460.marketingautomation.services/net']);
+    _ss.push(['_setAccount', 'KOI-4BYF9ADL7M']);
+    _ss.push(['_trackPageView']);
+(function() {
+    var ss = document.createElement('script');
+    ss.type = 'text/javascript'; ss.async = true;
+    ss.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'koi-3QNO2P3460.marketingautomation.services/client/ss.js?ver=2.4.0';
+    var scr = document.getElementsByTagName('script')[0];
+    scr.parentNode.insertBefore(ss, scr);
+})();
+</script>
+
+
+<script type="text/javascript">
+_linkedin_partner_id = "1397276";
+window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || [];
+window._linkedin_data_partner_ids.push(_linkedin_partner_id);
+</script><script type="text/javascript">
+(function(l) {
+if (!l){window.lintrk = function(a,b){window.lintrk.q.push([a,b])};
+window.lintrk.q=[]}
+var s = document.getElementsByTagName("script")[0];
+var b = document.createElement("script");
+b.type = "text/javascript";b.async = true;
+b.src = "http://web.archive.org/web/20220801152945/https://snap.licdn.com/li.lms-analytics/insight.min.js";
+s.parentNode.insertBefore(b, s);})(window.lintrk);
+</script>
+<noscript>
+<img height="1" width="1" style="display:none;" alt="" src="http://web.archive.org/web/20220801152945im_/https://px.ads.linkedin.com/collect/?pid=1397276&amp;fmt=gif"/>
+</noscript>
+
+<script type="text/javascript">var appInsights=window.appInsights||function(config){function t(config){i[config]=function(){var t=arguments;i.queue.push(function(){i[config].apply(i,t)})}}var i={config:config},u=document,e=window,o="script",s="AuthenticatedUserContext",h="start",c="stop",l="Track",a=l+"Event",v=l+"Page",r,f;setTimeout(function(){var t=u.createElement(o);t.src=config.url||"http://web.archive.org/web/20220801152945/https://az416426.vo.msecnd.net/scripts/a/ai.0.js";u.getElementsByTagName(o)[0].parentNode.appendChild(t)});try{i.cookie=u.cookie}catch(y){}for(i.queue=[],r=["Event","Exception","Metric","PageView","Trace","Dependency"];r.length;)t("track"+r.pop());return t("set"+s),t("clear"+s),t(h+a),t(c+a),t(h+v),t(c+v),t("flush"),config.disableExceptionTracking||(r="onerror",t("_"+r),f=e[r],e[r]=function(config,t,u,e,o){var s=f&&f(config,t,u,e,o);return s!==!0&&i["_"+r](config,t,u,e,o),s}),i}({instrumentationKey:"594ed595-c00d-44be-8be7-07957c0603da",sdkExtension:"a"});window.appInsights=appInsights;appInsights.queue&&appInsights.queue.length===0&&appInsights.trackPageView();</script><script async src="/web/20220801152945js_/https://www.ismworld.org/cdn-cgi/bm/cv/669835187/api.js"></script></head>
+
+<body class="InternalContentPage">
+    <div id="rootOfObserver">
+        
+
+        
+        
+        
+
+
+        
+        <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="http://web.archive.org/web/20220801152945if_/https://www.googletagmanager.com/ns.html?id=GTM-NBCMSHF" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+
+
+<svg class="hidden-def" style="display:none;">
+  <symbol id="iconFacebook">
+    <path d="M13.2,12.3h-2.8V16h2.8v11h4.6V16h3.3l0.4-3.7h-3.7v-1.6c0-0.9,0.2-1.2,1-1.2h2.7V5H18c-3.3,0-4.8,1.5-4.8,4.2V12.3z"/>
+  </symbol>
+  <symbol id="iconTwitter">
+    <path d="M26.5,10.7c-0.8,0.4-1.6,0.6-2.5,0.7c0.9-0.5,1.6-1.4,1.9-2.4c-0.9,0.5-1.8,0.9-2.7,1.1c-0.8-0.9-1.9-1.4-3.2-1.4 c-2.8,0-4.8,2.6-4.2,5.3c-3.6-0.2-6.7-1.9-8.9-4.5c-1.2,1.9-0.7,4.5,1.2,5.7c-0.7,0-1.4-0.2-1.9-0.5c-0.1,2,1.4,3.9,3.4,4.3 c-0.6,0.2-1.3,0.2-1.9,0.1c0.5,1.8,2.1,3,4,3c-1.8,1.4-4.1,2-6.4,1.8c1.9,1.2,4.2,1.9,6.6,1.9c8,0,12.5-6.7,12.3-12.8 C25.2,12.3,25.9,11.5,26.5,10.7z"/>
+  </symbol>
+  <symbol id="iconYouTube">
+    <path d="M22.8,9.2c-3.2-0.3-10.3-0.3-13.5,0C5.8,9.3,5.3,11.5,5.3,17s0.4,7.6,3.9,7.8c3.2,0.2,10.3,0.2,13.5,0 c3.5-0.3,3.9-2.3,3.9-7.8C26.7,11.5,26.2,9.4,22.8,9.2z M13.3,20.5v-7.1l7.1,3.6L13.3,20.5z"/>
+  </symbol>
+  <symbol id="iconLinkedIn">
+    <path d="M9.6,7.3c0,1.3-1,2.3-2.3,2.3S5,8.6,5,7.3S6,5,7.3,5S9.6,6,9.6,7.3z M9.6,11.4H5V26h4.6V11.4z M16.9,11.4h-4.6V26h4.6v-7.7 c0-4.3,5.5-4.7,5.5,0V26H27v-9.2c0-7.2-8.1-6.9-10-3.4V11.4z"/>
+  </symbol>
+  <symbol id="iconInstagram">
+    <path d="M10.62 4C6.97 4 4 6.97 4 10.62C4 11.7 4 20.3 4 21.38C4 25.03 6.97 28 10.62 28C11.7 28 20.3 28 21.38 28C25.03 28 28 25.03 28 21.38C28 20.3 28 11.7 28 10.62C28 6.97 25.03 4 21.38 4C19.23 4 11.7 4 10.62 4ZM21.38 25.87C20.3 25.87 11.7 25.87 10.62 25.87C8.15 25.87 6.13 23.85 6.13 21.38C6.13 20.3 6.13 11.7 6.13 10.62C6.13 8.15 8.15 6.13 10.62 6.13C11.7 6.13 20.3 6.13 21.38 6.13C23.85 6.13 25.87 8.15 25.87 10.62C25.87 11.34 25.87 14.92 25.87 21.38C24.53 24.37 23.03 25.87 21.38 25.87Z" id="a2SiHKlAZu"></path>
+    <path d="M9.82 16C9.82 19.41 12.59 22.18 16 22.18C19.41 22.18 22.18 19.41 22.18 16C22.18 12.59 19.41 9.82 16 9.82C12.59 9.82 9.82 12.59 9.82 16ZM11.95 16C11.95 13.76 13.76 11.95 16 11.95C18.24 11.95 20.05 13.76 20.05 16C20.05 18.24 18.24 20.05 16 20.05C13.76 20.05 11.95 18.24 11.95 16Z" id="bpNmKnEaN"></path>
+    <path d="M21.34 8.47C21.05 8.76 20.88 9.16 20.88 9.57C20.88 9.98 21.05 10.39 21.34 10.68C21.63 10.97 22.03 11.13 22.44 11.13C22.86 11.13 23.26 10.97 23.55 10.68C23.84 10.39 24.01 9.98 24.01 9.57C24.01 9.16 23.84 8.76 23.55 8.47C23.26 8.18 22.86 8.01 22.44 8.01C22.03 8.01 21.63 8.18 21.34 8.47Z" id="f8ttCdUz"></path>
+  </symbol>
+</svg>
+
+
+
+
+<div id="navApp" class="" v-cloak data-nav-main>
+  
+  
+
+  <b-navbar v-cloak toggleable="lg" class="nav__wrapper--outerMost">
+
+    
+    <header class="navToggle__wrapper">
+        <div class="mobile__header--hasLogo">
+          <a class="logo__link logo__link--mobile" href="/web/20220801152945/https://www.ismworld.org/" target="">
+            <img height="auto" class="lazyload logo__img" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/globalassets/masterpage/header/ism-logo-white.svg" alt="An all white version of the ISM logo."/>
+          </a>
+        </div>
+      <span class="navToggle__buttonWrapper">
+        <b-navbar-toggle target="nav_collapse" class="navToggle__button">
+          <i class="fas fa-bars"></i>
+        </b-navbar-toggle>
+      </span>
+    </header>
+
+    
+    <b-collapse is-nav id="nav_collapse" class="nav__wrapper--outer">
+      <b-navbar-nav class="nav__wrapper container">
+        <div class="row no-margin">
+            <div class="col-lg-2 col--hasLogo">
+              <a class="logo__link logo__link--desktop" href="/web/20220801152945/https://www.ismworld.org/" target="">
+                <img class="lazyload logo__image" data-sizes="auto" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/globalassets/masterpage/header/ism-logo-white.svg" alt="An all white version of the ISM logo."/>
+              </a>
+            </div>
+
+          <div class="col-lg col--hasNav">
+            <div class="navUtility__wrapper row no-margin" data-nav-utility>
+
+              <div class="col-lg col--hasNavUtilityLinks">
+                  <b-dropdown class="navUtility--popularLinks" text="Popular Links" toggle-class="navUtility__button">
+                        <b-dropdown-item href="/account/registration/" target="">Create an Account</b-dropdown-item>
+                        <b-dropdown-item href="/certification-and-training/training/education-calendar/" target="">Education Calendar</b-dropdown-item>
+                        <b-dropdown-item href="http://certapp.ismworld.org/" target="">Certification/Recertification Application</b-dropdown-item>
+                        <b-dropdown-item href="/certification-and-training/certification/#verification" target="">Certification Verification</b-dropdown-item>
+                        <b-dropdown-item href="/for-individuals/volunteer/" target="">Volunteer Application</b-dropdown-item>
+                        <b-dropdown-item href="/supply-management-news-and-reports/reports/ism-report-on-business/" target="">ISM Report On Business&#174;</b-dropdown-item>
+                        <b-dropdown-item href="/community/connect/local-chapters/" target="">Find Local Chapter</b-dropdown-item>
+                  </b-dropdown>
+
+                        <a href="/web/20220801152945/https://www.ismworld.org/ContactUs" class="navUtility__link" target="">
+                            Contact Us
+                        </a>
+                                    <a href="/web/20220801152945/https://www.ismworld.org/for-individuals/membership/join-renew/" class="navUtility__link" target="">
+                        Join Now
+                    </a>
+
+                    <a href="/web/20220801152945/https://www.ismworld.org/login/?returnurl=/supply-management-news-and-reports/reports/ism-report-on-business/pmi/july/" class="navUtility__link">Login</a>
+              </div>
+
+                <div class="col-lg-6 col--hasSearchBoxForm">
+                    <div class="social-bar social-bar--nav">
+                        <a href="http://web.archive.org/web/20220801152945/https://www.facebook.com/InstituteForSupplyManagement/" target="_blank" class="social-bar__link">
+                          <svg class="social-bar__icon" viewbox="0 0 32 32">
+                            <use xlink:href="/web/20220801152945im_/https://www.ismworld.org/supply-management-news-and-reports/reports/ism-report-on-business/pmi/july/#iconFacebook"/>
+                          </svg>
+                        </a>
+                        <a href="http://web.archive.org/web/20220801152945/https://twitter.com/ism" target="_blank" class="social-bar__link">
+                          <svg class="social-bar__icon" viewbox="0 0 32 32">
+                            <use xlink:href="/web/20220801152945im_/https://www.ismworld.org/supply-management-news-and-reports/reports/ism-report-on-business/pmi/july/#iconTwitter"/>
+                          </svg>
+                        </a>
+                        <a href="http://web.archive.org/web/20220801152945/https://www.linkedin.com/company/institute-for-supply-management/" target="_blank" class="social-bar__link">
+                          <svg class="social-bar__icon" viewbox="0 0 32 32">
+                            <use xlink:href="/web/20220801152945im_/https://www.ismworld.org/supply-management-news-and-reports/reports/ism-report-on-business/pmi/july/#iconLinkedIn"/>
+                          </svg>
+                        </a>
+                    </div>
+                  <form class="form--searchBox" action="/web/20220801152945/https://www.ismworld.org/search/">
+                      <div class="input__filter__wrapper">
+                        <select class="form-control input__filter" name="sq">
+                          <option selected value="">Entire Site</option>
+                            <option value="17">News &amp; Publications</option>
+                        </select>
+                      </div>
+
+
+                    <div class="search__wrapper">
+                      <input autocomplete="off" type="text" placeholder="Search" class="form-control input__query" name="q" v-model="query" @input="onChange"/>
+
+<ul class="dropdown-menu" v-bind:class="{show: isOpen}">
+    <li v-for="(result, i) in results" :key="i" class="autocomplete-result" v-on:click="select(result)">
+        {{result}}
+    </li>
+</ul>
+
+                      <button type="submit" class="form-control input__search">
+                        <i class="fas fa-search"></i>
+                      </button>
+                    </div>
+                  </form>
+                  <a href="/web/20220801152945/https://www.ismworld.org/Shopping-Cart/" class="navUtility__link navUtility__link--cart">
+                    <span id="cartcounttl" class="counter counter--small cartItemCountLabel">Cart (0)</span>
+                  </a>
+                </div>
+
+            </div>
+
+              <div class="nav__wrapper--inner" role="tablist">
+
+                  <div class="nav__hasL1s" role="tab">
+                    <span class="navMain__link navMain__link--L1" v-b-toggle.accordion1 variant="">
+                      Supply Management News &amp; Reports
+                        <i class="fas fa-chevron-down"></i>
+                    </span>
+                  </div>
+                    <b-collapse id="accordion1" class="nav__hasL2s" accordion="navMainAccordion" role="tabpanel">
+                      <div class="container container--nav__hasL2s">
+                        <div class="row">
+                          <div class="col-lg">
+                            <div class="row">
+
+                                <div class="col-lg-3 nav__hasL2s--column nav__hasL2s--column--nested">
+                                  <div class="nav__splitButtonWrapper">
+                                    <a href="/web/20220801152945/https://www.ismworld.org/supply-management-news-and-reports/news-publications/" class="navMain__link navMain__link--L2">
+                                      News &amp; Publications
+                                    </a>
+                                      <b-button class="nav__hasL2s__button" v-b-toggle.collapse1_inner>
+                                        <i class="fas fa-chevron-down"></i>
+                                      </b-button>
+                                      <b-collapse id="collapse1_inner" class="nav__hasL3s">
+                                          <a href="/web/20220801152945/https://www.ismworld.org/supply-management-news-and-reports/news-publications/inside-supply-management-magazine/" class="navMain__link navMain__link--L3">
+                                            Inside Supply Management Magazine
+                                          </a>
+                                          <a href="/web/20220801152945/https://www.ismworld.org/supply-management-news-and-reports/news-publications/press-room/" class="navMain__link navMain__link--L3">
+                                            ISM Press Room
+                                          </a>
+                                      </b-collapse>
+                                  </div>
+                                </div>
+                                <div class="col-lg-3 nav__hasL2s--column nav__hasL2s--column--nested">
+                                  <div class="nav__splitButtonWrapper">
+                                    <a href="/web/20220801152945/https://www.ismworld.org/supply-management-news-and-reports/reports/" class="navMain__link navMain__link--L2">
+                                      ISM Reports
+                                    </a>
+                                      <b-button class="nav__hasL2s__button" v-b-toggle.collapse2_inner>
+                                        <i class="fas fa-chevron-down"></i>
+                                      </b-button>
+                                      <b-collapse id="collapse2_inner" class="nav__hasL3s">
+                                          <a href="/web/20220801152945/https://www.ismworld.org/supply-management-news-and-reports/reports/ism-report-on-business/" class="navMain__link navMain__link--L3">
+                                            ISM Report On Business&#174;
+                                          </a>
+                                          <a href="/web/20220801152945/https://www.ismworld.org/supply-management-news-and-reports/reports/research-and-surveys/" class="navMain__link navMain__link--L3">
+                                            Research &amp; Surveys
+                                          </a>
+                                          <a href="/web/20220801152945/https://www.ismworld.org/supply-management-news-and-reports/reports/caps-research/" class="navMain__link navMain__link--L3">
+                                            CAPS Research
+                                          </a>
+                                      </b-collapse>
+                                  </div>
+                                </div>
+                                <div class="col-lg-3 nav__hasL2s--column nav__hasL2s--column--nested">
+                                  <div class="nav__splitButtonWrapper">
+                                    <a class="navMain__link navMain__link--L2">
+                                      Research Resource Centers
+                                    </a>
+                                      <b-button class="nav__hasL2s__button" v-b-toggle.collapse3_inner>
+                                        <i class="fas fa-chevron-down"></i>
+                                      </b-button>
+                                      <b-collapse id="collapse3_inner" class="nav__hasL3s">
+                                          <a href="/web/20220801152945/https://www.ismworld.org/supply-management-news-and-reports/research-resource-centers/covid-19-resource-center/" class="navMain__link navMain__link--L3">
+                                            COVID-19
+                                          </a>
+                                          <a href="/web/20220801152945/https://www.ismworld.org/supply-management-news-and-reports/research-resource-centers/supplier-diversity-resource-center/" class="navMain__link navMain__link--L3">
+                                            Supplier Diversity
+                                          </a>
+                                          <a href="/web/20220801152945/https://www.ismworld.org/supply-management-news-and-reports/research-resource-centers/sustainability-research/" class="navMain__link navMain__link--L3">
+                                            Sustainability
+                                          </a>
+                                          <a href="/web/20220801152945/https://www.ismworld.org/supply-management-news-and-reports/research-resource-centers/talent-diversity-and-salary-survey-research/" class="navMain__link navMain__link--L3">
+                                            Talent Diversity and Salary Survey
+                                          </a>
+                                      </b-collapse>
+                                  </div>
+                                </div>
+                            </div>
+                          </div>
+                            <div class="col-lg-4 navMain__col--optionalContent">
+                              <section class="navMain__featuredContent">
+                                <header class="featuredContent__header">
+                                    <div class="listing__details">
+                                      <div class="listing__detail-group">
+                                        <span class="listing__span">Featured Content</span>
+                                      </div>
+                                    </div>
+                                  <h3 class="featuredContent__headline">
+                                    <a class="featuredContent__headline__link" href="/web/20220801152945/https://www.ismworld.org/supply-management-news-and-reports/reports/join-the-survey-panel/">
+                                      Join the Survey Panel
+                                    </a>
+                                  </h3>
+                                </header>
+                                  <figure class="featuredContent__figure">
+                                    <a class="featuredContent__link--wrapsImage" href="/web/20220801152945/https://www.ismworld.org/supply-management-news-and-reports/reports/join-the-survey-panel/">
+                                      <!-- srcset image stack will always use blank inline gif unless width is more than 992 -- which we may change to 1024.
+                                      The hardcoded width and height preserves space in the document so jump doesn't occur after an image is lazyloaded.
+                                      Needs alt text -->
+                                      <img width="384" height="auto" class="lazyload featuredContent__img" data-sizes="auto" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-srcset="/web/20220801152945im_/https://www.ismworld.org/globalassets/pub/navigation-images/768x465_business-survey.jpg 992w" alt=""/>
+                                    </a>
+                                  </figure>
+                              </section>
+                            </div>
+                        </div>
+                      </div>
+                    </b-collapse>
+                    <b-button class="button--overlayCloseTarget" v-b-toggle.accordion1></b-button>
+                  <div class="nav__hasL1s" role="tab">
+                    <span class="navMain__link navMain__link--L1" v-b-toggle.accordion2 variant="">
+                      For Individuals
+                        <i class="fas fa-chevron-down"></i>
+                    </span>
+                  </div>
+                    <b-collapse id="accordion2" class="nav__hasL2s" accordion="navMainAccordion" role="tabpanel">
+                      <div class="container container--nav__hasL2s">
+                        <div class="row">
+                          <div class="col-lg">
+                            <div class="row">
+
+                                <div class="col-lg-3 nav__hasL2s--column nav__hasL2s--column--nested">
+                                  <div class="nav__splitButtonWrapper">
+                                    <a href="/web/20220801152945/https://www.ismworld.org/for-individuals/membership/" class="navMain__link navMain__link--L2">
+                                      Membership
+                                    </a>
+                                      <b-button class="nav__hasL2s__button" v-b-toggle.collapse1_inner>
+                                        <i class="fas fa-chevron-down"></i>
+                                      </b-button>
+                                      <b-collapse id="collapse1_inner" class="nav__hasL3s">
+                                          <a href="/web/20220801152945/https://www.ismworld.org/for-individuals/membership/join-renew/" class="navMain__link navMain__link--L3">
+                                            Join or Renew
+                                          </a>
+                                      </b-collapse>
+                                  </div>
+                                </div>
+                                <div class="col-lg-3 nav__hasL2s--column nav__hasL2s--column--nested">
+                                  <div class="nav__splitButtonWrapper">
+                                    <a href="/web/20220801152945/https://www.ismworld.org/for-individuals/become-a-supply-management-master/" class="navMain__link navMain__link--L2">
+                                      Become A Supply Management Master
+                                    </a>
+                                  </div>
+                                </div>
+                                <div class="col-lg-3 nav__hasL2s--column nav__hasL2s--column--nested">
+                                  <div class="nav__splitButtonWrapper">
+                                    <a href="/web/20220801152945/https://www.ismworld.org/for-individuals/scholarships-and-awards/" class="navMain__link navMain__link--L2">
+                                      Scholarships &amp; Awards
+                                    </a>
+                                      <b-button class="nav__hasL2s__button" v-b-toggle.collapse3_inner>
+                                        <i class="fas fa-chevron-down"></i>
+                                      </b-button>
+                                      <b-collapse id="collapse3_inner" class="nav__hasL3s">
+                                          <a href="/web/20220801152945/https://www.ismworld.org/for-individuals/scholarships-and-awards/richter-scholarship-award/" class="navMain__link navMain__link--L3">
+                                            Richter Scholarship &amp; Award
+                                          </a>
+                                          <a href="/web/20220801152945/https://www.ismworld.org/for-individuals/scholarships-and-awards/30-under-30-program/" class="navMain__link navMain__link--L3">
+                                            30 Under 30 Program
+                                          </a>
+                                          <a href="/web/20220801152945/https://www.ismworld.org/for-individuals/scholarships-and-awards/j-shipman-award/" class="navMain__link navMain__link--L3">
+                                            J. Shipman Gold Medal Award
+                                          </a>
+                                          <a href="/web/20220801152945/https://www.ismworld.org/for-individuals/scholarships-and-awards/ism-case-competition/" class="navMain__link navMain__link--L3">
+                                            Student Case Competition
+                                          </a>
+                                          <a href="/web/20220801152945/https://www.ismworld.org/for-individuals/scholarships-and-awards/organizational-awards/" class="navMain__link navMain__link--L3">
+                                            Organizational Trailblazer Awards
+                                          </a>
+                                      </b-collapse>
+                                  </div>
+                                </div>
+                                <div class="col-lg-3 nav__hasL2s--column nav__hasL2s--column--nested">
+                                  <div class="nav__splitButtonWrapper">
+                                    <a href="/web/20220801152945/https://www.ismworld.org/for-individuals/volunteer/" class="navMain__link navMain__link--L2">
+                                      Volunteer
+                                    </a>
+                                  </div>
+                                </div>
+                                <div class="col-lg-3 nav__hasL2s--column nav__hasL2s--column--nested">
+                                  <div class="nav__splitButtonWrapper">
+                                    <a href="http://web.archive.org/web/20220801152945/https://careers.ismworld.org/jobseekers/" class="navMain__link navMain__link--L2">
+                                      Career Center
+                                    </a>
+                                      <b-button class="nav__hasL2s__button" v-b-toggle.collapse5_inner>
+                                        <i class="fas fa-chevron-down"></i>
+                                      </b-button>
+                                      <b-collapse id="collapse5_inner" class="nav__hasL3s">
+                                          <a href="http://web.archive.org/web/20220801152945/https://careers.ismworld.org/jobs/" class="navMain__link navMain__link--L3">
+                                            View Jobs
+                                          </a>
+                                          <a href="http://web.archive.org/web/20220801152945/https://careers.ismworld.org/login/?showJsSignUpTab=true" class="navMain__link navMain__link--L3">
+                                            Submit Your Resume
+                                          </a>
+                                          <a href="http://web.archive.org/web/20220801152945/https://careers.ismworld.org/jobs/alerts/" class="navMain__link navMain__link--L3">
+                                            Sign Up for Job Alerts
+                                          </a>
+                                      </b-collapse>
+                                  </div>
+                                </div>
+                                <div class="col-lg-3 nav__hasL2s--column nav__hasL2s--column--nested">
+                                  <div class="nav__splitButtonWrapper">
+                                    <a href="/web/20220801152945/https://www.ismworld.org/for-individuals/tools-resources/" class="navMain__link navMain__link--L2">
+                                      Members Tools &amp; Resources
+                                    </a>
+                                      <b-button class="nav__hasL2s__button" v-b-toggle.collapse6_inner>
+                                        <i class="fas fa-chevron-down"></i>
+                                      </b-button>
+                                      <b-collapse id="collapse6_inner" class="nav__hasL3s">
+                                          <a href="/web/20220801152945/https://www.ismworld.org/for-individuals/tools-resources/resources-templates/" class="navMain__link navMain__link--L3">
+                                            Member Tools &amp; Templates
+                                          </a>
+                                          <a href="/web/20220801152945/https://www.ismworld.org/for-individuals/tools-resources/member-monday/" class="navMain__link navMain__link--L3">
+                                            Member Monday Benefits
+                                          </a>
+                                          <a href="/web/20220801152945/https://www.ismworld.org/for-individuals/tools-resources/ism-member-webinars/" class="navMain__link navMain__link--L3">
+                                            Member Webinars
+                                          </a>
+                                      </b-collapse>
+                                  </div>
+                                </div>
+                                <div class="col-lg-3 nav__hasL2s--column nav__hasL2s--column--nested">
+                                  <div class="nav__splitButtonWrapper">
+                                    <a href="/web/20220801152945/https://www.ismworld.org/for-individuals/corporate-and-social-responsibility/" class="navMain__link navMain__link--L2">
+                                      Corporate and Social Responsibility
+                                    </a>
+                                      <b-button class="nav__hasL2s__button" v-b-toggle.collapse7_inner>
+                                        <i class="fas fa-chevron-down"></i>
+                                      </b-button>
+                                      <b-collapse id="collapse7_inner" class="nav__hasL3s">
+                                          <a href="/web/20220801152945/https://www.ismworld.org/for-individuals/corporate-and-social-responsibility/join-diversity--inclusion-pledge/" class="navMain__link navMain__link--L3">
+                                            Join Diversity &amp; Inclusion Pledge
+                                          </a>
+                                      </b-collapse>
+                                  </div>
+                                </div>
+                            </div>
+                          </div>
+                            <div class="col-lg-4 navMain__col--optionalContent">
+                              <section class="navMain__featuredContent">
+                                <header class="featuredContent__header">
+                                  <h3 class="featuredContent__headline">
+                                    <a class="featuredContent__headline__link" href="/web/20220801152945/https://www.ismworld.org/for-individuals/scholarships-and-awards/trailblazer-organizational-awards-reception-gala/">
+                                      Organizational Trailblazer Awards
+                                    </a>
+                                  </h3>
+                                </header>
+                                  <figure class="featuredContent__figure">
+                                    <a class="featuredContent__link--wrapsImage" href="/web/20220801152945/https://www.ismworld.org/for-individuals/scholarships-and-awards/trailblazer-organizational-awards-reception-gala/">
+                                      <!-- srcset image stack will always use blank inline gif unless width is more than 992 -- which we may change to 1024.
+                                      The hardcoded width and height preserves space in the document so jump doesn't occur after an image is lazyloaded.
+                                      Needs alt text -->
+                                      <img width="384" height="auto" class="lazyload featuredContent__img" data-sizes="auto" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-srcset="/web/20220801152945im_/https://www.ismworld.org/globalassets/pub/navigation-images/trailblazer-nav-ad6.png 992w" alt=""/>
+                                    </a>
+                                  </figure>
+                              </section>
+                            </div>
+                        </div>
+                      </div>
+                    </b-collapse>
+                    <b-button class="button--overlayCloseTarget" v-b-toggle.accordion2></b-button>
+                  <div class="nav__hasL1s" role="tab">
+                    <span class="navMain__link navMain__link--L1" v-b-toggle.accordion3 variant="">
+                      For Business
+                        <i class="fas fa-chevron-down"></i>
+                    </span>
+                  </div>
+                    <b-collapse id="accordion3" class="nav__hasL2s" accordion="navMainAccordion" role="tabpanel">
+                      <div class="container container--nav__hasL2s">
+                        <div class="row">
+                          <div class="col-lg">
+                            <div class="row">
+
+                                <div class="col-lg-3 nav__hasL2s--column nav__hasL2s--column--nested">
+                                  <div class="nav__splitButtonWrapper">
+                                    <a href="/web/20220801152945/https://www.ismworld.org/for-business/corporate-program/" class="navMain__link navMain__link--L2">
+                                      Corporate Program
+                                    </a>
+                                      <b-button class="nav__hasL2s__button" v-b-toggle.collapse1_inner>
+                                        <i class="fas fa-chevron-down"></i>
+                                      </b-button>
+                                      <b-collapse id="collapse1_inner" class="nav__hasL3s">
+                                          <a href="/web/20220801152945/https://www.ismworld.org/for-business/corporate-program/join/" class="navMain__link navMain__link--L3">
+                                            Join
+                                          </a>
+                                          <a href="/web/20220801152945/https://www.ismworld.org/for-business/corporate-program/case-studies/" class="navMain__link navMain__link--L3">
+                                            ISM&#174; Corporate Program Case Studies
+                                          </a>
+                                      </b-collapse>
+                                  </div>
+                                </div>
+                                <div class="col-lg-3 nav__hasL2s--column nav__hasL2s--column--nested">
+                                  <div class="nav__splitButtonWrapper">
+                                    <a href="/web/20220801152945/https://www.ismworld.org/for-business/group-training-certification/" class="navMain__link navMain__link--L2">
+                                      Group Training &amp; Certification
+                                    </a>
+                                      <b-button class="nav__hasL2s__button" v-b-toggle.collapse2_inner>
+                                        <i class="fas fa-chevron-down"></i>
+                                      </b-button>
+                                      <b-collapse id="collapse2_inner" class="nav__hasL3s">
+                                          <a href="/web/20220801152945/https://www.ismworld.org/for-business/group-training-certification/group-training/" class="navMain__link navMain__link--L3">
+                                            Group Training
+                                          </a>
+                                      </b-collapse>
+                                  </div>
+                                </div>
+                                <div class="col-lg-3 nav__hasL2s--column nav__hasL2s--column--nested">
+                                  <div class="nav__splitButtonWrapper">
+                                    <a href="/web/20220801152945/https://www.ismworld.org/for-business/capability-models-and-assessments/" class="navMain__link navMain__link--L2">
+                                      Capability Models and Assessments
+                                    </a>
+                                      <b-button class="nav__hasL2s__button" v-b-toggle.collapse3_inner>
+                                        <i class="fas fa-chevron-down"></i>
+                                      </b-button>
+                                      <b-collapse id="collapse3_inner" class="nav__hasL3s">
+                                          <a href="/web/20220801152945/https://www.ismworld.org/for-business/capability-models-and-assessments/advance-digital-platform/" class="navMain__link navMain__link--L3">
+                                            About ISM Advance™ Digital Platform
+                                          </a>
+                                      </b-collapse>
+                                  </div>
+                                </div>
+                                <div class="col-lg-3 nav__hasL2s--column nav__hasL2s--column--nested">
+                                  <div class="nav__splitButtonWrapper">
+                                    <a href="/web/20220801152945/https://www.ismworld.org/for-business/corporate-social-responsibility/" class="navMain__link navMain__link--L2">
+                                      Corporate Social Responsibility
+                                    </a>
+                                      <b-button class="nav__hasL2s__button" v-b-toggle.collapse4_inner>
+                                        <i class="fas fa-chevron-down"></i>
+                                      </b-button>
+                                      <b-collapse id="collapse4_inner" class="nav__hasL3s">
+                                          <a href="/web/20220801152945/https://www.ismworld.org/for-business/corporate-social-responsibility/join-diversity--inclusion-pledge/" class="navMain__link navMain__link--L3">
+                                            Join Diversity &amp; Inclusion Pledge
+                                          </a>
+                                      </b-collapse>
+                                  </div>
+                                </div>
+                                <div class="col-lg-3 nav__hasL2s--column nav__hasL2s--column--nested">
+                                  <div class="nav__splitButtonWrapper">
+                                    <a href="/web/20220801152945/https://www.ismworld.org/for-business/connect-with-corporate-services/" class="navMain__link navMain__link--L2">
+                                      Connect with ISM Corporate Services 
+                                    </a>
+                                  </div>
+                                </div>
+                                <div class="col-lg-3 nav__hasL2s--column nav__hasL2s--column--nested">
+                                  <div class="nav__splitButtonWrapper">
+                                    <a href="/web/20220801152945/https://www.ismworld.org/for-business/tools-resources/" class="navMain__link navMain__link--L2">
+                                      Tools &amp; Resources
+                                    </a>
+                                      <b-button class="nav__hasL2s__button" v-b-toggle.collapse6_inner>
+                                        <i class="fas fa-chevron-down"></i>
+                                      </b-button>
+                                      <b-collapse id="collapse6_inner" class="nav__hasL3s">
+                                          <a href="/web/20220801152945/https://www.ismworld.org/for-business/tools-resources/ism-supply-chain-trailblazer-awards/" class="navMain__link navMain__link--L3">
+                                            Organizational Awards
+                                          </a>
+                                          <a href="/web/20220801152945/https://www.ismworld.org/for-business/tools-resources/corporate-program-exclusive-webinars/" class="navMain__link navMain__link--L3">
+                                            Corporate Program Exclusive Webinars
+                                          </a>
+                                      </b-collapse>
+                                  </div>
+                                </div>
+                                <div class="col-lg-3 nav__hasL2s--column nav__hasL2s--column--nested">
+                                  <div class="nav__splitButtonWrapper">
+                                    <a href="/web/20220801152945/https://www.ismworld.org/for-business/research-benchmarking/" class="navMain__link navMain__link--L2">
+                                      Research &amp; Benchmarking
+                                    </a>
+                                  </div>
+                                </div>
+                                <div class="col-lg-3 nav__hasL2s--column nav__hasL2s--column--nested">
+                                  <div class="nav__splitButtonWrapper">
+                                    <a href="http://web.archive.org/web/20220801152945/https://careers.ismworld.org/employers/" class="navMain__link navMain__link--L2">
+                                      Career Center
+                                    </a>
+                                      <b-button class="nav__hasL2s__button" v-b-toggle.collapse8_inner>
+                                        <i class="fas fa-chevron-down"></i>
+                                      </b-button>
+                                      <b-collapse id="collapse8_inner" class="nav__hasL3s">
+                                          <a href="http://web.archive.org/web/20220801152945/https://careers.ismworld.org/hr/jobs/" class="navMain__link navMain__link--L3">
+                                            Post A Job
+                                          </a>
+                                          <a href="http://web.archive.org/web/20220801152945/https://careers.ismworld.org/hr/search/" class="navMain__link navMain__link--L3">
+                                            Search Candidate Resumes
+                                          </a>
+                                      </b-collapse>
+                                  </div>
+                                </div>
+                            </div>
+                          </div>
+                            <div class="col-lg-4 navMain__col--optionalContent">
+                              <section class="navMain__featuredContent">
+                                <header class="featuredContent__header">
+                                  <h3 class="featuredContent__headline">
+                                    <a class="featuredContent__headline__link" href="/web/20220801152945/https://www.ismworld.org/for-individuals/scholarships-and-awards/trailblazer-organizational-awards-reception-gala/">
+                                      Trailblazer Organizational Awards
+                                    </a>
+                                  </h3>
+                                </header>
+                                  <figure class="featuredContent__figure">
+                                    <a class="featuredContent__link--wrapsImage" href="/web/20220801152945/https://www.ismworld.org/for-individuals/scholarships-and-awards/trailblazer-organizational-awards-reception-gala/">
+                                      <!-- srcset image stack will always use blank inline gif unless width is more than 992 -- which we may change to 1024.
+                                      The hardcoded width and height preserves space in the document so jump doesn't occur after an image is lazyloaded.
+                                      Needs alt text -->
+                                      <img width="384" height="auto" class="lazyload featuredContent__img" data-sizes="auto" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-srcset="/web/20220801152945im_/https://www.ismworld.org/globalassets/pub/navigation-images/trailblazer-nav-ad6.png 992w" alt=""/>
+                                    </a>
+                                  </figure>
+                              </section>
+                            </div>
+                        </div>
+                      </div>
+                    </b-collapse>
+                    <b-button class="button--overlayCloseTarget" v-b-toggle.accordion3></b-button>
+                  <div class="nav__hasL1s" role="tab">
+                    <span class="navMain__link navMain__link--L1" v-b-toggle.accordion4 variant="">
+                      Community
+                        <i class="fas fa-chevron-down"></i>
+                    </span>
+                  </div>
+                    <b-collapse id="accordion4" class="nav__hasL2s" accordion="navMainAccordion" role="tabpanel">
+                      <div class="container container--nav__hasL2s">
+                        <div class="row">
+                          <div class="col-lg">
+                            <div class="row">
+
+                                <div class="col-lg-3 nav__hasL2s--column nav__hasL2s--column--nested">
+                                  <div class="nav__splitButtonWrapper">
+                                    <a href="/web/20220801152945/https://www.ismworld.org/community/connect/" class="navMain__link navMain__link--L2">
+                                      Connect
+                                    </a>
+                                      <b-button class="nav__hasL2s__button" v-b-toggle.collapse1_inner>
+                                        <i class="fas fa-chevron-down"></i>
+                                      </b-button>
+                                      <b-collapse id="collapse1_inner" class="nav__hasL3s">
+                                          <a href="/web/20220801152945/https://www.ismworld.org/community/connect/local-chapters/" class="navMain__link navMain__link--L3">
+                                            Local Chapters 
+                                          </a>
+                                          <a href="/web/20220801152945/https://www.ismworld.org/community/connect/special-interest-groups/" class="navMain__link navMain__link--L3">
+                                            Special Interest Groups
+                                          </a>
+                                          <a href="/web/20220801152945/https://www.ismworld.org/community/connect/global-partner-network/" class="navMain__link navMain__link--L3">
+                                            Global Partner Network 
+                                          </a>
+                                          <a href="/web/20220801152945/https://www.ismworld.org/community/connect/join-diversity--inclusion-pledge/" class="navMain__link navMain__link--L3">
+                                            Join Diversity &amp; Inclusion Pledge
+                                          </a>
+                                          <a href="/web/20220801152945/https://www.ismworld.org/community/connect/women-in-supply-management/" class="navMain__link navMain__link--L3">
+                                            Women in Supply Management
+                                          </a>
+                                      </b-collapse>
+                                  </div>
+                                </div>
+                                <div class="col-lg-3 nav__hasL2s--column nav__hasL2s--column--nested">
+                                  <div class="nav__splitButtonWrapper">
+                                    <a href="/web/20220801152945/https://www.ismworld.org/community/partner-network/" class="navMain__link navMain__link--L2">
+                                      Partner Network
+                                    </a>
+                                      <b-button class="nav__hasL2s__button" v-b-toggle.collapse2_inner>
+                                        <i class="fas fa-chevron-down"></i>
+                                      </b-button>
+                                      <b-collapse id="collapse2_inner" class="nav__hasL3s">
+                                          <a href="/web/20220801152945/https://www.ismworld.org/community/partner-network/speakers-bureau/" class="navMain__link navMain__link--L3">
+                                            Speakers Bureau
+                                          </a>
+                                          <a href="http://web.archive.org/web/20220801152945/http://purchasingandsupplysourcingguide.com/" class="navMain__link navMain__link--L3">
+                                            Supplier Directory
+                                          </a>
+                                      </b-collapse>
+                                  </div>
+                                </div>
+                                <div class="col-lg-3 nav__hasL2s--column nav__hasL2s--column--nested">
+                                  <div class="nav__splitButtonWrapper">
+                                    <a href="/web/20220801152945/https://www.ismworld.org/community/partner-opportunities/" class="navMain__link navMain__link--L2">
+                                      Partner Opportunities
+                                    </a>
+                                  </div>
+                                </div>
+                                <div class="col-lg-3 nav__hasL2s--column nav__hasL2s--column--nested">
+                                  <div class="nav__splitButtonWrapper">
+                                    <a href="/web/20220801152945/https://www.ismworld.org/community/marketing-opportunities/" class="navMain__link navMain__link--L2">
+                                      Marketing Opportunities
+                                    </a>
+                                  </div>
+                                </div>
+                            </div>
+                          </div>
+                            <div class="col-lg-4 navMain__col--optionalContent">
+                              <section class="navMain__featuredContent">
+                                <header class="featuredContent__header">
+                                    <div class="listing__details">
+                                      <div class="listing__detail-group">
+                                        <span class="listing__span">Featured Content</span>
+                                      </div>
+                                    </div>
+                                  <h3 class="featuredContent__headline">
+                                    <a class="featuredContent__headline__link" href="/web/20220801152945/https://www.ismworld.org/lp/call-for-content-creators/">
+                                      Make a Global Impact
+                                    </a>
+                                  </h3>
+                                </header>
+                                  <figure class="featuredContent__figure">
+                                    <a class="featuredContent__link--wrapsImage" href="/web/20220801152945/https://www.ismworld.org/lp/call-for-content-creators/">
+                                      <!-- srcset image stack will always use blank inline gif unless width is more than 992 -- which we may change to 1024.
+                                      The hardcoded width and height preserves space in the document so jump doesn't occur after an image is lazyloaded.
+                                      Needs alt text -->
+                                      <img width="384" height="auto" class="lazyload featuredContent__img" data-sizes="auto" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-srcset="/web/20220801152945im_/https://www.ismworld.org/globalassets/pub/navigation-images/768x465-global.jpg 992w" alt=""/>
+                                    </a>
+                                  </figure>
+                              </section>
+                            </div>
+                        </div>
+                      </div>
+                    </b-collapse>
+                    <b-button class="button--overlayCloseTarget" v-b-toggle.accordion4></b-button>
+                  <div class="nav__hasL1s" role="tab">
+                    <span class="navMain__link navMain__link--L1" v-b-toggle.accordion5 variant="">
+                      Certification &amp; Training
+                        <i class="fas fa-chevron-down"></i>
+                    </span>
+                  </div>
+                    <b-collapse id="accordion5" class="nav__hasL2s" accordion="navMainAccordion" role="tabpanel">
+                      <div class="container container--nav__hasL2s">
+                        <div class="row">
+                          <div class="col-lg">
+                            <div class="row">
+
+                                <div class="col-lg-3 nav__hasL2s--column nav__hasL2s--column--nested">
+                                  <div class="nav__splitButtonWrapper">
+                                    <a href="/web/20220801152945/https://www.ismworld.org/certification-and-training/certification/" class="navMain__link navMain__link--L2">
+                                      Certification
+                                    </a>
+                                      <b-button class="nav__hasL2s__button" v-b-toggle.collapse1_inner>
+                                        <i class="fas fa-chevron-down"></i>
+                                      </b-button>
+                                      <b-collapse id="collapse1_inner" class="nav__hasL3s">
+                                          <a href="/web/20220801152945/https://www.ismworld.org/certification-and-training/certification/cpsm/" class="navMain__link navMain__link--L3">
+                                            CPSM&#174; Certified Professional in Supply Management&#174;
+                                          </a>
+                                          <a href="/web/20220801152945/https://www.ismworld.org/certification-and-training/certification/cpsd/" class="navMain__link navMain__link--L3">
+                                            CPSD™ Certified Professional in Supplier Diversity&#174;
+                                          </a>
+                                          <a href="/web/20220801152945/https://www.ismworld.org/certification-and-training/certification/cpsm-exams/" class="navMain__link navMain__link--L3">
+                                            CPSM&#174; and CPSD™ Exam Overview
+                                          </a>
+                                          <a href="/web/20220801152945/https://www.ismworld.org/certification-and-training/certification/recertification/" class="navMain__link navMain__link--L3">
+                                            Recertification
+                                          </a>
+                                          <a href="/web/20220801152945/https://www.ismworld.org/certification-and-training/certification/earn-cehs/" class="navMain__link navMain__link--L3">
+                                            Ways to Earn CEHs
+                                          </a>
+                                      </b-collapse>
+                                  </div>
+                                </div>
+                                <div class="col-lg-3 nav__hasL2s--column nav__hasL2s--column--nested">
+                                  <div class="nav__splitButtonWrapper">
+                                    <a href="/web/20220801152945/https://www.ismworld.org/certification-and-training/training/" class="navMain__link navMain__link--L2">
+                                      Training
+                                    </a>
+                                      <b-button class="nav__hasL2s__button" v-b-toggle.collapse2_inner>
+                                        <i class="fas fa-chevron-down"></i>
+                                      </b-button>
+                                      <b-collapse id="collapse2_inner" class="nav__hasL3s">
+                                          <a href="/web/20220801152945/https://www.ismworld.org/certification-and-training/training/education-calendar/" class="navMain__link navMain__link--L3">
+                                            Education Calendar
+                                          </a>
+                                          <a href="/web/20220801152945/https://www.ismworld.org/certification-and-training/training/training-topics/" class="navMain__link navMain__link--L3">
+                                            Training Topics
+                                          </a>
+                                          <a href="/web/20220801152945/https://www.ismworld.org/certification-and-training/training/face-to-face-classroom/" class="navMain__link navMain__link--L3">
+                                            Face to Face Classroom
+                                          </a>
+                                          <a href="/web/20220801152945/https://www.ismworld.org/certification-and-training/training/live-online/" class="navMain__link navMain__link--L3">
+                                            Live Online
+                                          </a>
+                                          <a href="/web/20220801152945/https://www.ismworld.org/certification-and-training/training/self-paced/" class="navMain__link navMain__link--L3">
+                                            Self-Paced
+                                          </a>
+                                          <a href="/web/20220801152945/https://www.ismworld.org/certification-and-training/training/certificates/" class="navMain__link navMain__link--L3">
+                                            Certificates
+                                          </a>
+                                      </b-collapse>
+                                  </div>
+                                </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </b-collapse>
+                    <b-button class="button--overlayCloseTarget" v-b-toggle.accordion5></b-button>
+                  <div class="nav__hasL1s" role="tab">
+                    <span class="navMain__link navMain__link--L1" v-b-toggle.accordion6 variant="">
+                      Events
+                        <i class="fas fa-chevron-down"></i>
+                    </span>
+                  </div>
+                    <b-collapse id="accordion6" class="nav__hasL2s" accordion="navMainAccordion" role="tabpanel">
+                      <div class="container container--nav__hasL2s">
+                        <div class="row">
+                          <div class="col-lg">
+                            <div class="row">
+
+                                <div class="col-lg-3 nav__hasL2s--column nav__hasL2s--column--nested">
+                                  <div class="nav__splitButtonWrapper">
+                                    <a href="/web/20220801152945/https://www.ismworld.org/events/conferences-and-events/" class="navMain__link navMain__link--L2">
+                                      ISM Conferences and Events
+                                    </a>
+                                      <b-button class="nav__hasL2s__button" v-b-toggle.collapse1_inner>
+                                        <i class="fas fa-chevron-down"></i>
+                                      </b-button>
+                                      <b-collapse id="collapse1_inner" class="nav__hasL3s">
+                                          <a href="/web/20220801152945/https://www.ismworld.org/events/conferences-and-events/upcoming-events/" class="navMain__link navMain__link--L3">
+                                            Upcoming Events
+                                          </a>
+                                          <a href="/web/20220801152945/https://www.ismworld.org/events/conferences-and-events/annual-conference/" class="navMain__link navMain__link--L3">
+                                            ISM World Annual Conference
+                                          </a>
+                                          <a href="/web/20220801152945/https://www.ismworld.org/events/conferences-and-events/upmg/" class="navMain__link navMain__link--L3">
+                                            Utility Purchasing Management Group (UPMG)  Annual Conference
+                                          </a>
+                                          <a href="/web/20220801152945/https://www.ismworld.org/events/conferences-and-events/organizational-trailblazer-awards-gala/" class="navMain__link navMain__link--L3">
+                                            Trailblazer Organizational Awards Gala
+                                          </a>
+                                      </b-collapse>
+                                  </div>
+                                </div>
+                                <div class="col-lg-3 nav__hasL2s--column nav__hasL2s--column--nested">
+                                  <div class="nav__splitButtonWrapper">
+                                    <a href="/web/20220801152945/https://www.ismworld.org/events/exhibit-and-sponsorship-opportunities/" class="navMain__link navMain__link--L2">
+                                      Exhibit and Sponsorship Opportunities
+                                    </a>
+                                  </div>
+                                </div>
+                                <div class="col-lg-3 nav__hasL2s--column nav__hasL2s--column--nested">
+                                  <div class="nav__splitButtonWrapper">
+                                    <a href="/web/20220801152945/https://www.ismworld.org/events/speaking-opportunities/" class="navMain__link navMain__link--L2">
+                                      Speaking Opportunities
+                                    </a>
+                                  </div>
+                                </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </b-collapse>
+                    <b-button class="button--overlayCloseTarget" v-b-toggle.accordion6></b-button>
+              </div>
+          </div>
+        </div>
+
+
+      </b-navbar-nav>
+
+
+    </b-collapse>
+
+  </b-navbar>
+</div>
+
+<div id="stickySentinelTopID" class="sticky_sentinel sticky_sentinel--top"></div>
+
+<script>
+  (function () {
+    function initThisComponent() {
+      new Vue({
+        el: "#navApp",
+        mixins: [autocomp]
+      });
+    }
+    document.addEventListener("DOMContentLoaded", initThisComponent, false);
+  })();
+</script>
+        <link rel="stylesheet" href="/web/20220801152945cs_/https://www.ismworld.org/Static/css/cake.css?v=1_0_8172_18990"/>
+
+        <main class="main" id="main">
+          
+            
+
+
+<div class="component">
+	<div class="container">
+
+<div class="breadcrumb">
+            <span class="breadcrumb-item">
+
+                        <a href="/web/20220801152945/https://www.ismworld.org/">
+Home                        </a>
+            </span>
+            <span class="breadcrumb-item">
+
+Supply Management News &amp; Reports            </span>
+            <span class="breadcrumb-item">
+
+                        <a href="/web/20220801152945/https://www.ismworld.org/supply-management-news-and-reports/reports/">
+ISM Reports                        </a>
+            </span>
+            <span class="breadcrumb-item">
+
+                        <a href="/web/20220801152945/https://www.ismworld.org/supply-management-news-and-reports/reports/ism-report-on-business/">
+ISM Report On Business&#174;                        </a>
+            </span>
+            <span class="breadcrumb-item">
+
+PMI            </span>
+        <span class="breadcrumb-item">
+July        </span>
+</div>
+
+		<div class="internalRichText" data-internalrichtext>
+			<div class="row flex-row-reverse">
+				<div class="col-md-9 internalRichText--right">
+					<div class="richText__content">
+						<div class="container">
+<div class="row">
+<div class="col-lg-12"><!-- PMI Number -->
+<h1 class="text-center">Manufacturing PMI<sup>&reg;</sup> at 52.8%</h1>
+<!-- H1 -->
+<h1 class="text-center">July 2022 Manufacturing ISM<sup>&reg;</sup> <em>Report On Business<sup>&reg;</sup></em></h1>
+<!-- Subtitles -->
+<h3 class="text-center" style="padding-bottom: 50px; padding-top: 70px; line-height: 35px;">New Orders and Employment Contracting<br/>Production and Backlogs Growing<br/>Supplier Deliveries Slowing at a Slower Rate<br/>Raw Materials Inventories Growing; Customers&rsquo; Inventories Too Low<br/>Prices Increasing at a Slower Rate; Exports and Imports Growing<br/>Record-Long Lead Times for Production Materials and MRO Supplies</h3>
+<p>(Tempe, Arizona) &mdash; Economic activity in the <strong>manufacturing sector grew in July,</strong> with the <strong>overall economy achieving a 26th consecutive month of growth,</strong> say the nation's supply executives in the latest <strong>Manufacturing ISM<sup>&reg;</sup> <i>Report On Business<sup>&reg;</sup></i></strong>.</p>
+<!-- Paragraph One -->
+<p>The report was issued today by Timothy R. Fiore, CPSM, C.P.M., Chair of the Institute for Supply Management<sup>&reg;</sup> (ISM<sup>&reg;</sup>) Manufacturing Business Survey Committee:</p>
+<!-- Paragraph Two -->
+<p>&ldquo;The July Manufacturing PMI<sup>&reg;</sup> registered 52.8 percent, down 0.2 percentage point from the reading of 53 percent in June. This figure indicates expansion in the overall economy for the 26th month in a row after a contraction in April and May 2020. This is the lowest Manufacturing PMI<sup>&reg;</sup> figure since June 2020, when it registered 52.4 percent. The New Orders Index registered 48 percent, 1.2 percentage points lower than the 49.2 percent recorded in June. The Production Index reading of 53.5 percent is a 1.4-percentage point decrease compared to June&rsquo;s figure of 54.9 percent. The Prices Index registered 60 percent, down 18.5 percentage points compared to the June figure of 78.5 percent; this is the index&rsquo;s lowest reading since August 2020 (59.5 percent). The Backlog of Orders Index registered 51.3 percent, 1.9 percentage points below the June reading of 53.2 percent. The Employment Index contracted for a third straight month at 49.9 percent, 2.6 percentage points higher than the 47.3 percent recorded in June. The Supplier Deliveries Index reading of 55.2 percent is 2.1 percentage points lower than the June figure of 57.3 percent. The Inventories Index registered 57.3 percent, 1.3 percentage points higher than the June reading of 56 percent. The New Export Orders Index reading of 52.6 percent is up 1.9 percentage points compared to June&rsquo;s figure of 50.7 percent. The Imports Index grew again in July, up 3.7 percentage points to 54.4 percent from 50.7 percent in June.&rdquo;</p>
+<!-- Paragraph Three -->
+<p>Fiore continues, &ldquo;The U.S. manufacturing sector continues expanding &mdash; though slightly less so in July &mdash; as new order rates continue to contract, supplier deliveries improve and prices soften to acceptable levels. According to Business Survey Committee respondents&rsquo; comments, companies continue to hire at strong rates, with few indications of layoffs, hiring freezes or headcount reduction through attrition. Panelists reported higher rates of quits, reversing June&rsquo;s positive trend. Prices expansion eased dramatically in July, but instability in global energy markets continues. Sentiment remained optimistic regarding demand, with six positive growth comments for every cautious comment. Panelists are now expressing concern about a softening in the economy, as new order rates contracted for the second month amid developing anxiety about excess inventory in the supply chain. <strong>Demand</strong> dropped, with the (1) New Orders Index contracting again, (2) Customers&rsquo; Inventories Index remaining at a low level but approaching 40 percent and (3) Backlog of Orders Index decreasing but still in growth territory. <strong>Consumption</strong> (measured by the Production and Employment indexes) was mixed during the period, with a combined positive 1.2-percentage point impact on the Manufacturing PMI<sup>&reg;</sup> calculation. The Employment Index contracted for the third month in a row after expanding for eight straight months (September 2021 through April), but panelists again indicated month-over-month improvement in hiring ability in July. Challenges with turnover (quits and retirements) and resulting backfilling continue to plague efforts to adequately staff organizations. <strong>Inputs</strong> &mdash; expressed as supplier deliveries, inventories and imports &mdash; continued to constrain production expansion, but to a significantly lesser extent compared to June. The Supplier Deliveries Index indicated deliveries slowed at a slower rate in July, which was supported by an increase in the Inventories Index. The Imports Index continued to expand in July after one month of contraction preceded by six straight months of growth. The Prices Index increased for the 26th consecutive month, at a much slower rate compared to June.</p>
+<!-- Paragraph Four -->
+<p>&ldquo;Four of the six biggest manufacturing industries &mdash; Petroleum &amp; Coal Products; Computer &amp; Electronic Products; Transportation Equipment; and Machinery &mdash; registered moderate-to-strong growth in July.</p>
+<!-- Paragraph Five -->
+<p>&ldquo;Manufacturing performed well for the 26th straight month. There are signs of new order rates softening &mdash; cited in 16 percent of general comments, compared to 17 percent in June &mdash; as panelists are increasingly concerned about excessive inventories and continuing record-high lead times. Employment activity remained strongly positive in spite of the uncertainty with new order rates,&rdquo; says Fiore.</p>
+<p>Eleven manufacturing industries reported growth in July, in the following order: Apparel, Leather &amp; Allied Products; Nonmetallic Mineral Products; Petroleum &amp; Coal Products; Printing &amp; Related Support Activities; Computer &amp; Electronic Products; Transportation Equipment; Machinery; Textile Mills; Primary Metals; Plastics &amp; Rubber Products; and Electrical Equipment, Appliances &amp; Components. The seven industries reporting contraction in July compared to June, in the following order are: Wood Products; Furniture &amp; Related Products; Paper Products; Miscellaneous Manufacturing; Fabricated Metal Products; Food, Beverage &amp; Tobacco Products; and Chemical Products.</p>
+<h3 id="respondentsSay" style="padding-top: 70px; color: #002f59; font-size: 40px; text-decoration: underline;">WHAT RESPONDENTS ARE SAYING</h3>
+<!-- Respondent List Items -->
+<ul>
+<li>&ldquo;Material extended lead times still affecting business, and the challenging labor market is a huge factor too. Backlog is healthy; we just cannot deliver to customers due to material issues.&rdquo; [Computer &amp; Electronic Products]</li>
+<li>&ldquo;Inflation is slowing down business. Overstock of raw materials due to prior supply chain issues and slowing orders.&rdquo; [Chemical Products]</li>
+<li>&ldquo;Chip shortages remain; however, the COVID-19 lockdowns in China are presenting even worse supply issues.&rdquo; [Transportation Equipment]</li>
+<li>&ldquo;Growing inflation is pushing a stronger narrative around pending recession concerns. Many customers appear to be pulling back on orders in an effort to reduce inventories.&rdquo; [Food, Beverage &amp; Tobacco Products]</li>
+<li>&ldquo;New order entry has slowed down slightly; however, logistical issues have yet to improve. Long lead times for materials and labor shortages are still a major problem.&rdquo; [Machinery]</li>
+<li>&ldquo;Our markets are still holding up; however, I believe a slowdown is coming. We are cautious about going out too far with orders. Also, I believe the general market is in the beginnings of a recession.&rdquo; [Fabricated Metal Products]</li>
+<li>&ldquo;All markets are extremely busy but face headwinds that will eventually take a toll. Lead times and costs make large projects very challenging to budget, plan and execute. Routine work is also very difficult.&rdquo; [Nonmetallic Mineral Products]</li>
+<li>&ldquo;Current order books are full, but there have been signs of a slowdown beginning in the fourth quarter.&rdquo; [Plastics &amp; Rubber Products]</li>
+<li>&ldquo;Slight improvement projected for our business for the next quarter.&rdquo; [Primary Metals]</li>
+<li>&ldquo;Continuing delivery and staffing issues have eaten away the bottom line.&rdquo; [Textile Mills]</li>
+</ul>
+<h3 style="text-align: center; padding-top: 30px; padding-bottom: 20px;">Manufacturing at a Glance<br/><small class="text-strong">July 2022</small></h3>
+<table class="table table-bordered table-hover table-responsive mb-4">
+<thead>
+<tr>
+<th class="text-center" scope="col">Index</th>
+<th class="text-center" scope="col">Series Index Jul</th>
+<th class="text-center" scope="col">Series Index Jun</th>
+<th class="text-center" scope="col">Percentage Point Change</th>
+<th class="text-center" scope="col">Direction</th>
+<th class="text-center" scope="col">Rate of Change</th>
+<th class="text-center" scope="col">Trend* (Months)</th>
+</tr>
+</thead>
+<tbody>
+<tr><!-- Table#-Row#-Column# -->
+<th scope="row">Manufacturing PMI<sup>&reg;</sup></th>
+<td class="text-center">52.8</td>
+<td class="text-center">53.0</td>
+<td class="text-center">-0.2</td>
+<td class="text-center">Growing</td>
+<td class="text-center">Slower</td>
+<td class="text-center">26</td>
+</tr>
+<tr><!-- Table#-Row#-Column# -->
+<th scope="row">New Orders</th>
+<td class="text-center">48.0</td>
+<td class="text-center">49.2</td>
+<td class="text-center">-1.2</td>
+<td class="text-center">Contracting</td>
+<td class="text-center">Faster</td>
+<td class="text-center">2</td>
+</tr>
+<tr><!-- Table#-Row#-Column# -->
+<th scope="row">Production</th>
+<td class="text-center">53.5</td>
+<td class="text-center">54.9</td>
+<td class="text-center">-1.4</td>
+<td class="text-center">Growing</td>
+<td class="text-center">Slower</td>
+<td class="text-center">26</td>
+</tr>
+<tr><!-- Table#-Row#-Column# -->
+<th scope="row">Employment</th>
+<td class="text-center">49.9</td>
+<td class="text-center">47.3</td>
+<td class="text-center">+2.6</td>
+<td class="text-center">Contracting</td>
+<td class="text-center">Slower</td>
+<td class="text-center">3</td>
+</tr>
+<tr><!-- Table#-Row#-Column# -->
+<th scope="row">Supplier Deliveries</th>
+<td class="text-center">55.2</td>
+<td class="text-center">57.3</td>
+<td class="text-center">-2.1</td>
+<td class="text-center">Slowing</td>
+<td class="text-center">Slower</td>
+<td class="text-center">77</td>
+</tr>
+<tr><!-- Table#-Row#-Column# -->
+<th scope="row">Inventories</th>
+<td class="text-center">57.3</td>
+<td class="text-center">56.0</td>
+<td class="text-center">+1.3</td>
+<td class="text-center">Growing</td>
+<td class="text-center">Faster</td>
+<td class="text-center">12</td>
+</tr>
+<tr><!-- Table#-Row#-Column# -->
+<th scope="row">Customers&rsquo; Inventories</th>
+<td class="text-center">39.5</td>
+<td class="text-center">35.2</td>
+<td class="text-center">+4.3</td>
+<td class="text-center">Too Low</td>
+<td class="text-center">Slower</td>
+<td class="text-center">70</td>
+</tr>
+<tr><!-- Table#-Row#-Column# -->
+<th scope="row">Prices</th>
+<td class="text-center">60.0</td>
+<td class="text-center">78.5</td>
+<td class="text-center">-18.5</td>
+<td class="text-center">Increasing</td>
+<td class="text-center">Slower</td>
+<td class="text-center">26</td>
+</tr>
+<tr><!-- Table#-Row#-Column# -->
+<th scope="row">Backlog of Orders</th>
+<td class="text-center">51.3</td>
+<td class="text-center">53.2</td>
+<td class="text-center">-1.9</td>
+<td class="text-center">Growing</td>
+<td class="text-center">Slower</td>
+<td class="text-center">25</td>
+</tr>
+<tr><!-- Table#-Row#-Column# -->
+<th scope="row">New Export Orders</th>
+<td class="text-center">52.6</td>
+<td class="text-center">50.7</td>
+<td class="text-center">+1.9</td>
+<td class="text-center">Growing</td>
+<td class="text-center">Faster</td>
+<td class="text-center">25</td>
+</tr>
+<tr><!-- Table#-Row#-Column# -->
+<th scope="row">Imports</th>
+<td class="text-center">54.4</td>
+<td class="text-center">50.7</td>
+<td class="text-center">+3.7</td>
+<td class="text-center">Growing</td>
+<td class="text-center">Faster</td>
+<td class="text-center">2</td>
+</tr>
+<tr><!-- Table#-Row#-Column# -->
+<th class="text-center" colspan="4" scope="row">OVERALL ECONOMY</th>
+<td class="text-center">Growing</td>
+<td class="text-center">Slower</td>
+<td class="text-center">26</td>
+</tr>
+<tr><!-- Table#-Row#-Column# -->
+<th class="text-center" colspan="4" scope="row">Manufacturing Sector</th>
+<td class="text-center">Growing</td>
+<td class="text-center">Slower</td>
+<td class="text-center">26</td>
+</tr>
+</tbody>
+</table>
+<h5><strong>Manufacturing ISM<sup>&reg;</sup> <i>Report On Business<sup>&reg;</sup></i></strong> data is seasonally adjusted for the New Orders, Production, Employment and Inventories indexes.<br/>*Number of months moving in current direction.</h5>
+</div>
+<div class="row">
+<div class="col-lg-12">
+<h3 id="commodities" style="padding-top: 70px; color: #002f59; font-size: 40px; text-decoration: underline;">COMMODITIES REPORTED UP/DOWN IN PRICE AND IN SHORT SUPPLY</h3>
+<br/>
+<h3 style="padding-bottom: 0px;">Commodities Up in Price</h3>
+<hr/>
+<div>
+<p>Adhesives and Paint (8); Aluminum* (26); Caustic Soda (5); Corrugate (6); Corrugated Packaging (21); Crude Oil (3); Diesel Fuel* (19); Electrical Components (20); Electricity (2); Electronic Components (20); Freight (21); Labor &mdash; Temporary (15); Logistics Services; Maintenance, Repair and Operating (MRO) Supplies; Natural Gas* (13); Petroleum Based Products (3); Plastic Resins* (7); Polyethylene; Rubber Based Products (12); Solvents; and Steel Products* (23).</p>
+</div>
+<br/>
+<h3 style="padding-top: 30px; padding-bottom: 0px;">Commodities Down in Price</h3>
+<hr/>
+<div>
+<p>Aluminum* (3); Aluminum Products; Copper; Diesel Fuel*; Lumber (2); Natural Gas*; Plastic Resins* (2); Steel (3); Steel &mdash; Carbon; Steel &mdash; Hot Rolled (3); and Steel Products*.</p>
+</div>
+<br/>
+<h3 style="padding-top: 30px; padding-bottom: 0px;">Commodities in Short Supply</h3>
+<hr/>
+<p>Adhesives and Paints; Aluminum; Electrical Components (22); Electronic Components (20); Hydraulic Components (3); Labor &mdash; Temporary (15); Plastic Resins (3); Resin Based Products; Rubber Based Products (2); Semiconductors (20); and Steel Products (4).</p>
+</div>
+</div>
+</div>
+<div>
+<p>Note: The number of consecutive months the commodity is listed is indicated after each item</p>
+<p>*Indicates both up and down in price.</p>
+</div>
+<div><hr/>
+<h3 style="padding-top: 70px; color: #002f59; font-size: 40px; text-decoration: underline;">JULY 2022 MANUFACTURING INDEX SUMMARIES</h3>
+<hr/></div>
+<div>
+<h3 id="manIndexSumm" class="text-uppercase" style="padding-bottom: 0px;">Manufacturing PMI<sup>&reg;</sup></h3>
+<p>The U.S. manufacturing sector grew in July, as the Manufacturing PMI<sup>&reg;</sup> registered 52.8 percent, 0.2 percentage point lower than the June reading of 53 percent. &ldquo;The Manufacturing PMI<sup>&reg;</sup> continued to indicate sector expansion and U.S. economic growth in July. Three of the five subindexes that directly factor into the Manufacturing PMI<sup>&reg;</sup> (Production, Supplier Deliveries and Inventories) were in growth territory. Of the six biggest manufacturing industries, four &mdash; Petroleum &amp; Coal Products; Computer &amp; Electronic Products; Transportation Equipment; and Machinery &mdash; registered moderate-to-strong growth in July. The Production Index decreased 1.4 percentage points but remained in expansion territory. The Supplier Deliveries Index slowed at a slower rate while the Inventories Index increased, indicating at least a slight easing of supply chain congestion. Eight of the 10 subindexes were positive for the period; a reading of &lsquo;too low&rsquo; for the Customers&rsquo; Inventories Index is considered a positive for future production,&rdquo; says Fiore. A reading above 50 percent indicates that the manufacturing economy is generally expanding; below 50 percent indicates that it is generally contracting</p>
+<p>A Manufacturing PMI<sup>&reg;</sup> above 48.7 percent, over a period of time, generally indicates an expansion of the overall economy. Therefore, the July Manufacturing PMI<sup>&reg;</sup> indicates the overall economy grew in July for the 26th consecutive month following contraction in April and May 2020. &ldquo;The past relationship between the Manufacturing PMI<sup>&reg;</sup> and the overall economy indicates that the Manufacturing PMI<sup>&reg;</sup> for July (52.8 percent) corresponds to a 1.4-percent increase in real gross domestic product (GDP) on an annualized basis,&rdquo; says Fiore.</p>
+</div>
+<!-- Manufacturing at a Glance -->
+<div class="mb-4">
+<h3 class="text-uppercase" style="text-align: center; padding-bottom: 0px; padding-top: 30px;">THE LAST 12 MONTHS</h3>
+<hr/>
+<div class="row">
+<div class="col-lg-6 col-md-6 col-sm-12">
+<table class="table table-bordered table-hover">
+<thead>
+<tr>
+<th scope="col">Month</th>
+<th scope="col"><center>Manufacturing PMI<sup>&reg;</sup></center></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th scope="row">Jul 2022</th>
+<td class="text-center">52.8</td>
+</tr>
+<tr>
+<th scope="row">Jun 2022</th>
+<td class="text-center">53.0</td>
+</tr>
+<tr>
+<th scope="row">May 2022</th>
+<td class="text-center">56.1</td>
+</tr>
+<tr>
+<th scope="row">Apr 2022</th>
+<td class="text-center">55.4</td>
+</tr>
+<tr>
+<th scope="row">Mar 2022</th>
+<td class="text-center">57.1</td>
+</tr>
+<tr>
+<th scope="row">Feb 2022</th>
+<td class="text-center">58.6</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="col-lg-6 col-md-6 col-sm-12">
+<table class="table table-bordered table-hover">
+<thead>
+<tr>
+<th scope="col">Month</th>
+<th scope="col"><center>Manufacturing PMI<sup>&reg;</sup></center></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th scope="row">Jan 2022</th>
+<td class="text-center">57.6</td>
+</tr>
+<tr>
+<th scope="row">Dec 2021</th>
+<td class="text-center">58.8</td>
+</tr>
+<tr>
+<th scope="row">Nov 2021</th>
+<td class="text-center">60.6</td>
+</tr>
+<tr>
+<th scope="row">Oct 2021</th>
+<td class="text-center">60.8</td>
+</tr>
+<tr>
+<th scope="row">Sep 2021</th>
+<td class="text-center">60.5</td>
+</tr>
+<tr>
+<th scope="row">Aug 2021</th>
+<td class="text-center">59.7</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="text-center" style="padding-top: 30px; padding-bottom: 20px;"><label>Average for 12 months -</label> 57.6 <br/><label>High -</label> 60.8 <br/><label>Low -</label> 52.8</div>
+</div>
+<!-- New Orders -->
+<div class="mb-4">
+<h3 class="text-uppercase" style="padding-top: 70px; color: #002f59; font-size: 40px; text-decoration: underline;">New Orders</h3>
+<p>ISM<sup>&reg;</sup>&rsquo;s New Orders Index dropped to 48 percent in July, a decrease of 1.2 percentage points compared to the 49.2 percent reported in June. This indicates that new order volumes contracted again after growing for 24 consecutive months. &ldquo;Only one of the six largest manufacturing sectors &mdash; Computer &amp; Electronic Products &mdash; increased new orders at a moderate level. Lead times remain at elevated levels, and fundamental raw material prices continue to persuade buyers to remain on the sidelines. Also contributing to order-placement pauses are concerns about future economic growth slowing and the impact to manufacturing inventories caused by additional order placements, which could impact working capital in the near-to-moderate term. Backlogs continued to sag due to the weakness in new orders,&rdquo; says Fiore. A New Orders Index above 52.9 percent, over time, is generally consistent with an increase in the Census Bureau&rsquo;s series on manufacturing orders (in constant 2000 dollars).</p>
+<p>Of the 18 manufacturing industries, four reported growth in new orders in July: Nonmetallic Mineral Products; Printing &amp; Related Support Activities; Primary Metals; and Computer &amp; Electronic Products. Seven industries reported a decline in new orders in July, in the following order: Wood Products; Furniture &amp; Related Products; Fabricated Metal Products; Miscellaneous Manufacturing; Plastics &amp; Rubber Products; Chemical Products; and Machinery. Seven industries reported no change in new orders in July as compared to June.</p>
+<table class="table table-bordered table-hover">
+<thead>
+<tr>
+<th class="text-center" scope="col">New Orders</th>
+<th class="text-center" scope="col">% Higher</th>
+<th class="text-center" scope="col">% Same</th>
+<th class="text-center" scope="col">% Lower</th>
+<th class="text-center" scope="col">Net</th>
+<th class="text-center" scope="col">Index</th>
+</tr>
+</thead>
+<tbody>
+<tr><!--Table 3 - Table#-Row#-Column# -->
+<th class="text-center" scope="row">Jul 2022</th>
+<td class="text-center">17.2</td>
+<td class="text-center">63.0</td>
+<td class="text-center">19.8</td>
+<td class="text-center">-2.6</td>
+<td class="text-center">48.0</td>
+</tr>
+<tr><!--Table 3 - Table#-Row#-Column# -->
+<th class="text-center" scope="row">Jun 2022</th>
+<td class="text-center">17.8</td>
+<td class="text-center">65.1</td>
+<td class="text-center">17.1</td>
+<td class="text-center">+0.7</td>
+<td class="text-center">49.2</td>
+</tr>
+<tr><!--Table 3 - Table#-Row#-Column# -->
+<th class="text-center" scope="row">May 2022</th>
+<td class="text-center">28.2</td>
+<td class="text-center">58.5</td>
+<td class="text-center">13.3</td>
+<td class="text-center">+14.9</td>
+<td class="text-center">55.1</td>
+</tr>
+<tr><!--Table 3 - Table#-Row#-Column# -->
+<th class="text-center" scope="row">Apr 2022</th>
+<td class="text-center">25.1</td>
+<td class="text-center">64.0</td>
+<td class="text-center">10.9</td>
+<td class="text-center">+14.2</td>
+<td class="text-center">53.5</td>
+</tr>
+</tbody>
+</table>
+</div>
+<!-- Production -->
+<div class="mb-4">
+<h3 id="production" class="text-uppercase" style="padding-top: 70px; color: #002f59; font-size: 40px; text-decoration: underline;">Production</h3>
+<p>The Production Index registered 53.5 percent in July, 1.4 percentage points lower than the June reading of 54.9 percent, indicating growth for the 26th consecutive month. &ldquo;Of the top six industries, three &mdash;Petroleum &amp; Coal Products; Computer &amp; Electronic Products; and Transportation Equipment &mdash; expanded in July. Materials availability continues to show signs of recovery, but factories are still struggling to hit optimum output rates, primarily due to high levels of employee turnover,&rdquo; says Fiore. An index above 52.4 percent, over time, is generally consistent with an increase in the Federal Reserve Board&rsquo;s Industrial Production figures.</p>
+<p>Five industries reported growth in production during the month of July: Apparel, Leather &amp; Allied Products; Petroleum &amp; Coal Products; Computer &amp; Electronic Products; Transportation Equipment; and Plastics &amp; Rubber Products. The six industries reporting a decrease in production in July &mdash; in the following order &mdash; are: Wood Products; Textile Mills; Miscellaneous Manufacturing; Fabricated Metal Products; Electrical Equipment, Appliances &amp; Components; and Food, Beverage &amp; Tobacco Products. Seven industries reported no change in production levels in July as compared to June.</p>
+<table class="table table-bordered table-hover">
+<thead>
+<tr>
+<th class="text-center" scope="col">Production</th>
+<th class="text-center" scope="col">% Higher</th>
+<th class="text-center" scope="col">% Same</th>
+<th class="text-center" scope="col">% Lower</th>
+<th class="text-center" scope="col">Net</th>
+<th class="text-center" scope="col">Index</th>
+</tr>
+</thead>
+<tbody>
+<tr><!--Table 4 - Table#-Row#-Column# -->
+<th class="text-center" scope="row">Jul 2022</th>
+<td class="text-center">24.9</td>
+<td class="text-center">58.5</td>
+<td class="text-center">16.6</td>
+<td class="text-center">+8.3</td>
+<td class="text-center">53.5</td>
+</tr>
+<tr><!--Table 4 - Table#-Row#-Column# -->
+<th class="text-center" scope="row">Jun 2022</th>
+<td class="text-center">27.4</td>
+<td class="text-center">60.9</td>
+<td class="text-center">11.7</td>
+<td class="text-center">+15.7</td>
+<td class="text-center">54.9</td>
+</tr>
+<tr><!--Table 4 - Table#-Row#-Column# -->
+<th class="text-center" scope="row">May 2022</th>
+<td class="text-center">23.9</td>
+<td class="text-center">59.2</td>
+<td class="text-center">16.9</td>
+<td class="text-center">+7.0</td>
+<td class="text-center">54.2</td>
+</tr>
+<tr><!--Table 4 - Table#-Row#-Column# -->
+<th class="text-center" scope="row">Apr 2022</th>
+<td class="text-center">27.5</td>
+<td class="text-center">61.0</td>
+<td class="text-center">11.5</td>
+<td class="text-center">+16.0</td>
+<td class="text-center">53.6</td>
+</tr>
+</tbody>
+</table>
+</div>
+<!-- Employment -->
+<div class="mb-4">
+<h3 id="employment" class="text-uppercase" style="padding-top: 70px; color: #002f59; font-size: 40px; text-decoration: underline;">Employment</h3>
+<p>ISM<sup>&reg;</sup>&rsquo;s Employment Index registered 49.9 percent in July, 2.6 percentage points above the June reading of 47.3 percent. &ldquo;The index contracted for the third straight month after an eight-month period of expansion. Of the six big manufacturing sectors, three (Transportation Equipment; Petroleum &amp; Coal Products; and Machinery) expanded. Although an overwhelming majority of survey panelists again indicate their companies are hiring, they are still struggling to meet labor management plans. Improvement signs are mixed: A smaller share of comments (7 percent in July, down from 14 percent in June) noted greater hiring ease, and among respondents whose companies are hiring, 35 percent expressed difficulty in filling positions, down from 42 percent in June. Turnover rates remain elevated, with 39 percent of comments citing backfills and retirements, an increase from 29 percent in June. Employment levels, driven primarily by turnover, remain the top issue affecting production growth,&rdquo; says Fiore. An Employment Index above 50.5 percent, over time, is generally consistent with an increase in the Bureau of Labor Statistics (BLS) data on manufacturing employment.</p>
+<p>Eight of 18 manufacturing industries reported employment growth in July, in the following order: Apparel, Leather &amp; Allied Products; Nonmetallic Mineral Products; Printing &amp; Related Support Activities; Transportation Equipment; Petroleum &amp; Coal Products; Plastics &amp; Rubber Products; Machinery; and Electrical Equipment, Appliances &amp; Components. The six industries reporting a decrease in employment in July &mdash; in the following order &mdash; are: Textile Mills; Paper Products; Primary Metals; Miscellaneous Manufacturing; Food, Beverage &amp; Tobacco Products; and Chemical Products.</p>
+<table class="table table-bordered table-hover">
+<thead>
+<tr>
+<th class="text-center" scope="col">Employment</th>
+<th class="text-center" scope="col">% Higher</th>
+<th class="text-center" scope="col">% Same</th>
+<th class="text-center" scope="col">% Lower</th>
+<th class="text-center" scope="col">Net</th>
+<th class="text-center" scope="col">Index</th>
+</tr>
+</thead>
+<tbody>
+<tr><!--Table 5 - Table#-Row#-Column# -->
+<th class="text-center" scope="row">Jul 2022</th>
+<td class="text-center">22.0</td>
+<td class="text-center">59.4</td>
+<td class="text-center">18.6</td>
+<td class="text-center">+3.4</td>
+<td class="text-center">49.9</td>
+</tr>
+<tr><!--Table 5 - Table#-Row#-Column# -->
+<th class="text-center" scope="row">Jun 2022</th>
+<td class="text-center">17.9</td>
+<td class="text-center">63.7</td>
+<td class="text-center">18.4</td>
+<td class="text-center">-0.5</td>
+<td class="text-center">47.3</td>
+</tr>
+<tr><!--Table 5 - Table#-Row#-Column# -->
+<th class="text-center" scope="row">May 2022</th>
+<td class="text-center">21.8</td>
+<td class="text-center">55.4</td>
+<td class="text-center">22.8</td>
+<td class="text-center">-1.0</td>
+<td class="text-center">49.6</td>
+</tr>
+<tr><!--Table 5 - Table#-Row#-Column# -->
+<th class="text-center" scope="row">Apr 2022</th>
+<td class="text-center">21.0</td>
+<td class="text-center">61.9</td>
+<td class="text-center">17.1</td>
+<td class="text-center">+3.9</td>
+<td class="text-center">50.9</td>
+</tr>
+</tbody>
+</table>
+</div>
+<!-- Supplier Deliveries -->
+<div class="mb-4">
+<h3 id="supplierDeliveries" class="text-uppercase" style="padding-top: 70px; color: #002f59; font-size: 40px; text-decoration: underline;">Supplier Deliveries*</h3>
+<p>The delivery performance of suppliers to manufacturing organizations was slower in July, as the Supplier Deliveries Index registered 55.2 percent, 2.1 percentage points lower than the 57.3 percent reported in June. Of the top six manufacturing industries, five (Petroleum &amp; Coal Products; Computer &amp; Electronic Products; Transportation Equipment; Machinery; and Chemical Products) reported slower deliveries. &ldquo;This indicates the best supplier deliveries performance since July 2020, when the index registered 55.9 percent as business began to resurface after the initial pandemic lockdowns. Deliveries slowed at a slower rate compared to the previous month &mdash; 21.4 percent of panelists reported slower deliveries in July, compared to 27.4 percent in June. Panelists&rsquo; comments indicate that suppliers, despite their labor problems, performed better in July compared to previous months,&rdquo; says Fiore. A reading below 50 percent indicates faster deliveries, while a reading above 50 percent indicates slower deliveries.</p>
+<p>Ten of 18 manufacturing industries reported slower supplier deliveries in July, in the following order: Textile Mills; Paper Products; Nonmetallic Mineral Products; Primary Metals; Miscellaneous Manufacturing; Petroleum &amp; Coal Products; Computer &amp; Electronic Products; Transportation Equipment; Machinery; and Chemical Products. Five industries reported faster supplier deliveries in July as compared to June: Wood Products; Electrical Equipment, Appliances &amp; Components; Furniture &amp; Related Products; Plastics &amp; Rubber Products; and Fabricated Metal Products.</p>
+<table class="table table-bordered table-hover">
+<thead>
+<tr>
+<th class="text-center" scope="col">Supplier Deliveries</th>
+<th class="text-center" scope="col">% Slower</th>
+<th class="text-center" scope="col">% Same</th>
+<th class="text-center" scope="col">% Faster</th>
+<th class="text-center" scope="col">Net</th>
+<th class="text-center" scope="col">Index</th>
+</tr>
+</thead>
+<tbody>
+<tr><!--Table 6 - Table#-Row#-Column# -->
+<th class="text-center" scope="row">Jul 2022</th>
+<td class="text-center">21.4</td>
+<td class="text-center">67.6</td>
+<td class="text-center">11.0</td>
+<td class="text-center">+10.4</td>
+<td class="text-center">55.2</td>
+</tr>
+<tr><!--Table 6 - Table#-Row#-Column# -->
+<th class="text-center" scope="row">Jun 2022</th>
+<td class="text-center">27.4</td>
+<td class="text-center">59.8</td>
+<td class="text-center">12.8</td>
+<td class="text-center">+14.6</td>
+<td class="text-center">57.3</td>
+</tr>
+<tr><!--Table 6 - Table#-Row#-Column# -->
+<th class="text-center" scope="row">May 2022</th>
+<td class="text-center">37.1</td>
+<td class="text-center">57.2</td>
+<td class="text-center">5.7</td>
+<td class="text-center">+31.4</td>
+<td class="text-center">65.7</td>
+</tr>
+<tr><!--Table 6 - Table#-Row#-Column# -->
+<th class="text-center" scope="row">Apr 2022</th>
+<td class="text-center">38.7</td>
+<td class="text-center">57.0</td>
+<td class="text-center">4.3</td>
+<td class="text-center">+34.4</td>
+<td class="text-center">67.2</td>
+</tr>
+</tbody>
+</table>
+</div>
+<!-- Inventories -->
+<div class="mb-4">
+<h3 id="inventories" class="text-uppercase" style="padding-top: 70px; color: #002f59; font-size: 40px; text-decoration: underline;">Inventories</h3>
+<p>The Inventories Index registered 57.3 percent in July, 1.3 percentage points higher than the 56 percent reported for June. &ldquo;Manufacturing inventories expanded at a faster rate compared to June, registering their highest level since July 1984, when the index registered 57.8 percent. Of the six big manufacturing industries, five (Computer &amp; Electronic Products; Petroleum &amp; Coal Products; Machinery; Transportation Equipment; and Chemical Products) grew their inventories of manufacturing raw materials in July. Companies are showing the most concern about their inventory levels since the start of the pandemic in 2020, when a slowing of the manufacturing economy was anticipated,&rdquo; says Fiore. An Inventories Index greater than 44.4 percent, over time, is generally consistent with expansion in the Bureau of Economic Analysis (BEA) figures on overall manufacturing inventories (in chained 2000 dollars).</p>
+<p>Of 18 manufacturing industries, the 13 reporting higher inventories in July &mdash; in the following order &mdash; are: Apparel, Leather &amp; Allied Products; Textile Mills; Computer &amp; Electronic Products; Nonmetallic Mineral Products; Printing &amp; Related Support Activities; Electrical Equipment, Appliances &amp; Components; Wood Products; Petroleum &amp; Coal Products; Machinery; Plastics &amp; Rubber Products; Transportation Equipment; Fabricated Metal Products; and Chemical Products. The three industries reporting contracting inventories in July are: Paper Products; Primary Metals; and Food, Beverage &amp; Tobacco Products.</p>
+<table class="table table-bordered table-hover">
+<thead>
+<tr>
+<th class="text-center" scope="col">Inventories</th>
+<th class="text-center" scope="col">% Higher</th>
+<th class="text-center" scope="col">% Same</th>
+<th class="text-center" scope="col">% Lower</th>
+<th class="text-center" scope="col">Net</th>
+<th class="text-center" scope="col">Index</th>
+</tr>
+</thead>
+<tbody>
+<tr><!--Table 7 - Table#-Row#-Column# -->
+<th class="text-center" scope="row">Jul 2022</th>
+<td class="text-center">25.5</td>
+<td class="text-center">61.8</td>
+<td class="text-center">12.7</td>
+<td class="text-center">+12.8</td>
+<td class="text-center">57.3</td>
+</tr>
+<tr><!--Table 7 - Table#-Row#-Column# -->
+<th class="text-center" scope="row">Jun 2022</th>
+<td class="text-center">25.4</td>
+<td class="text-center">59.8</td>
+<td class="text-center">14.8</td>
+<td class="text-center">+10.6</td>
+<td class="text-center">56.0</td>
+</tr>
+<tr><!--Table 7 - Table#-Row#-Column# -->
+<th class="text-center" scope="row">May 2022</th>
+<td class="text-center">24.3</td>
+<td class="text-center">62.5</td>
+<td class="text-center">13.2</td>
+<td class="text-center">+11.1</td>
+<td class="text-center">55.9</td>
+</tr>
+<tr><!--Table 7 - Table#-Row#-Column# -->
+<th class="text-center" scope="row">Apr 2022</th>
+<td class="text-center">21.4</td>
+<td class="text-center">61.4</td>
+<td class="text-center">17.2</td>
+<td class="text-center">+4.2</td>
+<td class="text-center">51.6</td>
+</tr>
+</tbody>
+</table>
+</div>
+<!-- Customers Inventories -->
+<div class="mb-4">
+<h3 id="customersInventories" class="text-uppercase" style="padding-top: 70px; color: #002f59; font-size: 40px; text-decoration: underline;">Customers' Inventories*</h3>
+<p>ISM<sup>&reg;</sup>&rsquo;s Customers&rsquo; Inventories Index registered 39.5 percent in July, 4.3 percentage points higher than the 35.2 percent reported for June, indicating that customers&rsquo; inventory levels were considered too low. &ldquo;Customers&rsquo; inventories are too low for the 70th consecutive month, a positive for future production growth, but customer inventory requirements are easing compared to previous months,&rdquo; says Fiore.</p>
+<p>Three industries (Wood Products; Food, Beverage &amp; Tobacco Products; and Chemical Products) reported customers&rsquo; inventories as too high in July. The 12 industries reporting customers&rsquo; inventories as too low &mdash; listed in order &mdash; are: Nonmetallic Mineral Products; Transportation Equipment; Miscellaneous Manufacturing; Petroleum &amp; Coal Products; Furniture &amp; Related Products; Primary Metals; Plastics &amp; Rubber Products; Computer &amp; Electronic Products; Machinery; Paper Products; Fabricated Metal Products; and Electrical Equipment, Appliances &amp; Components.</p>
+<table class="table table-bordered table-hover">
+<thead>
+<tr>
+<th class="text-center" scope="col">Customers' Inventories</th>
+<th class="text-center" scope="col">% Reporting</th>
+<th class="text-center" scope="col">% Too High</th>
+<th class="text-center" scope="col">% About Right</th>
+<th class="text-center" scope="col">% Too Low</th>
+<th class="text-center" scope="col">Net</th>
+<th class="text-center" scope="col">Index</th>
+</tr>
+</thead>
+<tbody>
+<tr><!--Table 8 - Table#-Row#-Column# -->
+<th class="text-center" scope="row">Jul 2022</th>
+<td class="text-center">78</td>
+<td class="text-center">12.4</td>
+<td class="text-center">54.2</td>
+<td class="text-center">33.4</td>
+<td class="text-center">-21.0</td>
+<td class="text-center">39.5</td>
+</tr>
+<tr><!--Table 8 - Table#-Row#-Column# -->
+<th class="text-center" scope="row">Jun 2022</th>
+<td class="text-center">75</td>
+<td class="text-center">11.1</td>
+<td class="text-center">48.1</td>
+<td class="text-center">40.8</td>
+<td class="text-center">-29.7</td>
+<td class="text-center">35.2</td>
+</tr>
+<tr><!--Table 8 - Table#-Row#-Column# -->
+<th class="text-center" scope="row">May 2022</th>
+<td class="text-center">75</td>
+<td class="text-center">12.8</td>
+<td class="text-center">39.7</td>
+<td class="text-center">47.5</td>
+<td class="text-center">-34.7</td>
+<td class="text-center">32.7</td>
+</tr>
+<tr><!--Table 8 - Table#-Row#-Column# -->
+<th class="text-center" scope="row">Apr 2022</th>
+<td class="text-center">76</td>
+<td class="text-center">10.5</td>
+<td class="text-center">53.2</td>
+<td class="text-center">36.3</td>
+<td class="text-center">-25.8</td>
+<td class="text-center">37.1</td>
+</tr>
+</tbody>
+</table>
+</div>
+<!-- Prices -->
+<div class="mb-4">
+<h3 id="prices" class="text-uppercase" style="padding-top: 70px; color: #002f59; font-size: 40px; text-decoration: underline;">Prices*</h3>
+<p>The ISM<sup>&reg;</sup> Prices Index registered 60 percent in July, 18.5 percentage points lower compared to the June reading of 78.5 percent, indicating raw materials prices increased for the 26th consecutive month, at a much slower rate. The Prices Index has been at or above 60 percent for 23 straight months. The month-over-month decline of 18.5 percentage points is the fourth biggest decline on record (since 1948) and the steepest since a 22.1-percentage point drop in June 2010. &ldquo;The slowing in price increases is being driven by (1) volatility in the energy markets, (2) softening in the copper, steel, aluminum and corrugate markets and (3) a significant decrease in chemical demand. Notably, 21.5 percent of respondents reported paying lower prices in July, compared to 8.3 percent in June,&rdquo; says Fiore. A Prices Index above 52.6 percent, over time, is generally consistent with an increase in the Bureau of Labor Statistics (BLS) Producer Price Index for Intermediate Materials.</p>
+<p>In July, 12 of 18 industries reported paying increased prices for raw materials, in the following order: Nonmetallic Mineral Products; Printing &amp; Related Support Activities; Paper Products; Plastics &amp; Rubber Products; Textile Mills; Computer &amp; Electronic Products; Food, Beverage &amp; Tobacco Products; Chemical Products; Miscellaneous Manufacturing; Machinery; Furniture &amp; Related Products; and Transportation Equipment. The three industries reporting paying decreased prices for raw materials July are: Petroleum &amp; Coal Products; Fabricated Metal Products; and Wood Products.</p>
+<table class="table table-bordered table-hover">
+<thead>
+<tr>
+<th class="text-center" scope="col">Prices</th>
+<th class="text-center" scope="col">% Higher</th>
+<th class="text-center" scope="col">% Same</th>
+<th class="text-center" scope="col">% Lower</th>
+<th class="text-center" scope="col">Net</th>
+<th class="text-center" scope="col">Index</th>
+</tr>
+</thead>
+<tbody>
+<tr><!--Table 9 - Table#-Row#-Column# -->
+<th class="text-center" scope="row">Jul 2022</th>
+<td class="text-center">41.5</td>
+<td class="text-center">37.0</td>
+<td class="text-center">21.5</td>
+<td class="text-center">+20.0</td>
+<td class="text-center">60.0</td>
+</tr>
+<tr><!--Table 9 - Table#-Row#-Column# -->
+<th class="text-center" scope="row">Jun 2022</th>
+<td class="text-center">65.2</td>
+<td class="text-center">26.5</td>
+<td class="text-center">8.3</td>
+<td class="text-center">+56.9</td>
+<td class="text-center">78.5</td>
+</tr>
+<tr><!--Table 9 - Table#-Row#-Column# -->
+<th class="text-center" scope="row">May 2022</th>
+<td class="text-center">70.2</td>
+<td class="text-center">24.2</td>
+<td class="text-center">5.6</td>
+<td class="text-center">+64.6</td>
+<td class="text-center">82.2</td>
+</tr>
+<tr><!--Table 9 - Table#-Row#-Column# -->
+<th class="text-center" scope="row">Apr 2022</th>
+<td class="text-center">73.5</td>
+<td class="text-center">22.1</td>
+<td class="text-center">4.4</td>
+<td class="text-center">+69.1</td>
+<td class="text-center">84.6</td>
+</tr>
+</tbody>
+</table>
+</div>
+<!-- Backlog of Orders* -->
+<div>
+<div class="row">
+<h3 id="backlogOrders" class="text-uppercase" style="padding-top: 70px; color: #002f59; font-size: 40px; text-decoration: underline;">Backlog of Orders*</h3>
+<p>ISM<sup>&reg;</sup>&rsquo;s Backlog of Orders Index registered 51.3 percent in July, a 1.9-percentage point decrease compared to the 53.2 percent reported in June, indicating order backlogs expanded for the 25th straight month. Of the six largest manufacturing sectors, three &mdash; Petroleum &amp; Coal Products; Machinery; and Transportation Equipment &mdash; expanded their order backlogs. &ldquo;Backlogs expanded in July at a slower rate, as new order levels remain low and panelists&rsquo; customers prepare for a slowing in general manufacturing activity. A slowing in price increases is a positive for future new orders growth and backlogs expansion,&rdquo; says Fiore.</p>
+<p>Five industries reported growth in order backlogs in July: Nonmetallic Mineral Products; Petroleum &amp; Coal Products; Printing &amp; Related Support Activities; Machinery; and Transportation Equipment. The seven industries reporting lower backlogs in July &mdash; in the following order &mdash; are: Furniture &amp; Related Products; Wood Products; Fabricated Metal Products; Chemical Products; Primary Metals; Computer &amp; Electronic Products; and Miscellaneous Manufacturing. Six industries reported no change in backlogs of orders in July as compared to June.</p>
+<table class="table table-bordered table-hover">
+<thead>
+<tr>
+<th class="text-center" scope="col">Backlog of Orders</th>
+<th class="text-center" scope="col">% Reporting</th>
+<th class="text-center" scope="col">% Higher</th>
+<th class="text-center" scope="col">% Same</th>
+<th class="text-center" scope="col">% Lower</th>
+<th class="text-center" scope="col">Net</th>
+<th class="text-center" scope="col">Index</th>
+</tr>
+</thead>
+<tbody>
+<tr><!--Table 10 - Table#-Row#-Column# -->
+<th class="text-center" scope="row">Jul 2022</th>
+<td class="text-center">92</td>
+<td class="text-center">26.6</td>
+<td class="text-center">49.4</td>
+<td class="text-center">24.0</td>
+<td class="text-center">+2.6</td>
+<td class="text-center">51.3</td>
+</tr>
+<tr><!--Table 10 - Table#-Row#-Column# -->
+<th class="text-center" scope="row">Jun 2022</th>
+<td class="text-center">93</td>
+<td class="text-center">25.6</td>
+<td class="text-center">55.3</td>
+<td class="text-center">19.1</td>
+<td class="text-center">+6.5</td>
+<td class="text-center">53.2</td>
+</tr>
+<tr><!--Table 10 - Table#-Row#-Column# -->
+<th class="text-center" scope="row">May 2022</th>
+<td class="text-center">91</td>
+<td class="text-center">31.6</td>
+<td class="text-center">54.3</td>
+<td class="text-center">14.1</td>
+<td class="text-center">+17.5</td>
+<td class="text-center">58.7</td>
+</tr>
+<tr><!--Table 10 - Table#-Row#-Column# -->
+<th class="text-center" scope="row">Apr 2022</th>
+<td class="text-center">92</td>
+<td class="text-center">27.9</td>
+<td class="text-center">56.3</td>
+<td class="text-center">15.8</td>
+<td class="text-center">+12.1</td>
+<td class="text-center">56.0</td>
+</tr>
+</tbody>
+</table>
+</div>
+<!-- New Export Orders* -->
+<div class="mb-4">
+<h3 id="newExportOrders" class="text-uppercase" style="padding-top: 70px; color: #002f59; font-size: 40px; text-decoration: underline;">New Export Orders*</h3>
+<p>ISM<sup>&reg;</sup>&rsquo;s New Export Orders Index registered 52.6 percent in July, 1.9 percentage points above the June reading of 50.7 percent. &ldquo;The New Export Orders Index grew for the 25th consecutive month, at a faster rate in July. Gains were achieved in the month as the European economy stabilizes and China recovers from its recent COVID-19 lockdowns. Of the six big industry sectors, four &mdash; Petroleum &amp; Coal Products; Food, Beverage &amp; Tobacco Products; Transportation Equipment; and Computer &amp; Electronic Products &mdash; expanded,&rdquo; says Fiore.</p>
+<p>The four industries reporting growth in new export orders in July are: Petroleum &amp; Coal Products; Food, Beverage &amp; Tobacco Products; Transportation Equipment; and Computer &amp; Electronic Products. The six industries reporting a decrease in new export orders in July &mdash; in the following order &mdash; are: Wood Products; Paper Products; Plastics &amp; Rubber Products; Electrical Equipment, Appliances &amp; Components; Miscellaneous Manufacturing; and Chemical Products. Seven industries reported no change in exports in July as compared to June.</p>
+<table class="table table-bordered table-hover">
+<thead>
+<tr>
+<th class="text-center" scope="col">New Export Orders</th>
+<th class="text-center" scope="col">% Reporting</th>
+<th class="text-center" scope="col">% Higher</th>
+<th class="text-center" scope="col">% Same</th>
+<th class="text-center" scope="col">% Lower</th>
+<th class="text-center" scope="col">Net</th>
+<th class="text-center" scope="col">Index</th>
+</tr>
+</thead>
+<tbody>
+<tr><!--Table 11 - Table#-Row#-Column# -->
+<th class="text-center" scope="row">Jul 2022</th>
+<td class="text-center">73</td>
+<td class="text-center">16.6</td>
+<td class="text-center">72.1</td>
+<td class="text-center">11.3</td>
+<td class="text-center">+5.3</td>
+<td class="text-center">52.6</td>
+</tr>
+<tr><!--Table 11 - Table#-Row#-Column# -->
+<th class="text-center" scope="row">Jun 2022</th>
+<td class="text-center">72</td>
+<td class="text-center">12.3</td>
+<td class="text-center">76.8</td>
+<td class="text-center">10.9</td>
+<td class="text-center">+1.4</td>
+<td class="text-center">50.7</td>
+</tr>
+<tr><!--Table 11 - Table#-Row#-Column# -->
+<th class="text-center" scope="row">May 2022</th>
+<td class="text-center">73</td>
+<td class="text-center">14.6</td>
+<td class="text-center">76.6</td>
+<td class="text-center">8.8</td>
+<td class="text-center">+5.8</td>
+<td class="text-center">52.9</td>
+</tr>
+<tr><!--Table 11 - Table#-Row#-Column# -->
+<th class="text-center" scope="row">Apr 2022</th>
+<td class="text-center">73</td>
+<td class="text-center">10.7</td>
+<td class="text-center">84.1</td>
+<td class="text-center">5.2</td>
+<td class="text-center">+5.5</td>
+<td class="text-center">52.7</td>
+</tr>
+</tbody>
+</table>
+</div>
+<!-- Imports* -->
+<div>
+<h3 id="imports" class="text-uppercase" style="padding-top: 70px; color: #002f59; font-size: 40px; text-decoration: underline;">Imports*</h3>
+<p>ISM<sup>&reg;</sup>&rsquo;s Imports Index registered 54.4 percent in July, an increase of 3.7 percentage points compared to June&rsquo;s figure of 50.7 percent. &ldquo;Imports grew in July; activity improved as Asia ports started to clear their backlogs. The index reached its highest level since February (55.4 percent),&rdquo; says Fiore.</p>
+<p>The 10 industries reporting growth in imports in July &mdash; in the following order &mdash; are: Textile Mills; Printing &amp; Related Support Activities; Petroleum &amp; Coal Products; Primary Metals; Electrical Equipment, Appliances &amp; Components; Transportation Equipment; Computer &amp; Electronic Products; Fabricated Metal Products; Plastics &amp; Rubber Products; and Machinery. Three industries reported lower volumes of imports in July: Paper Products; Miscellaneous Manufacturing; and Chemical Products.</p>
+<table class="table table-bordered table-hover">
+<thead>
+<tr>
+<th class="text-center" scope="col">Imports</th>
+<th class="text-center" scope="col">% Reporting</th>
+<th class="text-center" scope="col">% Higher</th>
+<th class="text-center" scope="col">% Same</th>
+<th class="text-center" scope="col">% Lower</th>
+<th class="text-center" scope="col">Net</th>
+<th class="text-center" scope="col">Index</th>
+</tr>
+</thead>
+<tbody>
+<tr><!--Table 12 - Table#-Row#-Column# -->
+<th class="text-center" scope="row">Jul 2022</th>
+<td class="text-center">85</td>
+<td class="text-center">19.6</td>
+<td class="text-center">69.5</td>
+<td class="text-center">10.9</td>
+<td class="text-center">+8.7</td>
+<td class="text-center">54.4</td>
+</tr>
+<tr><!--Table 12 - Table#-Row#-Column# -->
+<th class="text-center" scope="row">Jun 2022</th>
+<td class="text-center">84</td>
+<td class="text-center">14.4</td>
+<td class="text-center">72.5</td>
+<td class="text-center">13.1</td>
+<td class="text-center">+1.3</td>
+<td class="text-center">50.7</td>
+</tr>
+<tr><!--Table 12 - Table#-Row#-Column# -->
+<th class="text-center" scope="row">May 2022</th>
+<td class="text-center">85</td>
+<td class="text-center">13.4</td>
+<td class="text-center">70.6</td>
+<td class="text-center">16.0</td>
+<td class="text-center">-2.6</td>
+<td class="text-center">48.7</td>
+</tr>
+<tr><!--Table 12 - Table#-Row#-Column# -->
+<th class="text-center" scope="row">Apr 2022</th>
+<td class="text-center">83</td>
+<td class="text-center">13.2</td>
+<td class="text-center">76.5</td>
+<td class="text-center">10.3</td>
+<td class="text-center">+2.9</td>
+<td class="text-center">51.4</td>
+</tr>
+</tbody>
+</table>
+<h5>*The Supplier Deliveries, Customers' Inventories, Prices, Backlog of Orders, New Export Orders and Imports indexes do not meet the accepted criteria for seasonal adjustments.</h5>
+</div>
+<!-- Buying Policy -->
+<div>
+<h3 id="buyingPolicy" class="text-uppercase" style="padding-top: 70px; color: #002f59; font-size: 40px; text-decoration: underline;">Buying Policy</h3>
+</div>
+<p>The average commitment lead time for Capital Expenditures in July was 183 days, a decrease of three days compared to June. Average lead time in July for Production Materials remained at its all-time high of 100 days. Average lead time for Maintenance, Repair and Operating (MRO) Supplies increased by seven days, to an all-time high of 51 days. (ISM<sup>&reg;</sup> began tracking lead times data in 1987.)</p>
+<h3 class="text-strong text-center" style="padding: 5px; border: 1px solid #b2b2b2;">Percent Reporting</h3>
+<table class="table table-bordered table-hover">
+<thead>
+<tr>
+<th class="text-center" scope="col">Capital Expenditures</th>
+<th class="text-center" scope="col">Hand-to-Mouth</th>
+<th class="text-center" scope="col">30 Days</th>
+<th class="text-center" scope="col">60 Days</th>
+<th class="text-center" scope="col">90 Days</th>
+<th class="text-center" scope="col">6 Months</th>
+<th class="text-center" scope="col">1 Year +</th>
+<th class="text-center" scope="col">Average Days</th>
+</tr>
+</thead>
+<tbody>
+<tr><!--Table 13 - Table#-Row#-Column# -->
+<th class="text-center" scope="row">Jul 2022</th>
+<td class="text-center">14</td>
+<td class="text-center">3</td>
+<td class="text-center">10</td>
+<td class="text-center">13</td>
+<td class="text-center">29</td>
+<td class="text-center">31</td>
+<td class="text-center">183</td>
+</tr>
+<tr><!--Table 13 - Table#-Row#-Column# -->
+<th class="text-center" scope="row">Jun 2022</th>
+<td class="text-center">15</td>
+<td class="text-center">6</td>
+<td class="text-center">7</td>
+<td class="text-center">9</td>
+<td class="text-center">31</td>
+<td class="text-center">32</td>
+<td class="text-center">186</td>
+</tr>
+<tr><!--Table 13 - Table#-Row#-Column# -->
+<th class="text-center" scope="row">May 2022</th>
+<td class="text-center">17</td>
+<td class="text-center">5</td>
+<td class="text-center">8</td>
+<td class="text-center">10</td>
+<td class="text-center">30</td>
+<td class="text-center">30</td>
+<td class="text-center">178</td>
+</tr>
+<tr><!--Table 13 - Table#-Row#-Column# -->
+<th class="text-center" scope="row">Apr 2022</th>
+<td class="text-center">18</td>
+<td class="text-center">4</td>
+<td class="text-center">6</td>
+<td class="text-center">14</td>
+<td class="text-center">30</td>
+<td class="text-center">28</td>
+<td class="text-center">173</td>
+</tr>
+</tbody>
+</table>
+<h3 class="text-strong text-center" style="padding: 5px; border: 1px solid #b2b2b2; margin-top: 20px;">Percent Reporting</h3>
+<table class="table table-bordered table-hover">
+<thead>
+<tr>
+<th class="text-center" scope="col">Production Materials</th>
+<th class="text-center" scope="col">Hand-to-Mouth</th>
+<th class="text-center" scope="col">30 Days</th>
+<th class="text-center" scope="col">60 Days</th>
+<th class="text-center" scope="col">90 Days</th>
+<th class="text-center" scope="col">6 Months</th>
+<th class="text-center" scope="col">1 Year +</th>
+<th class="text-center" scope="col">Average Days</th>
+</tr>
+</thead>
+<tbody>
+<tr><!--Table 14 - Table#-Row#-Column# -->
+<th class="text-center" scope="row">Jul 2022</th>
+<td class="text-center">8</td>
+<td class="text-center">21</td>
+<td class="text-center">21</td>
+<td class="text-center">28</td>
+<td class="text-center">13</td>
+<td class="text-center">9</td>
+<td class="text-center">100</td>
+</tr>
+<tr><!--Table 14 - Table#-Row#-Column# -->
+<th class="text-center" scope="row">Jun 2022</th>
+<td class="text-center">8</td>
+<td class="text-center">19</td>
+<td class="text-center">23</td>
+<td class="text-center">25</td>
+<td class="text-center">18</td>
+<td class="text-center">7</td>
+<td class="text-center">100</td>
+</tr>
+<tr><!--Table 14 - Table#-Row#-Column# -->
+<th class="text-center" scope="row">May 2022</th>
+<td class="text-center">9</td>
+<td class="text-center">21</td>
+<td class="text-center">21</td>
+<td class="text-center">26</td>
+<td class="text-center">15</td>
+<td class="text-center">8</td>
+<td class="text-center">99</td>
+</tr>
+<tr><!--Table 14 - Table#-Row#-Column# -->
+<th class="text-center" scope="row">Apr 2022</th>
+<td class="text-center">9</td>
+<td class="text-center">16</td>
+<td class="text-center">26</td>
+<td class="text-center">24</td>
+<td class="text-center">18</td>
+<td class="text-center">7</td>
+<td class="text-center">100</td>
+</tr>
+</tbody>
+</table>
+<h3 class="text-strong text-center" style="padding: 5px; border: 1px solid #b2b2b2; margin-top: 20px;">Percent Reporting</h3>
+<table class="table table-bordered table-hover">
+<thead>
+<tr>
+<th class="text-center" scope="col">MRO Supplies</th>
+<th class="text-center" scope="col">Hand-to-Mouth</th>
+<th class="text-center" scope="col">30 Days</th>
+<th class="text-center" scope="col">60 Days</th>
+<th class="text-center" scope="col">90 Days</th>
+<th class="text-center" scope="col">6 Months</th>
+<th class="text-center" scope="col">1 Year +</th>
+<th class="text-center" scope="col">Average Days</th>
+</tr>
+</thead>
+<tbody>
+<tr><!--Table 15 - Table#-Row#-Column# -->
+<th class="text-center" scope="row">Jul 2022</th>
+<td class="text-center">22</td>
+<td class="text-center">36</td>
+<td class="text-center">21</td>
+<td class="text-center">15</td>
+<td class="text-center">5</td>
+<td class="text-center">1</td>
+<td class="text-center">51</td>
+</tr>
+<tr><!--Table 13 - Table#-Row#-Column# -->
+<th class="text-center" scope="row">Jun 2022</th>
+<td class="text-center">25</td>
+<td class="text-center">39</td>
+<td class="text-center">19</td>
+<td class="text-center">12</td>
+<td class="text-center">5</td>
+<td class="text-center">0</td>
+<td class="text-center">44</td>
+</tr>
+<tr><!--Table 13 - Table#-Row#-Column# -->
+<th class="text-center" scope="row">May 2022</th>
+<td class="text-center">27</td>
+<td class="text-center">35</td>
+<td class="text-center">19</td>
+<td class="text-center">12</td>
+<td class="text-center">6</td>
+<td class="text-center">1</td>
+<td class="text-center">48</td>
+</tr>
+<tr><!--Table 13 - Table#-Row#-Column# -->
+<th class="text-center" scope="row">Apr 2022</th>
+<td class="text-center">24</td>
+<td class="text-center">33</td>
+<td class="text-center">23</td>
+<td class="text-center">15</td>
+<td class="text-center">4</td>
+<td class="text-center">1</td>
+<td class="text-center">49</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="mb-4">
+<div class="mb-4">
+<h3 id="standard" style="padding-top: 30px; padding-bottom: 0px;">About This Report</h3>
+<hr/>
+<p>DO NOT CONFUSE THIS NATIONAL REPORT with the various regional purchasing reports released across the country. The national report&rsquo;s information reflects the entire U.S., while the regional reports contain primarily regional data from their local vicinities. Also, the information in the regional reports is not used in calculating the results of the national report. The information compiled in this report is for the month of July 2022.</p>
+<p>The data presented herein is obtained from a survey of manufacturing supply executives based on information they have collected within their respective organizations. ISM<sup>&reg;</sup> makes no representation, other than that stated within this release, regarding the individual company data collection procedures. The data should be compared to all other economic data sources when used in decision-making.</p>
+</div>
+<div>
+<h3 style="padding-top: 30px; padding-bottom: 0px;">Data and Method of Presentation</h3>
+<hr/>
+<p>The <strong>Manufacturing ISM<sup>&reg;</sup> <i>Report On Business</i><sup>&reg;</sup></strong> is based on data compiled from purchasing and supply executives nationwide. The composition of the Manufacturing Business Survey Committee is stratified according to the North American Industry Classification System (NAICS) and each of the following NAICS-based industry&rsquo;s contribution to gross domestic product (GDP): Food, Beverage &amp; Tobacco Products; Textile Mills; Apparel, Leather &amp; Allied Products; Wood Products; Paper Products; Printing &amp; Related Support Activities; Petroleum &amp; Coal Products; Chemical Products; Plastics &amp; Rubber Products; Nonmetallic Mineral Products; Primary Metals; Fabricated Metal Products; Machinery; Computer &amp; Electronic Products; Electrical Equipment, Appliances &amp; Components; Transportation Equipment; Furniture &amp; Related Products; and Miscellaneous Manufacturing (products such as medical equipment and supplies, jewelry, sporting goods, toys and office supplies). The data are weighted based on each industry&rsquo;s contribution to GDP. According to the BEA estimates for 2020 GDP (released December 22, 2021), the six largest manufacturing subsectors are: Computer &amp; Electronic Products; Chemical Products; Transportation Equipment; Petroleum &amp; Coal Products; Food, Beverage &amp; Tobacco Products; and Machinery. Beginning in February 2018 with January 2018 data, computation of the indexes is accomplished utilizing unrounded numbers.</p>
+<p>Survey responses reflect the change, if any, in the current month compared to the previous month. For each of the indicators measured (New Orders, Backlog of Orders, New Export Orders, Imports, Production, Supplier Deliveries, Inventories, Customers&rsquo; Inventories, Employment and Prices), this report shows the percentage reporting each response, the net difference between the number of responses in the positive economic direction (higher, better and slower for Supplier Deliveries) and the negative economic direction (lower, worse and faster for Supplier Deliveries), and the diffusion index. Responses are raw data and are never changed. The diffusion index includes the percent of positive responses plus one-half of those responding the same (considered positive).</p>
+<p>The resulting single index number for those meeting the criteria for seasonal adjustments (Manufacturing PMI<sup>&reg;</sup>, New Orders, Production, Employment and Inventories) is then seasonally adjusted to allow for the effects of repetitive intra-year variations resulting primarily from normal differences in weather conditions, various institutional arrangements, and differences attributable to non-moveable holidays. All seasonal adjustment factors are subject annually to relatively minor changes when conditions warrant them. The Manufacturing PMI<sup>&reg;</sup> is a composite index based on the diffusion indexes of five of the indexes with equal weights: New Orders (seasonally adjusted), Production (seasonally adjusted), Employment (seasonally adjusted), Supplier Deliveries, and Inventories (seasonally adjusted).</p>
+<p>Diffusion indexes have the properties of leading indicators and are convenient summary measures showing the prevailing direction of change and the scope of change. A Manufacturing PMI<sup>&reg;</sup> reading above 50 percent indicates that the manufacturing economy is generally expanding; below 50 percent indicates that it is generally declining. A Manufacturing PMI<sup>&reg;</sup> above 48.7 percent, over a period of time, indicates that the overall economy, or gross domestic product (GDP), is generally expanding; below 48.7 percent, it is generally declining. The distance from 50 percent or 48.7 percent is indicative of the extent of the expansion or decline. With some of the indicators within this report, ISM<sup>&reg;</sup> has indicated the departure point between expansion and decline of comparable government series, as determined by regression analysis. The <strong>Manufacturing ISM<sup>&reg;</sup> <i>Report On Business</i><sup>&reg;</sup></strong> survey is sent out to Manufacturing Business Survey Committee respondents the first part of each month. Respondents are asked to report on information for the current month for U.S. operations only. ISM<sup>&reg;</sup> receives survey responses throughout most of any given month, with the majority of respondents generally waiting until late in the month to submit responses to give the most accurate picture of current business activity. ISM<sup>&reg;</sup> then compiles the report for release on the first business day of the following month.</p>
+<p>The industries reporting growth, as indicated in the <strong>Manufacturing ISM<sup>&reg;</sup> <i>Report On Business</i><sup>&reg;</sup></strong> monthly report, are listed in the order of most growth to least growth. For the industries reporting contraction or decreases, those are listed in the order of the highest level of contraction/decrease to the least level of contraction/decrease.</p>
+<p>Responses to Buying Policy reflect the percent reporting the current month&rsquo;s lead time, the approximate weighted number of days ahead for which commitments are made for Capital Expenditures; Production Materials; and Maintenance, Repair and Operating (MRO) Supplies, expressed as hand-to-mouth (five days), 30 days, 60 days, 90 days, six months (180 days), a year or more (360 days), and the weighted average number of days. These responses are raw data, never revised, and not seasonally adjusted.</p>
+</div>
+<div>
+<h3 style="padding-top: 30px; padding-bottom: 0px;">ISM ROB Content</h3>
+<hr/>
+<p>The Institute for Supply Management<sup>&reg;</sup> (&ldquo;ISM&rdquo;) <i>Report On Business</i><sup>&reg;</sup> (both Manufacturing and Non-Manufacturing) (&ldquo;ISM ROB&rdquo;) contains information, text, files, images, video, sounds, musical works, works of authorship, applications, and any other materials or content (collectively, "Content") of ISM ("ISM ROB Content"). ISM ROB Content is protected by copyright, trademark, trade secret, and other laws, and as between you and ISM, ISM owns and retains all rights in the ISM ROB Content. ISM hereby grants you a limited, revocable, nonsublicensable license to access and display on your individual device the ISM ROB Content (excluding any software code) solely for your personal, non-commercial use. The ISM ROB Content shall also contain Content of users and other ISM licensors. Except as provided herein or as explicitly allowed in writing by ISM, you shall not copy, download, stream, capture, reproduce, duplicate, archive, upload, modify, translate, publish, broadcast, transmit, retransmit, distribute, perform, display, sell, or otherwise use any ISM ROB Content.</p>
+<p>Except as explicitly and expressly permitted by ISM, you are strictly prohibited from creating works or materials (including but not limited to tables, charts, data streams, time series variables, fonts, icons, link buttons, wallpaper, desktop themes, online postcards, montages, mashups and similar videos, greeting cards, and unlicensed merchandise) that derive from or are based on the ISM ROB Content. This prohibition applies regardless of whether the derivative works or materials are sold, bartered, or given away. You shall not either directly or through the use of any device, software, internet site, web-based service, or other means remove, alter, bypass, avoid, interfere with, or circumvent any copyright, trademark, or other proprietary notices marked on the Content or any digital rights management mechanism, device, or other content protection or access control measure associated with the Content including geo-filtering mechanisms. Without prior written authorization from ISM, you shall not build a business utilizing the Content, whether or not for profit.</p>
+<p>You shall not create, recreate, distribute, incorporate in other work, or advertise an index of any portion of the Content unless you receive prior written authorization from ISM. Requests for permission to reproduce or distribute ISM ROB Content can be made by contacting in writing at: ISM Research, Institute for Supply Management, 309 West Elliot Road, Suite 113, Tempe, Arizona 85284-1556, or by emailing <a href="http://web.archive.org/web/20220801152945/mailto:kcahill@ismworld.org?subject=Content Request">kcahill@ismworld.org</a>. Subject: Content Request.</p>
+<p>ISM shall not have any liability, duty, or obligation for or relating to the ISM ROB Content or other information contained herein, any errors, inaccuracies, omissions or delays in providing any ISM ROB Content, or for any actions taken in reliance thereon. In no event shall ISM be liable for any special, incidental, or consequential damages, arising out of the use of the ISM ROB. <i>Report On Business</i><sup>&reg;</sup>, PMI<sup>&reg;</sup>, and NMI<sup>&reg;</sup> are registered trademarks of Institute for Supply Management<sup>&reg;</sup>. Institute for Supply Management<sup>&reg;</sup> and ISM<sup>&reg;</sup> are registered trademarks of Institute for Supply Management, Inc.</p>
+</div>
+<div>
+<h3 style="padding-top: 30px; padding-bottom: 0px;">About Institute for Supply Management<sup>&reg;</sup></h3>
+<hr/>
+<p>Institute for Supply Management<sup>&reg;</sup> (ISM<sup>&reg;</sup>) serves supply management professionals in more than 90 countries. Its 50,000 members around the world manage about US$1 trillion in corporate and government supply chain procurement annually. Founded in 1915 as the first supply management institute in the world, ISM is committed to advancing the practice of supply management to drive value and competitive advantage for its members, contributing to a prosperous and sustainable world. ISM leads the profession through the ISM<sup>&reg;</sup> <i>Report On Business</i><sup>&reg;</sup>, its highly regarded certification programs and the ISM<sup>&reg;</sup> Advance<sup>&trade;</sup> Digital Platform. This report has been issued by the association since 1931, except for a four-year interruption during World War II.</p>
+<p>The full text version of the <strong>Manufacturing ISM<sup>&reg;</sup> <i>Report On Business</i><sup>&reg;</sup></strong> is posted on ISM<sup>&reg;</sup>&rsquo;s website at <a href="http://web.archive.org/web/20220801152945/http://www.ismrob.org/">www.ismrob.org</a> on the first business day* of every month after 10:00 a.m. ET.</p>
+<p>The next <strong>Manufacturing ISM<sup>&reg;</sup> <i>Report On Business</i><sup>&reg;</sup></strong> featuring August 2022 data will be released at 10:00 a.m. ET on Thursday, September 1, 2022.</p>
+<p>*Unless the New York Stock Exchange is closed.</p>
+</div>
+</div>
+</div>
+					</div>
+				</div>
+					<div class="col-md-3 internalRichText--left">
+<!-- INTERIOR NAV -->
+<div id="navInterior" v-cloak data-nav-interior>
+    <div class="navInterior__hasL1s">
+
+        <div class="navInterior--L1__wrapper">
+          <div class="navInterior--L1 navInterior__item">
+            <span class="navInterior--L1__title">
+                <a href="/web/20220801152945/https://www.ismworld.org/supply-management-news-and-reports/news-publications/" class="navInterior--L1__link navInterior__link ">
+                  News &amp; Publications
+                </a>
+            </span>
+              <b-button v-b-toggle="'l2collapse-1'" class="navInterior--L2__toggle navInterior__toggle">
+								<i class="icon-open fas fa-chevron-down"></i>
+								<i class="icon-close fas fa-chevron-up"></i>
+              </b-button>
+          </div>
+            <b-collapse id="l2collapse-1" class="navInterior--L2__collapse navInterior__collapse">
+              <div class="navInterior__hasL2s navInterior__subgroup">
+
+                  <div class="navInterior--L2__wrapper">
+                    <div class="navInterior--L2 navInterior__item">
+                      <span class="navInterior--L2__title">
+                          <a href="/web/20220801152945/https://www.ismworld.org/supply-management-news-and-reports/news-publications/inside-supply-management-magazine/" class="navInterior--L2__link navInterior__link ">
+                            Inside Supply Management Magazine
+                          </a>
+                      </span>
+                    </div>
+                    
+                  </div>
+                  <div class="navInterior--L2__wrapper">
+                    <div class="navInterior--L2 navInterior__item">
+                      <span class="navInterior--L2__title">
+                          <a href="/web/20220801152945/https://www.ismworld.org/supply-management-news-and-reports/news-publications/press-room/" class="navInterior--L2__link navInterior__link ">
+                            ISM Press Room
+                          </a>
+                      </span>
+                    </div>
+                    
+                  </div>
+                
+              </div>
+            </b-collapse>
+        </div>
+        <div class="navInterior--L1__wrapper">
+          <div class="navInterior--L1 navInterior__item">
+            <span class="navInterior--L1__title">
+                <a href="/web/20220801152945/https://www.ismworld.org/supply-management-news-and-reports/reports/" class="navInterior--L1__link navInterior__link ">
+                  ISM Reports
+                </a>
+            </span>
+              <b-button v-b-toggle="'l2collapse-2'" class="navInterior--L2__toggle navInterior__toggle">
+								<i class="icon-open fas fa-chevron-down"></i>
+								<i class="icon-close fas fa-chevron-up"></i>
+              </b-button>
+          </div>
+            <b-collapse visible id="l2collapse-2" class="navInterior--L2__collapse navInterior__collapse">
+              <div class="navInterior__hasL2s navInterior__subgroup">
+
+                  <div class="navInterior--L2__wrapper">
+                    <div class="navInterior--L2 navInterior__item">
+                      <span class="navInterior--L2__title">
+                          <a href="/web/20220801152945/https://www.ismworld.org/supply-management-news-and-reports/reports/ism-report-on-business/" class="navInterior--L2__link navInterior__link ">
+                            ISM Report On Business&#174;
+                          </a>
+                      </span>
+                    </div>
+                    
+                  </div>
+                  <div class="navInterior--L2__wrapper">
+                    <div class="navInterior--L2 navInterior__item">
+                      <span class="navInterior--L2__title">
+                          <a href="/web/20220801152945/https://www.ismworld.org/supply-management-news-and-reports/reports/research-and-surveys/" class="navInterior--L2__link navInterior__link ">
+                            Research &amp; Surveys
+                          </a>
+                      </span>
+                    </div>
+                    
+                  </div>
+                  <div class="navInterior--L2__wrapper">
+                    <div class="navInterior--L2 navInterior__item">
+                      <span class="navInterior--L2__title">
+                          <a href="/web/20220801152945/https://www.ismworld.org/supply-management-news-and-reports/reports/caps-research/" class="navInterior--L2__link navInterior__link ">
+                            CAPS Research
+                          </a>
+                      </span>
+                    </div>
+                    
+                  </div>
+                
+              </div>
+            </b-collapse>
+        </div>
+        <div class="navInterior--L1__wrapper">
+          <div class="navInterior--L1 navInterior__item">
+            <span class="navInterior--L1__title">
+Research Resource Centers            </span>
+              <b-button v-b-toggle="'l2collapse-3'" class="navInterior--L2__toggle navInterior__toggle">
+								<i class="icon-open fas fa-chevron-down"></i>
+								<i class="icon-close fas fa-chevron-up"></i>
+              </b-button>
+          </div>
+            <b-collapse id="l2collapse-3" class="navInterior--L2__collapse navInterior__collapse">
+              <div class="navInterior__hasL2s navInterior__subgroup">
+
+                  <div class="navInterior--L2__wrapper">
+                    <div class="navInterior--L2 navInterior__item">
+                      <span class="navInterior--L2__title">
+                          <a href="/web/20220801152945/https://www.ismworld.org/supply-management-news-and-reports/research-resource-centers/covid-19-resource-center/" class="navInterior--L2__link navInterior__link ">
+                            COVID-19
+                          </a>
+                      </span>
+                    </div>
+                    
+                  </div>
+                  <div class="navInterior--L2__wrapper">
+                    <div class="navInterior--L2 navInterior__item">
+                      <span class="navInterior--L2__title">
+                          <a href="/web/20220801152945/https://www.ismworld.org/supply-management-news-and-reports/research-resource-centers/supplier-diversity-resource-center/" class="navInterior--L2__link navInterior__link ">
+                            Supplier Diversity
+                          </a>
+                      </span>
+                    </div>
+                    
+                  </div>
+                  <div class="navInterior--L2__wrapper">
+                    <div class="navInterior--L2 navInterior__item">
+                      <span class="navInterior--L2__title">
+                          <a href="/web/20220801152945/https://www.ismworld.org/supply-management-news-and-reports/research-resource-centers/sustainability-research/" class="navInterior--L2__link navInterior__link ">
+                            Sustainability
+                          </a>
+                      </span>
+                    </div>
+                    
+                  </div>
+                  <div class="navInterior--L2__wrapper">
+                    <div class="navInterior--L2 navInterior__item">
+                      <span class="navInterior--L2__title">
+                          <a href="/web/20220801152945/https://www.ismworld.org/supply-management-news-and-reports/research-resource-centers/talent-diversity-and-salary-survey-research/" class="navInterior--L2__link navInterior__link ">
+                            Talent Diversity and Salary Survey
+                          </a>
+                      </span>
+                    </div>
+                    
+                  </div>
+                
+              </div>
+            </b-collapse>
+        </div>
+    </div>
+</div>
+
+<script>
+  (function () {
+    function initThisComponent() {
+      new Vue({
+        el: "#navInterior"
+      });
+    }
+    document.addEventListener("DOMContentLoaded", initThisComponent, false);
+  })();
+</script>
+						
+					</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<div class="component">
+    <div class="container">
+        <div class="imgWithCTA" data-imgwithcta>
+            <div class="row row">
+                <div class="col-md-6 imgWithCTA__left-col">
+                    <div class="imgWithCTA__img__wrapper">
+                        <img data-src="/globalassets/pub/553x359/553x359_survey.jpg" alt="" class="lazyload imgWithCTA__img">
+                        <div class="imgWithCTA__img__text"></div>
+                    </div>
+                </div>
+                <div class="col-md-6 imgWithCTA__right-col">
+                    <div class="imgWithCTA__content">
+                        <h2 class="imgWithCTA__headline">Join the Survey Panel</h2>
+                        <div class="imgWithCTA__teaser">
+                            <p>ISM<sup>&reg;</sup>'s Manufacturing, Services, and Hospital <em><strong>Report On Business<sup>&reg;</sup></strong></em> gather data monthly through surveys of supply management professionals participating in the Business Survey Committee. The make-up of this committee is determined by industry category and is based on each industry's contribution to Gross Domestic Product.</p>
+                        </div>
+                        
+
+
+    <a href="/web/20220801152945/https://www.ismworld.org/supply-management-news-and-reports/reports/join-the-survey-panel/" class="button button--orange" data-block-name="">
+        Learn More
+    </a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<b-modal id="alert-modal-disclaimer" modal-class="disclaimerClass" v-if="disclaimerFlag != 1" v-model="modalShow" title="Disclaimer" hide-footer hide-header-close no-close-on-esc no-close-on-backdrop size="lg">
+    <div class="d-block text-center">
+        <p>Please note that you or the organization you represent may not create, recreate, distribute, incorporate in other work, or advertise an index or any portion of the ISM<sup>&reg;</sup> Report On Business&reg; &ndash; Manufacturing (PMI<sup>&reg;</sup>), Services (PMI<sup>&reg;</sup>) and Hospital (PMI<sup>&trade;</sup>) content unless you receive prior written authorization from ISM. Requests for permission to reproduce or distribute ISM ROB Content can be made by contacting us in writing at:</p>
+<p><strong>ISM Research</strong><br/><strong>Institute for Supply Management</strong></p>
+<p>309 W. Elliot Road ,<br/>Suite 113 <br/>Tempe, AZ 85284</p>
+<p>or by emailing us at (Subject: Content Request)<br/><a href="http://web.archive.org/web/20220801152945/mailto:robadmin@ismworld.org" target="_blank" rel="noopener">robadmin@ismworld.org</a></p>
+    </div>
+    <center>
+    <input type="button" class="button button--orange AcceptROBModal" @click="$bvModal.hide('alert-modal-disclaimer')" v-on:click="disclaimerFlag = '1'" value="Agree"/>
+    </center>
+</b-modal>
+
+<script src="/web/20220801152945js_/https://www.ismworld.org/Static/Vue/Components/Disclaimer.js"></script>
+
+
+
+<div id="hubspot-86154479" class="component hubspotLast">
+  <div class="hex-bg lazyload" data-bg="/Static/img/hexpattern.png"></div>
+  <div class="hubspot " data-hubspot>
+      <script charset="utf-8" type="text/javascript" src="//web.archive.org/web/20220801152945js_/https://js.hsforms.net/forms/v2.js"></script>
+      <script>
+        hbspt.forms.create({
+          portalId: "620652",
+          formId: "0f048301-c4f1-48a7-b8fd-059169228e60"
+        });
+      </script>
+    <script>
+      window.addEventListener("load",
+        function() {
+          var emailLabel = document.querySelector('#hubspot-86154479 .hubspot [data-reactid=".hbspt-forms-0.1:$0.0.0"]');
+          if (emailLabel) {
+            emailLabel.innerText = "Subscribe to Our e-Newsletter";
+            emailLabel.parentElement.querySelector('.hs-form-required').innerText = "";
+          }
+        });
+    </script>
+  </div>
+
+
+</div>            <div id="backToTop" class="backToTop">
+  <button id="backToTopButton" class="button button--clear">
+    <div>
+			<i class="fas fa-angle-up"></i>
+    </div>
+    Back To Top
+  </button>
+</div>
+<div id="backToTopMark"></div>
+
+            <link rel="stylesheet" href="/web/20220801152945cs_/https://www.ismworld.org/Static/css/belowthefold.css?v=1_0_8172_18990"/>
+<footer class="footer" data-footer>
+  <div class="footer__row row">
+          <div class="col footer__col">
+            <h4 class="footer__l1__headline">
+About ISM            </h4>
+            <ul class="footer__l1 list-unstyled">
+              <li class="footer__l1__item">
+                <ul class="footer__l2 list-unstyled">
+                      <li class="footer__l2__item"><a class="footer__link" href="/web/20220801152945/https://www.ismworld.org/about-ism/overview/" target="">Overview</a></li>
+                      <li class="footer__l2__item"><a class="footer__link" href="/web/20220801152945/https://www.ismworld.org/about-ism/governance/" target="">Governance</a></li>
+                      <li class="footer__l2__item"><a class="footer__link" href="/web/20220801152945/https://www.ismworld.org/about-ism/executive-team/" target="">Executive Team</a></li>
+                      <li class="footer__l2__item"><a class="footer__link" href="/web/20220801152945/https://www.ismworld.org/about-ism/ism-mastery-model/" target="_blank">ISM&#174; Supply Chain Capability Model</a></li>
+                      <li class="footer__l2__item"><a class="footer__link" href="/web/20220801152945/https://www.ismworld.org/about-ism/careers-at-ism/" target="">Careers at ISM</a></li>
+                      <li class="footer__l2__item"><a class="footer__link" href="/web/20220801152945/https://www.ismworld.org/about-ism/media-relations/" target="">ISM Media Relations</a></li>
+                      <li class="footer__l2__item"><a class="footer__link" href="/web/20220801152945/https://www.ismworld.org/for-individuals/corporate-and-social-responsibility/join-diversity--inclusion-pledge/" target="">Join Diversity &amp; Inclusion Pledge</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <div class="col footer__col">
+            <h4 class="footer__l1__headline">
+Resources            </h4>
+            <ul class="footer__l1 list-unstyled">
+              <li class="footer__l1__item">
+                <ul class="footer__l2 list-unstyled">
+                      <li class="footer__l2__item"><a class="footer__link" href="/web/20220801152945/https://www.ismworld.org/supply-management-news-and-reports/news-publications/inside-supply-management-magazine/" target="">Inside Supply Management Magazine</a></li>
+                      <li class="footer__l2__item"><a class="footer__link" href="/web/20220801152945/https://www.ismworld.org/supply-management-news-and-reports/reports/ism-report-on-business/" target="">ISM Report On Business&#174;</a></li>
+                      <li class="footer__l2__item"><a class="footer__link" href="/web/20220801152945/https://www.ismworld.org/supply-management-news-and-reports/reports/caps-research/" target="">CAPS Research</a></li>
+                      <li class="footer__l2__item"><a class="footer__link" href="http://web.archive.org/web/20220801152945/https://careers.ismworld.org/jobseekers/" target="_blank">Career Center</a></li>
+                      <li class="footer__l2__item"><a class="footer__link" href="/web/20220801152945/https://www.ismworld.org/resources/legal-templates/" target="_blank">Legal Templates</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <div class="col footer__col">
+            <h4 class="footer__l1__headline">
+                <a class="footer__link" href="/web/20220801152945/https://www.ismworld.org/community/marketing-opportunities/">Marketing Opportunities</a>
+            </h4>
+            <ul class="footer__l1 list-unstyled">
+              <li class="footer__l1__item">
+                <ul class="footer__l2 list-unstyled">
+                      <li class="footer__l2__item"><a class="footer__link" href="/web/20220801152945/https://www.ismworld.org/community/marketing-opportunities/advertise-with-us/" target="">Advertise With Us</a></li>
+                      <li class="footer__l2__item"><a class="footer__link" href="/web/20220801152945/https://www.ismworld.org/events/exhibit-and-sponsorship-opportunities/" target="">Exhibit and Sponsorship Opportunities</a></li>
+                      <li class="footer__l2__item"><a class="footer__link" href="/web/20220801152945/https://www.ismworld.org/community/marketing-opportunities/media-kit/" target="_blank">Media Kit</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+
+    <div class="col footer__col">
+      <ul class="footer__l1 list-unstyled">
+        <li class="footer__l1__item">
+          <div class="social-bar social-bar--footer">
+                <a href="http://web.archive.org/web/20220801152945/https://www.facebook.com/InstituteForSupplyManagement/" class="social-bar__link" target="_blank">
+                    <svg class="social-bar__icon" viewbox="0 0 32 32">
+                      <use xlink:href="/web/20220801152945im_/https://www.ismworld.org/supply-management-news-and-reports/reports/ism-report-on-business/pmi/july/#iconFacebook"></use>
+                    </svg>
+                </a>
+                <a href="http://web.archive.org/web/20220801152945/https://www.linkedin.com/company/institute-for-supply-management/" class="social-bar__link" target="_blank">
+                    <svg class="social-bar__icon" viewbox="0 0 32 32">
+                      <use xlink:href="/web/20220801152945im_/https://www.ismworld.org/supply-management-news-and-reports/reports/ism-report-on-business/pmi/july/#iconLinkedIn"></use>
+                    </svg>
+                </a>
+                <a href="http://web.archive.org/web/20220801152945/https://twitter.com/ism" class="social-bar__link" target="_blank">
+                    <svg class="social-bar__icon" viewbox="0 0 32 32">
+                      <use xlink:href="/web/20220801152945im_/https://www.ismworld.org/supply-management-news-and-reports/reports/ism-report-on-business/pmi/july/#iconTwitter"></use>
+                    </svg>
+                </a>
+                <a href="http://web.archive.org/web/20220801152945/https://www.youtube.com/ismorg" class="social-bar__link" target="_blank">
+                    <svg class="social-bar__icon" viewbox="0 0 32 32">
+                      <use xlink:href="/web/20220801152945im_/https://www.ismworld.org/supply-management-news-and-reports/reports/ism-report-on-business/pmi/july/#iconYouTube"></use>
+                    </svg>
+                </a>
+                <a href="http://web.archive.org/web/20220801152945/https://www.instagram.com/supplymanagement/" class="social-bar__link" target="_blank">
+                    <svg class="social-bar__icon" viewbox="0 0 32 32">
+                      <use xlink:href="/web/20220801152945im_/https://www.ismworld.org/supply-management-news-and-reports/reports/ism-report-on-business/pmi/july/#iconInstagram"></use>
+                    </svg>
+                </a>
+          </div>
+            <div class="footer__logo__wrapper">
+              <a href="/web/20220801152945/https://www.ismworld.org/">
+                <img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="/globalassets/masterpage/header/ism-logo-white.svg" alt="An all white version of the ISM logo." class="lazyload footer__logo">
+              </a>
+            </div>
+                      <div class="footer__address">
+                <p>Institute for Supply Management</p>
+                              <p>309 W Elliot Rd #113,</p>
+                              <p>Tempe, AZ 85284</p>
+                              <p><a class="footer__link" href="http://web.archive.org/web/20220801152945/tel:+1 480-752-6276">+1 480-752-6276</a></p>
+                              <p><a class="footer__link" href="http://web.archive.org/web/20220801152945/mailto:membersvcs@ismworld.org">membersvcs@ismworld.org</a></p>
+            </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer__copyright">
+      <span>&copy;2022 ISM. All Rights Reserved.</span>
+            <span><a class="footer__link" href="/web/20220801152945/https://www.ismworld.org/footer/terms-of-use/" target="">Terms of Service</a></span>
+        <span><a class="footer__link" href="/web/20220801152945/https://www.ismworld.org/footer/terms-conditions/" target="">Terms and Conditions</a></span>
+        <span><a class="footer__link" href="/web/20220801152945/https://www.ismworld.org/footer/privacy-policy/" target="">Privacy Policy</a></span>
+  </div>
+</footer>
+
+
+        </main>
+
+        <script async src="http://web.archive.org/web/20220801152945js_/https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<!-- BEGIN SHAREAHOLIC CODE -->
+<link rel="preload" href="http://web.archive.org/web/20220801152945/https://cdn.shareaholic.net/assets/pub/shareaholic.js" as="script"/>
+<meta name="shareaholic:site_id" content="e5d88a049b4ba7ad8d0fb57c197c841f"/>
+<script data-cfasync="false" async src="http://web.archive.org/web/20220801152945js_/https://cdn.shareaholic.net/assets/pub/shareaholic.js"></script>
+<!-- END SHAREAHOLIC CODE -->
+
+
+ <script>
+setTimeout(function(){
+   /* Facebook Pixel Code */
+          var zi = document.createElement('script');
+          zi.type = 'text/javascript';
+          zi.async = true;
+          zi.referrerPolicy = 'unsafe-url';
+          zi.src = 'http://web.archive.org/web/20220801152945/https://ws.zoominfo.com/pixel/61aebf498a6093001ca600a0';
+          var s = document.getElementsByTagName('script')[0];
+          s.parentNode.insertBefore(zi, s);
+         }, 3000);
+</script> <noscript> <img src="http://web.archive.org/web/20220801152945im_/https://ws.zoominfo.com/pixel/61aebf498a6093001ca600a0" width="1" height="1" style="display: none;"/></noscript>
+
+
+
+        <script type="text/javascript" src="http://web.archive.org/web/20220801152945js_/https://dl.episerver.net/13.4.8/epi-util/find.js"></script>
+<script type="text/javascript">
+if(FindApi){var api = new FindApi();api.setApplicationUrl('/');api.setServiceApiBaseUrl('/find_v2/');api.processEventFromCurrentUri();api.bindWindowEvents();api.bindAClickEvent();api.sendBufferedEvents();}
+</script>
+
+    </div>
+
+    <script src="http://web.archive.org/web/20220801152945js_/https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.10/vue.min.js"></script>
+    <script src="http://web.archive.org/web/20220801152945js_/https://cdnjs.cloudflare.com/ajax/libs/bootstrap-vue/2.15.0/bootstrap-vue.min.js"></script>
+    <script src="/web/20220801152945js_/https://www.ismworld.org/bundles/js?v=LmuKN1DFtqKL_NnSbuJUMtEVlC69UgOdrN-UiedId4U1"></script>
+
+  <script>(function(){window['__CF$cv$params']={r:'733f9c7119349465',m:'4s.LZEL8tIE_NBptkNrTkXF6l6XVqK3SlAzJFGtIVl8-1659367785-0-AT/cCe7nOHhvGiBazr2F6DQ78llbkojWi0Its3V50PSoYbfqMLDjLOE8W88976tk8JnmJ2lcAvtI6Ds4pUAeh8lKukeE2bk9X2L+hD6vO18qzffjHEAlsum0A1ikTS/LqVnuEuZlGDwDWEwP4ejwlQAg0+NfNsbsiqvBhL6yOO28ouCT/i2RFbVtktVGpARe5yEGnNf2UVKCg+umKCdXeLU=',s:[0xda621e7781,0xe01831f9f4],}})();</script></body>
+</html><!--
+     FILE ARCHIVED ON 15:29:45 Aug 01, 2022 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 22:24:15 Apr 30, 2023.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 584.996
+  exclusion.robots: 0.097
+  exclusion.robots.policy: 0.09
+  cdx.remote: 0.045
+  esindex: 0.008
+  LoadShardBlock: 59.973 (3)
+  PetaboxLoader3.datanode: 88.153 (4)
+  load_resource: 191.137
+  PetaboxLoader3.resolve: 81.091
+-->

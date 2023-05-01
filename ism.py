@@ -3,8 +3,10 @@
 import requests
 import pandas as pd
 from os import path 
+from datetime import datetime
 import sys
 import getopt
+import pathlib
 from bs4 import BeautifulSoup
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service as ChromeService
@@ -13,6 +15,9 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from webdriver_manager.chrome import ChromeDriverManager
+
+HTML_EXTENSION=".html.gld"
+TS_FORMAT = "%Y%m%d%H%M%S" #20220107050337
 
 def print_version():
    print ("version 0.1")
@@ -26,6 +31,7 @@ def print_help():
    print("-s, --sum:               sum partial results and rank totals")
    print("-v, --version:           Shows version and exit")
    print("-y, --accept-disclaimer: Accept the disclaimer notice prompt")
+   print("-d, --directory D:       Read all files in the directory as ism reports")
    print("    --pmi M:             Month (Jan-Dec) to apply the default pmi on")
    print("    --smi M:             Month (Jan-Dec) to apply the default smi on")
    print("-h, --help:              Shows help and exit")
@@ -40,13 +46,27 @@ class ism():
 
        return pd.read_csv(file, sep=separator)
 
-      
+    def read_file(self, file: str) -> str:
+       """Extracts text from a local HTLM-like file. Not plain text. 
+
+       Args:
+           file (str): The file we want to extract text from.
+
+       Returns:
+           str: The string containing all the text in the HTML-like file.
+       """
+       if not path.isfile(file):
+          return ""
+       with open(file, "r", encoding='utf8') as f:
+            web = f.read()
+            return web
+       
     def read_web(self, url: str, selenium: bool = False) -> str:
        """Extracts text from a webpage. 
 
        Args:
            url (str): The webpage we want to extract text from.
-           selenium (bool, optional): If tru, using selenium to 
+           selenium (bool, optional): If true, using selenium to 
            move the cursor and agree the TOS. If false, then use
            fast web scrapping to extract text from web. Defaults to False.
 
@@ -68,7 +88,7 @@ class ism():
             options.add_argument("--headless=new")
             driver = webdriver.Chrome(service=service, options=options)
             driver.get(url)
-            driver.execute_script("arguments[0].click();", WebDriverWait(driver, 20).until(EC.element_to_be_clickable((By.XPATH, "//input[@value='Agree']"))))
+            driver.execute_script("arguments[0].click();", WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.XPATH, "//input[@value='Agree']"))))
             html = driver.find_element(by=By.TAG_NAME, value= "body").get_attribute('innerHTML')
             driver.quit()
             return html
@@ -107,7 +127,7 @@ class ism():
             lines = ''.join(text[:where+1].splitlines()[tag[2]-1:])
          soup = BeautifulSoup(lines, 'html.parser')
          p = soup.find_all(class_='mb-3')
-         if len(p)>0:
+         if len(p)>1:
             d[tag[1]] = p[1].get_text()
          else:
             d[tag[1]] = soup.get_text()
@@ -165,16 +185,18 @@ class ism():
 
 def main(argv):
     try:
-      opts, _ = getopt.getopt(argv, "u:i:t:o:svhy",
+      opts, _ = getopt.getopt(argv, "u:i:t:o:svhyH:",
                               ["url=",  "industries=", "tags=", 
                                "output=", "sum", "version", "help", 
-                               "accept-disclaimer","smi=", "pmi="])
+                               "accept-disclaimer","smi=", "pmi=",
+                               "directory="])
     except getopt.GetoptError:
       print("Error when parsing arguments")
       print_help()
       sys.exit(2)
     sum_ = False    
     accept = False
+    directory = ""
     url = 'https://www.ismworld.org/supply-management-news-and-reports/reports/ism-report-on-business/pmi/april'
     tags = 'scoring-tables/manufacturingtags.csv'
     industries = 'scoring-tables/manufacturingindustries.csv'
@@ -198,6 +220,11 @@ def main(argv):
          sum_ = True
       elif opt in ("-y", "--accept-disclaimer"):
          accept = True
+      elif opt in ("-d", "--directory"):
+         sum_ = True
+         directory = str(arg)
+         if directory[-1]!='/':
+            directory +='/'
       elif opt in ("--pmi"):
          url = 'https://www.ismworld.org/supply-management-news-and-reports/reports/ism-report-on-business/pmi/'+str(arg).lower()
          tags = 'scoring-tables/manufacturingtags.csv'
@@ -227,27 +254,62 @@ def main(argv):
     if len(industries_df) == 0:
        print("Could not get industries from "+industries)
        sys.exit(2)
+    if directory == "":
+       webs = [(MyIsm.read_web(url, accept),url, output)]
+    else:
+       df_smi=None
+       df_pmi=None
+       historical = pathlib.Path(directory)
+       webs=[]
+       for item in historical.rglob("*"+HTML_EXTENSION):
+            if item.is_file():
+                webs += [(MyIsm.read_file(str(item)),"",str(item).split('.')[0]+".csv")]
+    for text, url, output in webs:   
+      if text == "":
+         print("Could not read url "+url)
+         sys.exit(2)
+      d = MyIsm.find_match(text, tags_df[tags_df.columns.values[0]].values, 
+                           offset=tags_df[tags_df.columns.values[1]].values, 
+                           categories = tags_df.index.values)
+      if len(d) == 0:
+         print("Did not find any match in url text "+url)
+         sys.exit(2)
 
-    web = MyIsm.read_web(url, accept)
-    if web == "":
-       print("Could not read url "+url)
-       sys.exit(2)
-    
-    d = MyIsm.find_match(web, tags_df[tags_df.columns.values[0]].values, 
-                        offset=tags_df[tags_df.columns.values[1]].values, 
-                        categories = tags_df.index.values)
-    if len(d) == 0:
-       print("Did not find any match")
-       sys.exit(2)
-
-    mult={tags_df.index.values[i]:tags_df.iloc[i][tags_df.columns.values[2]]
-               for i in range(len(tags_df))}
-    scores = MyIsm.score(d, industries_df[industries_df.columns.values[0]].values, 
-                              mult)
-    df = pd.DataFrame.from_dict(scores, orient='index')
-    if sum_:
-       df = df.sum(axis=1).squeeze().sort_values()
-       df.name = 'score'
-    df.to_csv(output, sep=';')
+      mult={tags_df.index.values[i]:tags_df.iloc[i][tags_df.columns.values[2]]
+                  for i in range(len(tags_df))}
+      scores = MyIsm.score(d, industries_df[industries_df.columns.values[0]].values, 
+                                 mult)
+      df = pd.DataFrame.from_dict(scores, orient='index')
+      if sum_:
+         df = df.sum(axis=1).squeeze().sort_values()
+         if directory != "":
+            report = output.split("_")[0].split("/")[-1]
+            dates = datetime.strptime(str(output.split("_")[1].split(".")[0]), TS_FORMAT)
+            cols = df.index.values
+            s = df.reindex([dates])
+            s.values=df.values
+            print(s)
+            s = pd.DataFrame(index=[str(dates)], data={'col1': df.values})
+            df.name = output.split("_")[1].split(".")[0]
+            #df= df.T
+            if report.lower() == "services":
+               if df_smi is not None:
+                  df_smi = pd.concat([df_smi,df], axis=1)
+                  #print(df)
+               else:
+                  df_smi = df
+            elif report.lower() == "pmi":
+               if df_pmi is not None:
+                  df_pmi = pd.concat([df_pmi,df], axis=1)
+                  #print(df)
+               else:
+                  df_pmi = df
+            else:
+               print(f"report {report} not recognized")
+               sys.exit(2)
+            df.name = 'score'
+         else:
+            df.name = 'score'
+      df.to_csv(output, sep=';')
 if __name__ == "__main__":
     main(sys.argv[1:])

@@ -71,3 +71,17 @@ we should update the golden the test suite check against. To do so, just run:
 ```shell
 python -m unittest ism_test.GenerateGoldens
 ```
+
+## Historical reports
+With the help of [archive.org](https://archive.org/) we can have historical ISM reports. 
+In order to store them to disk we can run the following tests
+```shell
+python -m unittest ism_test.test_getOldISMReportDates
+```
+We have slowed it down on purpose in order not to reach [rate limits on the server](https://en.wikipedia.org/wiki/Wayback_Machine#:~:text=Starting%20in%20October%202019%2C%20users,requests%20and%20retrievals%20per%20minute.). So 
+please be patient for that test to finish. It usually takes ~10 min.
+
+Once the data is dumped into disk, we can generate a historical report by executing:
+```shell
+python ism.py -d historical/
+```
