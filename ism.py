@@ -185,7 +185,7 @@ class ism():
 
 def main(argv):
     try:
-      opts, _ = getopt.getopt(argv, "u:i:t:o:svhyH:",
+      opts, _ = getopt.getopt(argv, "u:i:t:o:svhyd:",
                               ["url=",  "industries=", "tags=", 
                                "output=", "sum", "version", "help", 
                                "accept-disclaimer","smi=", "pmi=",
@@ -225,17 +225,22 @@ def main(argv):
          directory = str(arg)
          if directory[-1]!='/':
             directory +='/'
+         output = ".csv"
+         tags_services = 'scoring-tables/servicestags.csv'
+         tags_manufacturing = 'scoring-tables/manufacturingtags.csv'
+         industries_services = 'scoring-tables/servicesindustries.csv'
+         industries_manufacturing = 'scoring-tables/manufacturingindustries.csv'
       elif opt in ("--pmi"):
          url = 'https://www.ismworld.org/supply-management-news-and-reports/reports/ism-report-on-business/pmi/'+str(arg).lower()
          tags = 'scoring-tables/manufacturingtags.csv'
          industries = 'scoring-tables/manufacturingindustries.csv'
-         output = str(arg)+"_pmi.txt"
+         output = str(arg)+"_pmi.csv"
          sum_ = True
       elif opt in ("--smi"):
          url = 'https://www.ismworld.org/supply-management-news-and-reports/reports/ism-report-on-business/services/'+str(arg).lower()
          tags = 'scoring-tables/servicestags.csv'
          industries = 'scoring-tables/servicesindustries.csv'
-         output = str(arg)+"_smi.txt"
+         output = str(arg)+"_smi.csv"
          sum_ = True
       else:
          print("Some argument was misspelled")
@@ -244,72 +249,100 @@ def main(argv):
     if output == '':
        output = 'ism.csv'
     MyIsm = ism()
-    tags_df = MyIsm.read_csv(tags)
-    if len(tags_df) == 0:
-       print("Could not get tags from "+tags)
-       sys.exit(2)
-    tags_df.set_index(tags_df.columns.values[0], inplace=True)
-
-    industries_df = MyIsm.read_csv(industries, separator=';')
-    if len(industries_df) == 0:
-       print("Could not get industries from "+industries)
-       sys.exit(2)
     if directory == "":
-       webs = [(MyIsm.read_web(url, accept),url, output)]
+       tags_df = MyIsm.read_csv(tags)
+       if len(tags_df) == 0:
+         print("Could not get tags from "+tags)
+         sys.exit(2)
+      
+       tags_df.set_index(tags_df.columns.values[0], inplace=True)
+       industries_df = MyIsm.read_csv(industries, separator=';')
+       if len(industries_df) == 0:
+         print("Could not get industries from "+industries)
+         sys.exit(2)
+       webs = [(MyIsm.read_web(url, accept),url)]
     else:
-       df_smi=None
-       df_pmi=None
+       tags_services_df = MyIsm.read_csv(tags_services)
+       tags_manufacturing_df = MyIsm.read_csv(tags_manufacturing)
+       industries_services_df = MyIsm.read_csv(industries_services, separator=';')
+       industries_manufacturing_df = MyIsm.read_csv(industries_manufacturing, separator=';')
+       if len(tags_services_df) == 0 or len(tags_manufacturing_df) == 0 or len(industries_services_df) == 0 or len(industries_manufacturing_df) == 0:
+         print("Problem reading tags/industries csvs")
+         sys.exit(2)
+       tags_services_df.set_index(tags_services_df.columns.values[0], inplace=True)
+       tags_manufacturing_df.set_index(tags_manufacturing_df.columns.values[0], inplace=True)
+       
        historical = pathlib.Path(directory)
        webs=[]
        for item in historical.rglob("*"+HTML_EXTENSION):
             if item.is_file():
-                webs += [(MyIsm.read_file(str(item)),"",str(item).split('.')[0]+".csv")]
-    for text, url, output in webs:   
+                webs += [(MyIsm.read_file(str(item)),str(item).split('.')[0]+".csv")]
+    df_services={}
+    df_manufacturing={}
+    for text, url in webs:   
       if text == "":
          print("Could not read url "+url)
          sys.exit(2)
-      d = MyIsm.find_match(text, tags_df[tags_df.columns.values[0]].values, 
+      if directory=="":
+         d = MyIsm.find_match(text, tags_df[tags_df.columns.values[0]].values, 
                            offset=tags_df[tags_df.columns.values[1]].values, 
                            categories = tags_df.index.values)
+         mult={tags_df.index.values[i]:tags_df.iloc[i][tags_df.columns.values[2]]
+                  for i in range(len(tags_df))}
+         scores = MyIsm.score(d, industries_df[industries_df.columns.values[0]].values, 
+                                 mult)
+      else:
+         report = url.split("_")[0].split("/")[-1]
+         if report == "services":
+            d = MyIsm.find_match(text, tags_services_df[tags_services_df.columns.values[0]].values, 
+                           offset=tags_services_df[tags_services_df.columns.values[1]].values, 
+                           categories = tags_services_df.index.values)
+            mult={tags_services_df.index.values[i]:tags_services_df.iloc[i][tags_services_df.columns.values[2]]
+                  for i in range(len(tags_services_df))}
+            scores = MyIsm.score(d, industries_services_df[industries_services_df.columns.values[0]].values, 
+                                 mult)
+         else:
+            d = MyIsm.find_match(text, tags_manufacturing_df[tags_manufacturing_df.columns.values[0]].values, 
+                           offset=tags_manufacturing_df[tags_manufacturing_df.columns.values[1]].values, 
+                           categories = tags_manufacturing_df.index.values)
+            mult={tags_manufacturing_df.index.values[i]:tags_manufacturing_df.iloc[i][tags_manufacturing_df.columns.values[2]]
+                  for i in range(len(tags_manufacturing_df))}
+            scores = MyIsm.score(d, industries_manufacturing_df[industries_manufacturing_df.columns.values[0]].values, 
+                                 mult)
       if len(d) == 0:
          print("Did not find any match in url text "+url)
          sys.exit(2)
 
-      mult={tags_df.index.values[i]:tags_df.iloc[i][tags_df.columns.values[2]]
-                  for i in range(len(tags_df))}
-      scores = MyIsm.score(d, industries_df[industries_df.columns.values[0]].values, 
-                                 mult)
+      
       df = pd.DataFrame.from_dict(scores, orient='index')
       if sum_:
          df = df.sum(axis=1).squeeze().sort_values()
          if directory != "":
-            report = output.split("_")[0].split("/")[-1]
-            dates = datetime.strptime(str(output.split("_")[1].split(".")[0]), TS_FORMAT)
-            cols = df.index.values
-            s = df.reindex([dates])
-            s.values=df.values
-            print(s)
-            s = pd.DataFrame(index=[str(dates)], data={'col1': df.values})
-            df.name = output.split("_")[1].split(".")[0]
-            #df= df.T
-            if report.lower() == "services":
-               if df_smi is not None:
-                  df_smi = pd.concat([df_smi,df], axis=1)
-                  #print(df)
-               else:
-                  df_smi = df
-            elif report.lower() == "pmi":
-               if df_pmi is not None:
-                  df_pmi = pd.concat([df_pmi,df], axis=1)
-                  #print(df)
-               else:
-                  df_pmi = df
+            
+            dates = datetime.strptime(str(url.split("_")[1].split(".")[0]), TS_FORMAT)
+            df = pd.DataFrame(index=[dates],data=df.to_dict())
+            if report == "services" and len(df_services) == 0:
+               df_services = df
+            elif report == "services":
+               df_services = pd.concat([df_services,df])
+               df_services.sort_index(inplace=True)
+            elif len(df_manufacturing) == 0:
+               df_manufacturing = df
             else:
-               print(f"report {report} not recognized")
-               sys.exit(2)
-            df.name = 'score'
-         else:
-            df.name = 'score'
+               df_manufacturing = pd.concat([df_manufacturing,df])
+               df_manufacturing.sort_index(inplace=True)
+    if directory != "":
+      if len(df_manufacturing)>0:
+         df_manufacturing.name='manufacturing_scores'
+         df_manufacturing.index.name = 'release_date'
+         df_manufacturing.to_csv("manufacturing"+output, sep=';')
+      if len(df_services)>0:
+         df_services.name='services_scores'
+         df_services.index.name = 'release_date'
+         df_services.to_csv("services"+output, sep=';')
+    else:
+      df.name = 'score'
+      df.index.name='industry'
       df.to_csv(output, sep=';')
 if __name__ == "__main__":
     main(sys.argv[1:])

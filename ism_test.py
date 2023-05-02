@@ -100,11 +100,66 @@ class TestRegression(unittest.TestCase):
         self.assertDictEqual(golden, scores, "scores don't match")
 
     def test_readFile(self):
+        manufacturing_tags_df = self.scrapper.read_csv(MANUFACTURING_TAGS_NAME)
+        self.assertGreater(len(manufacturing_tags_df), 0, "error reading tags csv")
+        manufacturing_tags_df.set_index(manufacturing_tags_df.columns.values[0], inplace=True)
+        manufacturing_industries_df = self.scrapper.read_csv(MANUFACTURING_INDUSTRIES_NAME, separator=';')
+        self.assertGreater(len(manufacturing_industries_df), 0, "error reading industries csv")
+
+        services_tags_df = self.scrapper.read_csv(SERVICES_TAGS_NAME)
+        self.assertGreater(len(services_tags_df), 0, "error reading tags csv")
+        services_tags_df.set_index(services_tags_df.columns.values[0], inplace=True)
+        services_industries_df = self.scrapper.read_csv(SERVICES_INDUSTRIES_NAME, separator=';')
+        self.assertGreater(len(services_industries_df), 0, "error reading industries csv")
+
         historical = pathlib.Path(HISTORICAL_DIR)
+        df_services={}
+        df_manufacturing={}
+        services_count = 0
+        manufacturing_count = 0
         for item in historical.rglob("*"+HTML_EXTENSION):
             if item.is_file():
                 web = self.scrapper.read_file(str(item))
                 self.assertGreater(len(web), 0, "error reading html from file")
+                report = str(item).split("_")[0].split("/")[-1]
+                if report == "services":
+                    d = self.scrapper.find_match(web, services_tags_df[services_tags_df.columns.values[0]].values, 
+                            offset=services_tags_df[services_tags_df.columns.values[1]].values, 
+                            categories = services_tags_df.index.values)
+                    self.assertGreater(len(d), 0,"error finding matches")
+                    mult={services_tags_df.index.values[i]:services_tags_df.iloc[i][services_tags_df.columns.values[2]]
+                            for i in range(len(services_tags_df))}
+                    scores = self.scrapper.score(d, services_industries_df[services_industries_df.columns.values[0]].values, 
+                              mult)
+                    services_count+=1
+                else:
+                    d = self.scrapper.find_match(web, manufacturing_tags_df[manufacturing_tags_df.columns.values[0]].values, 
+                            offset=manufacturing_tags_df[manufacturing_tags_df.columns.values[1]].values, 
+                            categories = manufacturing_tags_df.index.values)
+                    self.assertGreater(len(d), 0,"error finding matches")
+                    mult={manufacturing_tags_df.index.values[i]:manufacturing_tags_df.iloc[i][manufacturing_tags_df.columns.values[2]]
+                            for i in range(len(manufacturing_tags_df))}
+                    scores = self.scrapper.score(d, manufacturing_industries_df[manufacturing_industries_df.columns.values[0]].values, 
+                              mult)
+                    manufacturing_count+=1
+                self.assertGreater(len(scores), 0, "error generating scores")
+                df = pd.DataFrame.from_dict(scores, orient='index')
+                s = df.sum(axis=1).squeeze().sort_values()
+                dates = datetime.strptime(str(str(item).split("_")[1].split(".")[0]), TS_FORMAT)
+                df = pd.DataFrame(index=[dates],data=s.to_dict())
+                if report == "services" and len(df_services) == 0:
+                    df_services = df
+                elif report == "services":
+                    df_services = pd.concat([df_services,df])
+                elif len(df_manufacturing) == 0:
+                    df_manufacturing = df
+                else:
+                    df_manufacturing = pd.concat([df_manufacturing,df])
+        df_manufacturing.sort_index(inplace=True)
+        df_services.sort_index(inplace=True)
+        self.assertEqual(services_count, len(df_services))
+        self.assertEqual(manufacturing_count, len(df_manufacturing))
+
 
 class GetHistory(unittest.TestCase):
     def setUp(self):
@@ -137,7 +192,7 @@ class GetHistory(unittest.TestCase):
             with open(output, "w", encoding='utf8') as f:
                 f.write(text)
 
-    def test_getOldISMReportDates(self):
+    def test_updateISMReports(self):
         timestaps=pd.date_range(start=FIRST_REPORT_AVAILABLE, end=datetime.now(), freq='M')
         series = []
         for report in ["services","pmi"]:
