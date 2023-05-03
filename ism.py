@@ -292,7 +292,10 @@ def main(argv):
          scores = MyIsm.score(d, industries_df[industries_df.columns.values[0]].values, 
                                  mult)
       else:
-         report = url.split("_")[0].split("/")[-1]
+         if "/" in url:
+            report = url.split("_")[0].split("/")[-1]
+         else:
+            report = url.split("_")[0].split("\\")[-1]
          if report == "services":
             d = MyIsm.find_match(text, tags_services_df[tags_services_df.columns.values[0]].values, 
                            offset=tags_services_df[tags_services_df.columns.values[1]].values, 
@@ -336,6 +339,7 @@ def main(argv):
          df_manufacturing.name='manufacturing_scores'
          df_manufacturing.index.name = 'release_date'
          df_manufacturing.to_csv("manufacturing"+output, sep=';')
+         df.cumsum().plot()
       if len(df_services)>0:
          df_services.name='services_scores'
          df_services.index.name = 'release_date'

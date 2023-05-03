@@ -121,7 +121,10 @@ class TestRegression(unittest.TestCase):
             if item.is_file():
                 web = self.scrapper.read_file(str(item))
                 self.assertGreater(len(web), 0, "error reading html from file")
-                report = str(item).split("_")[0].split("/")[-1]
+                if "/" in str(item):
+                    report = str(item).split("_")[0].split("/")[-1]
+                else:
+                    report = str(item).split("_")[0].split("\\")[-1]
                 if report == "services":
                     d = self.scrapper.find_match(web, services_tags_df[services_tags_df.columns.values[0]].values, 
                             offset=services_tags_df[services_tags_df.columns.values[1]].values, 
@@ -155,10 +158,9 @@ class TestRegression(unittest.TestCase):
                     df_manufacturing = df
                 else:
                     df_manufacturing = pd.concat([df_manufacturing,df])
-        df_manufacturing.sort_index(inplace=True)
-        df_services.sort_index(inplace=True)
         self.assertEqual(services_count, len(df_services))
         self.assertEqual(manufacturing_count, len(df_manufacturing))
+
 
 
 class GetHistory(unittest.TestCase):
