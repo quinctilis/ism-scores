@@ -2330,7 +2330,7 @@ if(FindApi){var api = new FindApi();api.setApplicationUrl('/');api.setServiceApi
   </body>
 </html><!--
      FILE ARCHIVED ON 05:03:37 Jan 07, 2022 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 22:24:06 Apr 30, 2023.
+     INTERNET ARCHIVE ON 21:36:50 May 08, 2023.
      JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
 
      ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
@@ -2338,13 +2338,13 @@ if(FindApi){var api = new FindApi();api.setApplicationUrl('/');api.setServiceApi
 -->
 <!--
 playback timings (ms):
-  captures_list: 81.843
-  exclusion.robots: 0.141
-  exclusion.robots.policy: 0.131
-  cdx.remote: 0.064
+  captures_list: 134.187
+  exclusion.robots: 0.121
+  exclusion.robots.policy: 0.111
+  cdx.remote: 0.053
   esindex: 0.008
-  LoadShardBlock: 53.801 (3)
-  PetaboxLoader3.datanode: 67.686 (4)
-  load_resource: 143.311
-  PetaboxLoader3.resolve: 94.721
+  LoadShardBlock: 74.078 (3)
+  PetaboxLoader3.datanode: 67.622 (4)
+  load_resource: 74.296
+  PetaboxLoader3.resolve: 24.598
 -->
