@@ -7,15 +7,18 @@ from datetime import datetime
 import requests
 import concurrent.futures
 import pathlib
-import time
+from fp.fp import FreeProxy
+import threading
 
 SERVICES_TAGS_NAME = "scoring-tables/servicestags.csv"
 MANUFACTURING_TAGS_NAME = "scoring-tables/manufacturingtags.csv"
+MANUFACTURING_PR_TAGS_NAME = "scoring-tables/manufacturingtags_prnewswire.csv"
 SERVICES_INDUSTRIES_NAME = "scoring-tables/servicesindustries.csv"
 MANUFACTURING_INDUSTRIES_NAME = "scoring-tables/manufacturingindustries.csv"
 
 GOLDEN_SMIWEB_NAME = "goldens/smi"+HTML_EXTENSION
 GOLDEN_PMIWEB_NAME = "goldens/pmi"+HTML_EXTENSION
+GOLDEN_PMIWEB_PR_NAME = "goldens/pmi_pr"+HTML_EXTENSION
 GOLDEN_SMIMATCH_NAME = "goldens/smi_match.gld"
 GOLDEN_PMIMATCH_NAME = "goldens/pmi_match.gld"
 GOLDEN_SMISCORE_NAME = "goldens/smi_scores.gld"
@@ -26,10 +29,9 @@ WAYBACK_URL = "https://archive.org/wayback/available?url="
 ISM_URL = "https://www.ismworld.org/supply-management-news-and-reports/reports/ism-report-on-business/"
 GOLDEN_HISTORICAL_NAME = "goldens/historical_dates.csv.gld"
 
-HTML_EXTENSION=".html.gld"
 HISTORICAL_DIR="historical/"
 HISTORICAL_DELIMITER="_"
-BRAKING=5
+
 class TestRegression(unittest.TestCase):
     def tearDown(self):
         pass
@@ -67,6 +69,21 @@ class TestRegression(unittest.TestCase):
         golden = df.to_dict()
         self.assertDictEqual(golden, scores, "scores don't match")
 
+    def test_match_pmi_prnewswire(self):
+        self.skipTest("not implemented pw scrapper yet")
+        tags_df = self.scrapper.read_csv(MANUFACTURING_PR_TAGS_NAME)
+        self.assertGreater(len(tags_df), 0, "error reading tags csv")
+        tags_df.set_index(tags_df.columns.values[0], inplace=True)
+        with open(GOLDEN_PMIWEB_PR_NAME, "r", encoding='utf8') as f:
+            web = f.read()
+            self.assertGreater(len(web),0, "Web page is blank")
+        d = self.scrapper.find_match(web, tags_df[tags_df.columns.values[0]].values, 
+                        offset=tags_df[tags_df.columns.values[1]].values, 
+                        categories = tags_df.index.values)
+        self.assertGreater(len(d), 0,"error finding matches")
+        df = pd.read_csv(GOLDEN_PMIMATCH_NAME, index_col=0).fillna("")
+        golden = df.to_dict()['0']
+        self.assertDictEqual(golden, d, "matches don't match")
     def test_match_pmi(self):
         tags_df = self.scrapper.read_csv(MANUFACTURING_TAGS_NAME)
         self.assertGreater(len(tags_df), 0, "error reading tags csv")
@@ -166,14 +183,38 @@ class TestRegression(unittest.TestCase):
 class GetHistory(unittest.TestCase):
     def setUp(self):
         self.scrapper=ism()
+        self._lock = threading.Lock()
+        self._setProxy()
+    def _setProxy(self, elite=True, rand=True):
+        with self._lock:
+            http_proxy = FreeProxy(elite=elite, rand=rand, https=False).get()
+            https_proxy = FreeProxy(elite=elite, rand=rand, https=True).get()
+            self._proxy = {"http": http_proxy, "https": https_proxy}
     def _getArchivedWebDatesAndUrls(self, args):
         ts = args[0]
         report = args[1]
-        time.sleep(args[2])
         date = ts.strftime("%Y%m%d")
         month =ts.strftime("%B")
         url = WAYBACK_URL+ISM_URL+report+"/"+month.lower()+"/&timestamp="+date
-        resp = requests.get(url)
+        while True:
+            try:
+                resp = requests.get(url, proxies=self._proxy, timeout=10)
+            except Exception:
+                if not self._lock.locked():
+                    self._setProxy()
+                else:
+                    self._lock.acquire()
+                    self._lock.release()
+                continue
+            if resp.status_code == 429:
+                if not self._lock.locked():
+                    self._setProxy()
+                else:
+                    self._lock.acquire()
+                    self._lock.release()
+            else:
+                break
+
         self.assertEqual(resp.status_code, 200, "web ["+url+"] status code is "+str(resp.status_code))
         data = resp.json()
         self.assertGreater(len(data),0, "empty data")
@@ -198,9 +239,10 @@ class GetHistory(unittest.TestCase):
         timestaps=pd.date_range(start=FIRST_REPORT_AVAILABLE, end=datetime.now(), freq='M')
         series = []
         for report in ["services","pmi"]:
-            args=[(ts,report, 0 if BRAKING <= 0 else BRAKING)  for ts in timestaps]
-            with concurrent.futures.ThreadPoolExecutor(max_workers=10 if BRAKING <= 0 else 1) as executor:
-                res = executor.map(self._getArchivedWebDatesAndUrls, args)
+            args=[(ts,report)  for ts in timestaps]
+            #with concurrent.futures.ThreadPoolExecutor(max_workers=5) as executor:
+            #    res = executor.map(self._getArchivedWebDatesAndUrls, args)
+            res = [self._getArchivedWebDatesAndUrls(a) for a in args]
             res_l = list(res)
             urls = [res[1] for res in res_l if res is not None]
             release_dates = [res[0] for res in res_l if res is not None]
@@ -221,7 +263,7 @@ class GenerateGoldens(unittest.TestCase):
         self.assertGreater(len(smi_tags_df), 0, "error reading tags csv")
         smi_tags_df.set_index(smi_tags_df.columns.values[0], inplace=True)
         os.makedirs(os.path.dirname(GOLDEN_SMIWEB_NAME), exist_ok=True)
-        smi_text = self.scrapper.read_web('https://www.ismworld.org/supply-management-news-and-reports/reports/ism-report-on-business/services/march', True)
+        smi_text = self.scrapper.read_web('https://www.ismworld.org/supply-management-news-and-reports/reports/ism-report-on-business/services/april', True)
         self.assertGreater(len(smi_text), 0, "Error downloading ism page")
         with open(GOLDEN_SMIWEB_NAME, "w", encoding='utf8') as f:
             n = f.write(smi_text)
@@ -246,9 +288,34 @@ class GenerateGoldens(unittest.TestCase):
         self.assertGreater(len(pmi_tags_df), 0, "error reading tags csv")
         pmi_tags_df.set_index(pmi_tags_df.columns.values[0], inplace=True)
         os.makedirs(os.path.dirname(GOLDEN_PMIWEB_NAME), exist_ok=True)
-        pmi_text = self.scrapper.read_web('https://www.ismworld.org/supply-management-news-and-reports/reports/ism-report-on-business/pmi/march', True)
+        pmi_text = self.scrapper.read_web('https://www.ismworld.org/supply-management-news-and-reports/reports/ism-report-on-business/pmi/april', True)
         self.assertGreater(len(pmi_text), 0, "Error downloading ism page")
         with open(GOLDEN_PMIWEB_NAME, "w", encoding='utf8') as f:
+            n = f.write(pmi_text)
+            self.assertGreater(n,0, "Web page is blank")
+        d = self.scrapper.find_match(pmi_text, pmi_tags_df[pmi_tags_df.columns.values[0]].values, 
+                        offset=pmi_tags_df[pmi_tags_df.columns.values[1]].values, 
+                        categories = pmi_tags_df.index.values)
+        self.assertGreater(len(d), 0, "error finding matches")
+        df_pmi = pd.DataFrame.from_dict(d, orient="index")
+        df_pmi.to_csv(GOLDEN_PMIMATCH_NAME)
+
+        pmi_industries_df = self.scrapper.read_csv(MANUFACTURING_INDUSTRIES_NAME, separator=";")
+        self.assertGreater(len(pmi_industries_df), 0, "error reading industries csv")
+        mult={pmi_tags_df.index.values[i]:pmi_tags_df.iloc[i][pmi_tags_df.columns.values[2]]
+               for i in range(len(pmi_tags_df))}
+        pmi_scores = self.scrapper.score(d, pmi_industries_df[pmi_industries_df.columns.values[0]].values, mult)
+        df_pmi_scores = pd.DataFrame.from_dict(pmi_scores)
+        df_pmi_scores.to_csv(GOLDEN_PMISCORE_NAME)
+    def test_pmiPRGolden(self):
+        self.skipTest("not implemented pw scrapper yet")
+        pmi_tags_df = self.scrapper.read_csv(MANUFACTURING_PR_TAGS_NAME)
+        self.assertGreater(len(pmi_tags_df), 0, "error reading tags csv")
+        pmi_tags_df.set_index(pmi_tags_df.columns.values[0], inplace=True)
+        os.makedirs(os.path.dirname(GOLDEN_PMIWEB_PR_NAME), exist_ok=True)
+        pmi_text = self.scrapper.read_web('https://www.prnewswire.com/news-releases/pmi-at-513-march-manufacturing-ism-report-on-business-new-orders-production-and-employment-growing-inventories-contracting-supplier-deliveries-faster-200870461.html', False)
+        self.assertGreater(len(pmi_text), 0, "Error downloading ism page")
+        with open(GOLDEN_PMIWEB_PR_NAME, "w", encoding='utf8') as f:
             n = f.write(pmi_text)
             self.assertGreater(n,0, "Web page is blank")
         d = self.scrapper.find_match(pmi_text, pmi_tags_df[pmi_tags_df.columns.values[0]].values, 
