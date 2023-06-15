@@ -81,7 +81,19 @@ python -m unittest ism_test.GetHistory
 We use proxies to avoid hitting rate limits. Please be patient as the test
 can take up to 5 minutes to complete.
 
+### Plot reports
 Once the data is dumped into disk, we can generate a historical report by executing:
 ```shell
 python ism.py -d historical/
+```
+After that one can open a python console and write
+```python
+import matplotlib.pyplot as plt
+import pandas as pd
+manufacturing_df = pd.read_csv('manufacturing.csv', sep=";", index_col=0)
+services_df = pd.read_csv('services.csv', sep=";", index_col=0)
+manufacturing_df.cumsum().plot()
+plt.show()
+services_df.cumsum().plot()
+plt.show()
 ```

@@ -2492,7 +2492,7 @@ if(FindApi){var api = new FindApi();api.setApplicationUrl('/');api.setServiceApi
   <script>(function(){var js = "window['__CF$cv$params']={r:'772d9b51ccc36422',m:'nt80shlq4Bfl6waEqjJFoRwxRjkVAlcrzeIgHZxyTHs-1669916413-0-Af4GRCjbe+7C/5uialDZrex02b9SMoGhgSdoTKO/RVXvkuX+QJLs1BrShlEzzUxMsfmYjQbDL1LgEjmp9wUKTiumIbGDhCq81D6UM2LZH1wuekVKmzQVvFbZKLKAqyr4a/xJedWPYAj+834tFhHEPCd1fp9zq+cvKNwPoR9c0XLQC0umRHcJIGWZFrVYctrR3Eq28DVmGGYcjcB8cwolHA3A3r75eZoWfrsjbU0X6uFX',s:[0x0a751be02a,0x9fe0c4b6c6],u:'/cdn-cgi/challenge-platform/h/g'};var now=Date.now()/1000,offset=14400,ts=''+(Math.floor(now)-Math.floor(now%offset)),_cpo=document.createElement('script');_cpo.nonce='',_cpo.src='/cdn-cgi/challenge-platform/h/g/scripts/alpha/invisible.js?ts='+ts,document.getElementsByTagName('head')[0].appendChild(_cpo);";var _0xh = document.createElement('iframe');_0xh.height = 1;_0xh.width = 1;_0xh.style.position = 'absolute';_0xh.style.top = 0;_0xh.style.left = 0;_0xh.style.border = 'none';_0xh.style.visibility = 'hidden';document.body.appendChild(_0xh);function handler() {var _0xi = _0xh.contentDocument || _0xh.contentWindow.document;if (_0xi) {var _0xj = _0xi.createElement('script');_0xj.nonce = '';_0xj.innerHTML = js;_0xi.getElementsByTagName('head')[0].appendChild(_0xj);}}if (document.readyState !== 'loading') {handler();} else if (window.addEventListener) {document.addEventListener('DOMContentLoaded', handler);} else {var prev = document.onreadystatechange || function () {};document.onreadystatechange = function (e) {prev(e);if (document.readyState !== 'loading') {document.onreadystatechange = prev;handler();}};}})();</script></body>
 </html><!--
      FILE ARCHIVED ON 17:40:13 Dec 01, 2022 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 21:39:30 May 08, 2023.
+     INTERNET ARCHIVE ON 08:53:21 Jun 15, 2023.
      JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
 
      ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
@@ -2500,13 +2500,13 @@ if(FindApi){var api = new FindApi();api.setApplicationUrl('/');api.setServiceApi
 -->
 <!--
 playback timings (ms):
-  captures_list: 150.913
-  exclusion.robots: 0.119
-  exclusion.robots.policy: 0.111
-  cdx.remote: 0.065
-  esindex: 0.01
-  LoadShardBlock: 104.493 (3)
-  PetaboxLoader3.datanode: 122.194 (4)
-  load_resource: 77.702
-  PetaboxLoader3.resolve: 32.955
+  captures_list: 301.162
+  exclusion.robots: 0.139
+  exclusion.robots.policy: 0.128
+  RedisCDXSource: 171.976
+  esindex: 0.008
+  LoadShardBlock: 104.824 (3)
+  PetaboxLoader3.datanode: 3204.87 (4)
+  load_resource: 3255.044
+  PetaboxLoader3.resolve: 101.488
 -->

@@ -2211,7 +2211,7 @@ if(FindApi){var api = new FindApi();api.setApplicationUrl('/');api.setServiceApi
   </body>
 </html><!--
      FILE ARCHIVED ON 14:38:17 Jun 03, 2021 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 21:36:49 May 08, 2023.
+     INTERNET ARCHIVE ON 08:51:45 Jun 15, 2023.
      JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
 
      ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
@@ -2219,13 +2219,13 @@ if(FindApi){var api = new FindApi();api.setApplicationUrl('/');api.setServiceApi
 -->
 <!--
 playback timings (ms):
-  captures_list: 94.959
-  exclusion.robots: 0.138
+  captures_list: 139.947
+  exclusion.robots: 0.141
   exclusion.robots.policy: 0.128
-  RedisCDXSource: 1.159
-  esindex: 0.008
-  LoadShardBlock: 71.962 (3)
-  PetaboxLoader3.datanode: 108.928 (4)
-  load_resource: 121.958
-  PetaboxLoader3.resolve: 41.231
+  cdx.remote: 0.066
+  esindex: 0.011
+  LoadShardBlock: 89.049 (3)
+  PetaboxLoader3.datanode: 112.972 (4)
+  load_resource: 114.654
+  PetaboxLoader3.resolve: 43.437
 -->

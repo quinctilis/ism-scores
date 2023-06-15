@@ -187,8 +187,8 @@ class GetHistory(unittest.TestCase):
         self._setProxy()
     def _setProxy(self, elite=True, rand=True):
         with self._lock:
-            http_proxy = FreeProxy(elite=elite, rand=rand, https=False).get()
-            https_proxy = FreeProxy(elite=elite, rand=rand, https=True).get()
+            http_proxy = FreeProxy(elite=elite, rand=rand, https=False, timeout=5).get()
+            https_proxy = FreeProxy(elite=elite, rand=rand, https=True, timeout=5).get()
             self._proxy = {"http": http_proxy, "https": https_proxy}
     def _getArchivedWebDatesAndUrls(self, args):
         ts = args[0]
