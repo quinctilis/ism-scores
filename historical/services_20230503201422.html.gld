@@ -2366,7 +2366,7 @@ if(FindApi){var api = new FindApi();api.setApplicationUrl('/');api.setServiceApi
 <script>(function(){var js = "window['__CF$cv$params']={r:'7c1b2b7cd902d021',m:'.gSanVzr6Kk97LMA8DVx6_L_mo4ISSmO9XxU6XQQozQ-1683144862-0-Ac4IShB8jG3GoQFof1Q6O5Pb7ld1NBbWCv0sZqsg1MtY',u:'/cdn-cgi/challenge-platform/h/g'};_cpo=document.createElement('script');_cpo.nonce='',_cpo.src='/cdn-cgi/challenge-platform/scripts/invisible.js',document.getElementsByTagName('head')[0].appendChild(_cpo);";var _0xh = document.createElement('iframe');_0xh.height = 1;_0xh.width = 1;_0xh.style.position = 'absolute';_0xh.style.top = 0;_0xh.style.left = 0;_0xh.style.border = 'none';_0xh.style.visibility = 'hidden';document.body.appendChild(_0xh);function handler() {var _0xi = _0xh.contentDocument || _0xh.contentWindow.document;if (_0xi) {var _0xj = _0xi.createElement('script');_0xj.nonce = '';_0xj.innerHTML = js;_0xi.getElementsByTagName('head')[0].appendChild(_0xj);}}if (document.readyState !== 'loading') {handler();} else if (window.addEventListener) {document.addEventListener('DOMContentLoaded', handler);} else {var prev = document.onreadystatechange || function () {};document.onreadystatechange = function (e) {prev(e);if (document.readyState !== 'loading') {document.onreadystatechange = prev;handler();}};}})();</script></body>
 </html><!--
      FILE ARCHIVED ON 20:14:22 May 03, 2023 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 08:51:49 Jun 15, 2023.
+     INTERNET ARCHIVE ON 16:12:59 Jul 09, 2023.
      JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
 
      ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
@@ -2374,13 +2374,13 @@ if(FindApi){var api = new FindApi();api.setApplicationUrl('/');api.setServiceApi
 -->
 <!--
 playback timings (ms):
-  captures_list: 159.804
-  exclusion.robots: 0.124
-  exclusion.robots.policy: 0.113
-  cdx.remote: 0.053
-  esindex: 0.009
-  LoadShardBlock: 129.216 (3)
-  PetaboxLoader3.datanode: 108.345 (4)
-  load_resource: 182.144
-  PetaboxLoader3.resolve: 128.709
+  captures_list: 85.19
+  exclusion.robots: 0.168
+  exclusion.robots.policy: 0.156
+  cdx.remote: 0.071
+  esindex: 0.011
+  LoadShardBlock: 47.561 (3)
+  PetaboxLoader3.datanode: 57.807 (4)
+  load_resource: 413.895
+  PetaboxLoader3.resolve: 372.899
 -->

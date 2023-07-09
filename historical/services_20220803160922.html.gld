@@ -2299,7 +2299,7 @@ if(FindApi){var api = new FindApi();api.setApplicationUrl('/');api.setServiceApi
   <script>(function(){window['__CF$cv$params']={r:'7350513c8f1b9e65',m:'y9845.Ci5Pes7G9Yv6bnaOpTZOJ2QsVqX13GQNAByuQ-1659542962-0-ARELajWOpZ6IHjKaOkq211v4/y2W6uKsZkAM7T+DYvB7Jv8B6tZ9+zO9QcnHO9pzm+DA6Dh+VLVL/KZNLlRDsKP9/b8MjHz94cxswdWHM9psnyLrhRBnJI78hLzpQ5IegusvKI3n8w3rPMLzf3nfAkGB8PT/SkPYG84vbmER1v1bN2WBklqhaSZh9IMNjVi0fT21y1t6x0+fhGyu8fJClDi4bWB+TjW7Kmcb1A0LtFkL',s:[0xcc78bd246f,0x6eefb25f1f],}})();</script></body>
 </html><!--
      FILE ARCHIVED ON 16:09:22 Aug 03, 2022 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 08:51:48 Jun 15, 2023.
+     INTERNET ARCHIVE ON 16:12:59 Jul 09, 2023.
      JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
 
      ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
@@ -2307,13 +2307,13 @@ if(FindApi){var api = new FindApi();api.setApplicationUrl('/');api.setServiceApi
 -->
 <!--
 playback timings (ms):
-  captures_list: 65.551
-  exclusion.robots: 0.253
-  exclusion.robots.policy: 0.236
-  RedisCDXSource: 0.729
+  captures_list: 1237.776
+  exclusion.robots: 0.12
+  exclusion.robots.policy: 0.111
+  cdx.remote: 0.057
   esindex: 0.009
-  LoadShardBlock: 38.063 (3)
-  PetaboxLoader3.datanode: 80.793 (4)
-  load_resource: 652.231
-  PetaboxLoader3.resolve: 573.709
+  LoadShardBlock: 1011.212 (3)
+  PetaboxLoader3.datanode: 1077.634 (4)
+  load_resource: 190.487
+  PetaboxLoader3.resolve: 50.837
 -->
