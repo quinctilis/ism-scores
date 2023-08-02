@@ -14,7 +14,6 @@ from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-from webdriver_manager.chrome import ChromeDriverManager
 
 HTML_EXTENSION=".html.gld"
 TS_FORMAT = "%Y%m%d%H%M%S" #20220107050337
@@ -82,7 +81,7 @@ class ism():
             else:
                return r.text
           else:
-            service = ChromeService(executable_path=ChromeDriverManager().install())
+            service = ChromeService()
             options = Options()
             options.add_argument('user-agent=fake-useragent')
             options.add_argument("--headless=new")
