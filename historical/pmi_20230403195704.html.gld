@@ -3,6 +3,7 @@
 <html>
 <head><script type="text/javascript" src="/_static/js/bundle-playback.js?v=1WaXNDFE" charset="utf-8"></script>
 <script type="text/javascript" src="/_static/js/wombat.js?v=txqj7nKC" charset="utf-8"></script>
+<script type="text/javascript" src="/_static/js/ruffle.js"></script>
 <script type="text/javascript">
   __wm.init("http://web.archive.org/web");
   __wm.wombat("https://www.ismworld.org/supply-management-news-and-reports/reports/ism-report-on-business/pmi/march/","20230403195704","http://web.archive.org/","web","/_static/",
@@ -2557,7 +2558,7 @@ if(FindApi){var api = new FindApi();api.setApplicationUrl('/');api.setServiceApi
   <script>(function(){var js = "window['__CF$cv$params']={r:'7b23e0ea2e06cfb0',m:'6plxoK6gz6I6IcgY.4f_ZAM9ZEAJ3Y9X.S8cpLLy5vA-1680551825-0-AdaGsH4inSLqTGL6ie63gSgUTDpjapAResQUKWYnx5f6u8KnVzaVeDMxBv0wVL/S6s/T+C2tjVrA+W8j5sq7e0UpbOQmh8e4znGHa9VwPN5yk8nLtRdw2moFnXXIqCSVyA9voDnMPRN9jeXOq/61wihcJBK7vLY5lgHBJykNSCNcEOEdZhuuZcyiT5Tp2MWfbhl3neiAI8xESP1/WVO4YR8=',s:[0xb487970234,0xddf5dd5974],u:'/cdn-cgi/challenge-platform/h/b'};var now=Date.now()/1000,offset=14400,ts=''+(Math.floor(now)-Math.floor(now%offset)),_cpo=document.createElement('script');_cpo.nonce='',_cpo.src='/cdn-cgi/challenge-platform/h/b/scripts/alpha/invisible.js?ts='+ts,document.getElementsByTagName('head')[0].appendChild(_cpo);";var _0xh = document.createElement('iframe');_0xh.height = 1;_0xh.width = 1;_0xh.style.position = 'absolute';_0xh.style.top = 0;_0xh.style.left = 0;_0xh.style.border = 'none';_0xh.style.visibility = 'hidden';document.body.appendChild(_0xh);function handler() {var _0xi = _0xh.contentDocument || _0xh.contentWindow.document;if (_0xi) {var _0xj = _0xi.createElement('script');_0xj.nonce = '';_0xj.innerHTML = js;_0xi.getElementsByTagName('head')[0].appendChild(_0xj);}}if (document.readyState !== 'loading') {handler();} else if (window.addEventListener) {document.addEventListener('DOMContentLoaded', handler);} else {var prev = document.onreadystatechange || function () {};document.onreadystatechange = function (e) {prev(e);if (document.readyState !== 'loading') {document.onreadystatechange = prev;handler();}};}})();</script></body>
 </html><!--
      FILE ARCHIVED ON 19:57:04 Apr 03, 2023 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 16:18:28 Jul 09, 2023.
+     INTERNET ARCHIVE ON 16:19:36 Aug 04, 2023.
      JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
 
      ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
@@ -2565,13 +2566,13 @@ if(FindApi){var api = new FindApi();api.setApplicationUrl('/');api.setServiceApi
 -->
 <!--
 playback timings (ms):
-  captures_list: 123.17
-  exclusion.robots: 0.114
-  exclusion.robots.policy: 0.104
-  cdx.remote: 0.054
+  captures_list: 1072.099
+  exclusion.robots: 0.135
+  exclusion.robots.policy: 0.124
+  RedisCDXSource: 0.672
   esindex: 0.009
-  LoadShardBlock: 93.566 (3)
-  PetaboxLoader3.datanode: 58.407 (4)
-  load_resource: 163.23
-  PetaboxLoader3.resolve: 137.037
+  LoadShardBlock: 1042.993 (3)
+  PetaboxLoader3.datanode: 83.284 (4)
+  PetaboxLoader3.resolve: 2145.669 (2)
+  load_resource: 1210.654
 -->

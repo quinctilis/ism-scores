@@ -3,6 +3,7 @@
 <html>
 <head><script type="text/javascript" src="/_static/js/bundle-playback.js?v=1WaXNDFE" charset="utf-8"></script>
 <script type="text/javascript" src="/_static/js/wombat.js?v=txqj7nKC" charset="utf-8"></script>
+<script type="text/javascript" src="/_static/js/ruffle.js"></script>
 <script type="text/javascript">
   __wm.init("http://web.archive.org/web");
   __wm.wombat("https://www.ismworld.org/supply-management-news-and-reports/reports/ism-report-on-business/services/august/","20220907083724","http://web.archive.org/","web","/_static/",
@@ -2284,7 +2285,7 @@ if(FindApi){var api = new FindApi();api.setApplicationUrl('/');api.setServiceApi
   <script>(function(){var js = "window['__CF$cv$params']={r:'746e1f4fcd489438',m:'K6hupGyMlP0ru2y7i2FBzS77Illa0IPwFlVcerEkFlY-1662539845-0-AZe67g7stuZ9VpSYuHPainPU7HewV7BVKSQvO8e/DYNZWZEJYv1wyTd+9rKZJcbzlD55jNjoMPI+54kSIk2JBwPwN/H+f1M75SmK5TfWjLm1eJ3kF2VPZBS5AE9VRxEu9SOOeWjKW3QlC7Zciatm+bE5P2I/eXUesv1mcQumMTS2tOnYi1h9jiGUuWA5yb6p1y4rC2rtqOYP83mCO2pwgWSsClP/KqIqfIMgKPuHiIC9',s:[0xe2c178f5b9,0x74bfa286b3],u:'/cdn-cgi/challenge-platform/h/b'};var now=Date.now()/1000,offset=14400,ts=''+(Math.floor(now)-Math.floor(now%offset)),_cpo=document.createElement('script');_cpo.nonce='',_cpo.src='/cdn-cgi/challenge-platform/h/b/scripts/alpha/invisible.js?ts='+ts,document.getElementsByTagName('head')[0].appendChild(_cpo);";var _0xh = document.createElement('iframe');_0xh.height = 1;_0xh.width = 1;_0xh.style.position = 'absolute';_0xh.style.top = 0;_0xh.style.left = 0;_0xh.style.border = 'none';_0xh.style.visibility = 'hidden';document.body.appendChild(_0xh);function handler() {var _0xi = _0xh.contentDocument || _0xh.contentWindow.document;if (_0xi) {var _0xj = _0xi.createElement('script');_0xj.nonce = '';_0xj.innerHTML = js;_0xi.getElementsByTagName('head')[0].appendChild(_0xj);}}if (document.readyState !== 'loading') {handler();} else if (window.addEventListener) {document.addEventListener('DOMContentLoaded', handler);} else {var prev = document.onreadystatechange || function () {};document.onreadystatechange = function (e) {prev(e);if (document.readyState !== 'loading') {document.onreadystatechange = prev;handler();}};}})();</script></body>
 </html><!--
      FILE ARCHIVED ON 08:37:24 Sep 07, 2022 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 16:12:58 Jul 09, 2023.
+     INTERNET ARCHIVE ON 16:17:35 Aug 04, 2023.
      JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
 
      ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
@@ -2292,13 +2293,13 @@ if(FindApi){var api = new FindApi();api.setApplicationUrl('/');api.setServiceApi
 -->
 <!--
 playback timings (ms):
-  captures_list: 64.895
-  exclusion.robots: 0.117
-  exclusion.robots.policy: 0.108
-  RedisCDXSource: 0.589
+  captures_list: 70.401
+  exclusion.robots: 0.119
+  exclusion.robots.policy: 0.1
+  cdx.remote: 0.05
   esindex: 0.008
-  LoadShardBlock: 43.047 (3)
-  PetaboxLoader3.datanode: 103.197 (4)
-  load_resource: 236.818
-  PetaboxLoader3.resolve: 145.722
+  LoadShardBlock: 39.585 (3)
+  PetaboxLoader3.datanode: 56.467 (4)
+  load_resource: 1053.904
+  PetaboxLoader3.resolve: 1024.012
 -->

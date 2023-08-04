@@ -3,6 +3,7 @@
 <html>
 <head><script type="text/javascript" src="/_static/js/bundle-playback.js?v=1WaXNDFE" charset="utf-8"></script>
 <script type="text/javascript" src="/_static/js/wombat.js?v=txqj7nKC" charset="utf-8"></script>
+<script type="text/javascript" src="/_static/js/ruffle.js"></script>
 <script type="text/javascript">
   __wm.init("http://web.archive.org/web");
   __wm.wombat("https://www.ismworld.org/supply-management-news-and-reports/reports/ism-report-on-business/pmi/june/","20220701153937","http://web.archive.org/","web","/_static/",
@@ -2443,7 +2444,7 @@ if(FindApi){var api = new FindApi();api.setApplicationUrl('/');api.setServiceApi
   <script type="text/javascript">(function(){window['__CF$cv$params']={r:'72403c48acb096ae',m:'z.8Xds2Zvg1MeH5ZaH.oZHTnuwGjvHeRDRmz48ikHbQ-1656689977-0-AeSV3BvHYFHlcG8x+tYoybpBQb0h/19n6bhgN5XKSKw2aV5PBSLjJNZg+u1bShfDPdtfopQq2cA8WrbAbzPuWEvVszkDNOhNc/qBLwsgpST37ijNWYqT86EsTOS/J57vo+urRzL/HDhXjZrwU348eGCvQ1M2lcxDVpFHVJahRxTDT/rBcLbiN/fES6rdG6sVGJKspIoNKDIuQ3wUj0jr6bA=',s:[0xf8016a8723,0x2448510c27],}})();</script></body>
 </html><!--
      FILE ARCHIVED ON 15:39:37 Jul 01, 2022 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 16:18:27 Jul 09, 2023.
+     INTERNET ARCHIVE ON 16:19:34 Aug 04, 2023.
      JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
 
      ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
@@ -2451,13 +2452,13 @@ if(FindApi){var api = new FindApi();api.setApplicationUrl('/');api.setServiceApi
 -->
 <!--
 playback timings (ms):
-  captures_list: 95.609
-  exclusion.robots: 0.12
-  exclusion.robots.policy: 0.112
-  RedisCDXSource: 6.333
-  esindex: 0.008
-  LoadShardBlock: 66.164 (3)
-  PetaboxLoader3.datanode: 97.406 (4)
-  load_resource: 128.011
-  PetaboxLoader3.resolve: 47.873
+  captures_list: 327.763
+  exclusion.robots: 0.148
+  exclusion.robots.policy: 0.138
+  cdx.remote: 0.062
+  esindex: 0.009
+  LoadShardBlock: 219.064 (3)
+  PetaboxLoader3.datanode: 194.306 (4)
+  load_resource: 1223.718
+  PetaboxLoader3.resolve: 1164.99
 -->

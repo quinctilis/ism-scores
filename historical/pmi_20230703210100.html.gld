@@ -3,6 +3,7 @@
 <html lang="en">
 <head><script type="text/javascript" src="/_static/js/bundle-playback.js?v=1WaXNDFE" charset="utf-8"></script>
 <script type="text/javascript" src="/_static/js/wombat.js?v=txqj7nKC" charset="utf-8"></script>
+<script type="text/javascript" src="/_static/js/ruffle.js"></script>
 <script type="text/javascript">
   __wm.init("http://web.archive.org/web");
   __wm.wombat("https://www.ismworld.org/supply-management-news-and-reports/reports/ism-report-on-business/pmi/june/","20230703210100","http://web.archive.org/","web","/_static/",
@@ -2474,7 +2475,7 @@ if(FindApi){var api = new FindApi();api.setApplicationUrl('/');api.setServiceApi
 <script>(function(){var js = "window['__CF$cv$params']={r:'7e120fb00a9dd021',m:'S6p1JKxrzjiVPDfDaHIvZJIFzFtnCCwdcGEHmVkCRyg-1688418060-0-ARsbo7LeWWS7RuYnKXu1GGyJzTFK4RpaUjhijc/k3Zbi'};_cpo=document.createElement('script');_cpo.nonce='',_cpo.src='/cdn-cgi/challenge-platform/scripts/invisible.js',document.getElementsByTagName('head')[0].appendChild(_cpo);";var _0xh = document.createElement('iframe');_0xh.height = 1;_0xh.width = 1;_0xh.style.position = 'absolute';_0xh.style.top = 0;_0xh.style.left = 0;_0xh.style.border = 'none';_0xh.style.visibility = 'hidden';document.body.appendChild(_0xh);function handler() {var _0xi = _0xh.contentDocument || _0xh.contentWindow.document;if (_0xi) {var _0xj = _0xi.createElement('script');_0xj.nonce = '';_0xj.innerHTML = js;_0xi.getElementsByTagName('head')[0].appendChild(_0xj);}}if (document.readyState !== 'loading') {handler();} else if (window.addEventListener) {document.addEventListener('DOMContentLoaded', handler);} else {var prev = document.onreadystatechange || function () {};document.onreadystatechange = function (e) {prev(e);if (document.readyState !== 'loading') {document.onreadystatechange = prev;handler();}};}})();</script></body>
 </html><!--
      FILE ARCHIVED ON 21:01:00 Jul 03, 2023 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 16:18:28 Jul 09, 2023.
+     INTERNET ARCHIVE ON 16:19:36 Aug 04, 2023.
      JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
 
      ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
@@ -2482,13 +2483,13 @@ if(FindApi){var api = new FindApi();api.setApplicationUrl('/');api.setServiceApi
 -->
 <!--
 playback timings (ms):
-  captures_list: 92.823
-  exclusion.robots: 0.119
-  exclusion.robots.policy: 0.111
-  RedisCDXSource: 0.525
-  esindex: 0.008
-  LoadShardBlock: 70.016 (3)
-  PetaboxLoader3.datanode: 77.745 (4)
-  load_resource: 97.596
-  PetaboxLoader3.resolve: 54.025
+  captures_list: 95.23
+  exclusion.robots: 0.109
+  exclusion.robots.policy: 0.102
+  cdx.remote: 0.052
+  esindex: 0.009
+  LoadShardBlock: 65.474 (3)
+  PetaboxLoader3.datanode: 101.612 (4)
+  load_resource: 1130.621
+  PetaboxLoader3.resolve: 1060.393
 -->

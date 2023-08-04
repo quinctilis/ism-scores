@@ -3,6 +3,7 @@
 <html>
 <head><script type="text/javascript" src="/_static/js/bundle-playback.js?v=1WaXNDFE" charset="utf-8"></script>
 <script type="text/javascript" src="/_static/js/wombat.js?v=txqj7nKC" charset="utf-8"></script>
+<script type="text/javascript" src="/_static/js/ruffle.js"></script>
 <script type="text/javascript">
   __wm.init("http://web.archive.org/web");
   __wm.wombat("https://www.ismworld.org/supply-management-news-and-reports/reports/ism-report-on-business/pmi/march/","20210401155330","http://web.archive.org/","web","/_static/",
@@ -2393,7 +2394,7 @@ if(FindApi){var api = new FindApi();api.setApplicationUrl('/');api.setServiceApi
   </body>
 </html><!--
      FILE ARCHIVED ON 15:53:30 Apr 01, 2021 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 16:18:18 Jul 09, 2023.
+     INTERNET ARCHIVE ON 16:19:31 Aug 04, 2023.
      JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
 
      ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
@@ -2401,13 +2402,13 @@ if(FindApi){var api = new FindApi();api.setApplicationUrl('/');api.setServiceApi
 -->
 <!--
 playback timings (ms):
-  captures_list: 121.978
-  exclusion.robots: 0.747
-  exclusion.robots.policy: 0.131
-  RedisCDXSource: 0.692
-  esindex: 0.008
-  LoadShardBlock: 98.368 (3)
-  PetaboxLoader3.datanode: 253.138 (4)
-  load_resource: 447.788
-  PetaboxLoader3.resolve: 72.547
+  captures_list: 125.751
+  exclusion.robots: 0.096
+  exclusion.robots.policy: 0.089
+  cdx.remote: 0.045
+  esindex: 0.007
+  LoadShardBlock: 101.198 (3)
+  PetaboxLoader3.datanode: 77.46 (4)
+  load_resource: 964.046
+  PetaboxLoader3.resolve: 880.087
 -->

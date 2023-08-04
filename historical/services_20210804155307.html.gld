@@ -3,6 +3,7 @@
 <html>
 <head><script type="text/javascript" src="/_static/js/bundle-playback.js?v=1WaXNDFE" charset="utf-8"></script>
 <script type="text/javascript" src="/_static/js/wombat.js?v=txqj7nKC" charset="utf-8"></script>
+<script type="text/javascript" src="/_static/js/ruffle.js"></script>
 <script type="text/javascript">
   __wm.init("http://web.archive.org/web");
   __wm.wombat("https://www.ismworld.org/supply-management-news-and-reports/reports/ism-report-on-business/services/july/","20210804155307","http://web.archive.org/","web","/_static/",
@@ -2203,7 +2204,7 @@ if(FindApi){var api = new FindApi();api.setApplicationUrl('/');api.setServiceApi
   </body>
 </html><!--
      FILE ARCHIVED ON 15:53:07 Aug 04, 2021 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 16:12:56 Jul 09, 2023.
+     INTERNET ARCHIVE ON 16:17:33 Aug 04, 2023.
      JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
 
      ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
@@ -2211,13 +2212,13 @@ if(FindApi){var api = new FindApi();api.setApplicationUrl('/');api.setServiceApi
 -->
 <!--
 playback timings (ms):
-  captures_list: 119.164
-  exclusion.robots: 0.122
-  exclusion.robots.policy: 0.112
-  cdx.remote: 0.054
-  esindex: 0.008
-  LoadShardBlock: 79.804 (3)
-  PetaboxLoader3.datanode: 107.242 (4)
-  load_resource: 116.219
-  PetaboxLoader3.resolve: 44.388
+  captures_list: 89.821
+  exclusion.robots: 0.138
+  exclusion.robots.policy: 0.129
+  RedisCDXSource: 0.503
+  esindex: 0.006
+  LoadShardBlock: 67.085 (3)
+  PetaboxLoader3.datanode: 75.054 (4)
+  load_resource: 1001.539
+  PetaboxLoader3.resolve: 949.279
 -->
