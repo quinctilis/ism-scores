@@ -3,7 +3,7 @@
 <html>
 <head><script type="text/javascript" src="/_static/js/bundle-playback.js?v=1WaXNDFE" charset="utf-8"></script>
 <script type="text/javascript" src="/_static/js/wombat.js?v=txqj7nKC" charset="utf-8"></script>
-<script type="text/javascript" src="/_static/js/ruffle.js"></script>
+<script type="text/javascript" src="/_static/js/ruffle.js" defer="true"></script>
 <script type="text/javascript">
   __wm.init("http://web.archive.org/web");
   __wm.wombat("https://www.ismworld.org/supply-management-news-and-reports/reports/ism-report-on-business/pmi/july/","20220801152945","http://web.archive.org/","web","/_static/",
@@ -2503,7 +2503,7 @@ if(FindApi){var api = new FindApi();api.setApplicationUrl('/');api.setServiceApi
   <script>(function(){window['__CF$cv$params']={r:'733f9c7119349465',m:'4s.LZEL8tIE_NBptkNrTkXF6l6XVqK3SlAzJFGtIVl8-1659367785-0-AT/cCe7nOHhvGiBazr2F6DQ78llbkojWi0Its3V50PSoYbfqMLDjLOE8W88976tk8JnmJ2lcAvtI6Ds4pUAeh8lKukeE2bk9X2L+hD6vO18qzffjHEAlsum0A1ikTS/LqVnuEuZlGDwDWEwP4ejwlQAg0+NfNsbsiqvBhL6yOO28ouCT/i2RFbVtktVGpARe5yEGnNf2UVKCg+umKCdXeLU=',s:[0xda621e7781,0xe01831f9f4],}})();</script></body>
 </html><!--
      FILE ARCHIVED ON 15:29:45 Aug 01, 2022 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 16:19:35 Aug 04, 2023.
+     INTERNET ARCHIVE ON 12:00:36 Aug 14, 2023.
      JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
 
      ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
@@ -2511,13 +2511,13 @@ if(FindApi){var api = new FindApi();api.setApplicationUrl('/');api.setServiceApi
 -->
 <!--
 playback timings (ms):
-  captures_list: 1103.014
-  exclusion.robots: 0.126
-  exclusion.robots.policy: 0.115
-  RedisCDXSource: 2.976
+  captures_list: 141.855
+  exclusion.robots: 0.149
+  exclusion.robots.policy: 0.138
+  cdx.remote: 0.06
   esindex: 0.009
-  LoadShardBlock: 1077.497 (3)
-  PetaboxLoader3.datanode: 109.6 (4)
-  PetaboxLoader3.resolve: 1865.283 (2)
-  load_resource: 1004.703
+  LoadShardBlock: 107.935 (3)
+  PetaboxLoader3.datanode: 112.583 (4)
+  load_resource: 299.693
+  PetaboxLoader3.resolve: 146.378
 -->

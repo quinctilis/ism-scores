@@ -3,7 +3,7 @@
 <html>
 <head><script type="text/javascript" src="/_static/js/bundle-playback.js?v=1WaXNDFE" charset="utf-8"></script>
 <script type="text/javascript" src="/_static/js/wombat.js?v=txqj7nKC" charset="utf-8"></script>
-<script type="text/javascript" src="/_static/js/ruffle.js"></script>
+<script type="text/javascript" src="/_static/js/ruffle.js" defer="true"></script>
 <script type="text/javascript">
   __wm.init("http://web.archive.org/web");
   __wm.wombat("https://www.ismworld.org/supply-management-news-and-reports/reports/ism-report-on-business/services/april/","20220504145801","http://web.archive.org/","web","/_static/",
@@ -2339,7 +2339,7 @@ if(FindApi){var api = new FindApi();api.setApplicationUrl('/');api.setServiceApi
   <script type="text/javascript">(function(){window['__CF$cv$params']={r:'70621799accf969b',m:'1ug0UjbKBF3g0WAvXWQRQjxfoQjqNKNUKrTK1Tb3aF0-1651676282-0-AfAqwb7FP8mgcz1idaH6LL4dz6caa416yJznjTWp7jze6/5vKKrxXHh/MiTKT7QXifAs+L5bNza7bDuDa67FJG6szPSfsQcy9iMvHKWdsS8VqwW7C0XTJPcYuS5cTn1OmOzUNC2PeFG+ir6+mgrQOS9mhWsdG/y+OcX83rGS768qXeBrLyGeC+HxIasKpxhUNru6eFpgXqTmXaFOJ4xbDIf1rbrtP4EPRSFmhVOsWCSs',s:[0x47fd5dda95,0x66901aad9f],}})();</script></body>
 </html><!--
      FILE ARCHIVED ON 14:58:01 May 04, 2022 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 16:17:34 Aug 04, 2023.
+     INTERNET ARCHIVE ON 11:59:36 Aug 14, 2023.
      JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
 
      ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
@@ -2347,13 +2347,13 @@ if(FindApi){var api = new FindApi();api.setApplicationUrl('/');api.setServiceApi
 -->
 <!--
 playback timings (ms):
-  captures_list: 116.209
-  exclusion.robots: 0.315
-  exclusion.robots.policy: 0.295
-  RedisCDXSource: 0.734
-  esindex: 0.013
-  LoadShardBlock: 88.739 (3)
-  PetaboxLoader3.datanode: 101.463 (4)
-  load_resource: 118.359
-  PetaboxLoader3.resolve: 73.828
+  captures_list: 124.396
+  exclusion.robots: 0.133
+  exclusion.robots.policy: 0.121
+  cdx.remote: 0.06
+  esindex: 0.011
+  LoadShardBlock: 56.43 (3)
+  PetaboxLoader3.datanode: 91.132 (4)
+  load_resource: 187.576
+  PetaboxLoader3.resolve: 125.73
 -->
