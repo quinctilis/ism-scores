@@ -178,8 +178,6 @@ class TestRegression(unittest.TestCase):
         self.assertEqual(services_count, len(df_services))
         self.assertEqual(manufacturing_count, len(df_manufacturing))
 
-
-
 class GetHistory(unittest.TestCase):
     def setUp(self):
         self.scrapper=ism()
@@ -218,9 +216,9 @@ class GetHistory(unittest.TestCase):
         self.assertEqual(resp.status_code, 200, "web ["+url+"] status code is "+str(resp.status_code))
         data = resp.json()
         self.assertGreater(len(data),0, "empty data")
-        self.assertIn("archived_snapshots",data, "archived_snapshots not present in data")
-        self.assertIn("closest",data["archived_snapshots"], "closest not present in data['archived_snapshots']")
-        self.assertIn("available",data["archived_snapshots"]["closest"], "closest not present in data['archived_snapshots']['closest']")        
+        self.assertIn("archived_snapshots",data, "archived_snapshots not present in data. URL: ")
+        self.assertIn("closest",data["archived_snapshots"], "closest not present in data['archived_snapshots']. URL: "+url)
+        self.assertIn("available",data["archived_snapshots"]["closest"], "available not present in data['archived_snapshots']['available']. URL: "+url)        
         historical_url =data["archived_snapshots"]["closest"]["url"]
         relase_dates = datetime.strptime(str(data["archived_snapshots"]["closest"]["timestamp"]), TS_FORMAT)
         return (relase_dates, historical_url)
@@ -236,10 +234,10 @@ class GetHistory(unittest.TestCase):
                 f.write(text)
 
     def test_updateISMReports(self):
-        timestaps=pd.date_range(start=FIRST_REPORT_AVAILABLE, end=datetime.now(), freq='M')
+        timestamps=pd.date_range(start=FIRST_REPORT_AVAILABLE, end=datetime.now()+pd.DateOffset(months=1), freq='M')
         series = []
         for report in ["services","pmi"]:
-            args=[(ts,report)  for ts in timestaps]
+            args=[(ts,report)  for ts in timestamps]
             #with concurrent.futures.ThreadPoolExecutor(max_workers=5) as executor:
             #    res = executor.map(self._getArchivedWebDatesAndUrls, args)
             res = [self._getArchivedWebDatesAndUrls(a) for a in args]
